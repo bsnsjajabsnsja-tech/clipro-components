@@ -1,0 +1,45 @@
+name: Clipro Component Pilot
+on:
+  schedule:
+    - cron: '20 2 * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Safe check or signed manual prerelease
+        required: true
+        default: check
+        type: choice
+        options:
+          - check
+          - publish-test
+permissions:
+  contents: read
+jobs:
+  check:
+    if: github.event_name == 'schedule' || inputs.action == 'check'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/publisher.py --mode check
+  publish-test:
+    if: github.event_name == 'workflow_dispatch' && inputs.action == 'publish-test'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'cryptography>=43,<48'
+      - name: Publish signed test prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CLIPRO_ED25519_PRIVATE_KEY_B64: ${{ secrets.CLIPRO_ED25519_PRIVATE_KEY_B64 }}
+          TARGET_REPO: ${{ github.repository }}
+        run: python scripts/publisher.py --mode publish-test --repo "$TARGET_REPO"
