@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "repository_role": "component_release_publisher",
+  "channel": "test",
+  "groups": [
+    {
+      "id": "yt-dlp-exe",
+      "status": "pilot_daily_check_manual_signed_prerelease",
+      "source": "yt-dlp/yt-dlp GitHub Releases"
+    },
+    {
+      "id": "ffmpeg",
+      "status": "pending_license_integrity_compatibility_review"
+    },
+    {
+      "id": "deno",
+      "status": "pending_license_integrity_compatibility_review"
+    },
+    {
+      "id": "aria2c",
+      "status": "pending_license_integrity_compatibility_review"
+    },
+    {
+      "id": "exiftool",
+      "status": "pending_license_integrity_compatibility_review"
+    },
+    {
+      "id": "yt_dlp",
+      "status": "pending_license_integrity_compatibility_review"
+    },
+    {
+      "id": "yt_dlp_ejs",
+      "status": "pending_license_integrity_compatibility_review"
+    }
+  ]
+}
