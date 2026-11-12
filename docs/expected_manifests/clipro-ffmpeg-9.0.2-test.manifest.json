@@ -1,0 +1,46 @@
+{
+ "archive_name": "clipro-ffmpeg-9.0.2-win64.zip",
+ "archive_sha256": "cbdb593e74e5c001e654a97911d2b4065c478f64dd92a9281b6dcdb393da119b",
+ "archive_size": 117087989,
+ "channel": "test",
+ "component_id": "ffmpeg",
+ "files": [
+  {
+   "path": "LICENSES/ffmpeg/LICENSE.txt",
+   "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+   "size": 35147
+  },
+  {
+   "path": "LICENSES/ffmpeg/README.txt",
+   "sha256": "0342de6bb39dd421cbec2c00d89ad274b640d75ad3f2cab09ffd647ce2d8f949",
+   "size": 41577
+  },
+  {
+   "path": "ffmpeg.exe",
+   "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
+   "size": 105423872
+  },
+  {
+   "path": "ffplay.exe",
+   "sha256": "befbbd00a25965365f7fb3eed6ad5aa5f805eb70fabc567883a006de3b26c06f",
+   "size": 106903552
+  },
+  {
+   "path": "ffprobe.exe",
+   "sha256": "f0d36ecbbdd3bcfac3efa078c96c7271c2e68b3810595552ac3b7f17e9a65c52",
+   "size": 105221120
+  }
+ ],
+ "license": "GPL-3.0-or-later (gyan.dev essentials build; see LICENSES/ffmpeg)",
+ "requires_manual_client_integration": true,
+ "schema": 1,
+ "upstream": {
+  "asset": "ffmpeg-9.0.2-essentials_build.zip",
+  "checksum_method": "GitHub asset digest (GyanD/codexffmpeg) == gyan.dev .sha256",
+  "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+  "source": "https://github.com/FFmpeg/FFmpeg/tree/n9.0.2 ; build: https://www.gyan.dev/ffmpeg/builds/",
+  "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-essentials_build.zip",
+  "version": "9.0.2"
+ },
+ "version": "9.0.2"
+}

@@ -1,19 +1,35 @@
 name: Clipro Component Pilot
 on:
   schedule:
-    - cron: '20 2 * * *'
+    - cron: '20 2 * * *'          # daily CHECK only - never publishes
   workflow_dispatch:
     inputs:
       action:
-        description: Safe check or signed manual prerelease
+        description: Safe check, or signed manual TEST prerelease
         required: true
         default: check
         type: choice
         options:
           - check
           - publish-test
+      group:
+        description: Component group
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - yt-dlp-exe
+          - ffmpeg
+          - deno
+          - aria2c
+          - exiftool
+          - py-pair
 permissions:
   contents: read
+concurrency:
+  group: clipro-component-publisher
+  cancel-in-progress: false
 jobs:
   check:
     if: github.event_name == 'schedule' || inputs.action == 'check'
@@ -24,11 +40,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python scripts/publisher.py --mode check
+      - name: Check all upstream groups (metadata + checksums only)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/publisher.py --mode check --group "${{ inputs.group || 'all' }}"
   publish-test:
     if: github.event_name == 'workflow_dispatch' && inputs.action == 'publish-test'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 45
     permissions:
       contents: write
     steps:
@@ -37,9 +56,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install 'cryptography>=43,<48'
-      - name: Publish signed test prerelease
+      - run: python -m unittest discover -s tests -v
+      - name: Publish signed TEST prereleases
         env:
           GH_TOKEN: ${{ github.token }}
           CLIPRO_ED25519_PRIVATE_KEY_B64: ${{ secrets.CLIPRO_ED25519_PRIVATE_KEY_B64 }}
           TARGET_REPO: ${{ github.repository }}
-        run: python scripts/publisher.py --mode publish-test --repo "$TARGET_REPO"
+        run: python scripts/publisher.py --mode publish-test --group "${{ inputs.group }}" --repo "$TARGET_REPO" --output "$RUNNER_TEMP/clipro-out"

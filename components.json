@@ -2,35 +2,67 @@
   "schema": 1,
   "repository_role": "component_release_publisher",
   "channel": "test",
+  "tag_format": "clipro-<component_id>-<version>-test",
   "groups": [
     {
       "id": "yt-dlp-exe",
-      "status": "pilot_daily_check_manual_signed_prerelease",
-      "source": "yt-dlp/yt-dlp GitHub Releases"
+      "status": "test_manual_signed_prerelease",
+      "upstream": "https://github.com/yt-dlp/yt-dlp/releases (latest stable) : yt-dlp.exe",
+      "checksum": "SHA2-256SUMS of the same release",
+      "license": "Unlicense (bundled third-party licenses: THIRD_PARTY_LICENSES.txt)",
+      "layout": ["yt-dlp.exe"]
     },
     {
       "id": "ffmpeg",
-      "status": "pending_license_integrity_compatibility_review"
+      "status": "test_manual_signed_prerelease",
+      "upstream": "https://github.com/GyanD/codexffmpeg/releases : ffmpeg-<v>-essentials_build.zip (version from https://www.gyan.dev/ffmpeg/builds/release-version)",
+      "checksum": "GitHub asset digest AND https://www.gyan.dev/ffmpeg/builds/packages/<asset>.sha256 must both exist and match",
+      "license": "GPL-3.0-or-later build; LICENSE + README shipped in LICENSES/ffmpeg",
+      "layout": ["ffmpeg.exe", "ffprobe.exe", "ffplay.exe", "LICENSES/ffmpeg/LICENSE.txt", "LICENSES/ffmpeg/README.txt"]
     },
     {
       "id": "deno",
-      "status": "pending_license_integrity_compatibility_review"
+      "status": "test_manual_signed_prerelease",
+      "upstream": "https://github.com/denoland/deno/releases (latest stable) : deno-x86_64-pc-windows-msvc.zip",
+      "checksum": "<asset>.sha256sum of the same release (+ GitHub asset digest when present, must match)",
+      "license": "MIT; LICENSE.md of the same tag shipped in LICENSES/deno",
+      "layout": ["deno.exe", "LICENSES/deno/LICENSE.md"]
     },
     {
       "id": "aria2c",
-      "status": "pending_license_integrity_compatibility_review"
+      "status": "test_manual_signed_prerelease",
+      "upstream": "https://github.com/aria2/aria2/releases (latest stable) : aria2-<v>-win-64bit-build1.zip",
+      "checksum": "aria2 publishes no checksum file and its 2023 asset has no GitHub digest: reviewed SHA256 pinned below (identical in two independent downloads, 2026-11-10 and 2026-11-12)",
+      "pinned_sha256": {
+        "aria2-1.37.0-win-64bit-build1.zip": "67d015301eef0b612191212d564c5bb0a14b5b9c4796b76454276a4d28d9b288"
+      },
+      "license": "GPL-2.0-or-later with OpenSSL exception; COPYING, LICENSE.OpenSSL, AUTHORS, README.mingw shipped in LICENSES/aria2c",
+      "layout": ["aria2c.exe", "LICENSES/aria2c/*"]
     },
     {
       "id": "exiftool",
-      "status": "pending_license_integrity_compatibility_review"
+      "status": "test_manual_signed_prerelease",
+      "upstream": "https://exiftool.org (version from ver.txt) : exiftool-<v>_64.zip via https://downloads.sourceforge.net/project/exiftool/",
+      "checksum": "SHA2-256 line in https://exiftool.org/checksums.txt",
+      "license": "Same terms as Perl (Artistic or GPL); Strawberry Perl licenses inside exiftool_files",
+      "layout": ["exiftool.exe (renamed from exiftool(-k).exe)", "exiftool_files/** (complete)", "LICENSES/exiftool/README.txt"]
     },
     {
       "id": "yt_dlp",
-      "status": "pending_license_integrity_compatibility_review"
+      "status": "test_manual_signed_prerelease",
+      "upstream": "https://pypi.org/project/yt-dlp/<v>/ : yt_dlp-<v>-py3-none-any.whl, <v> = yt-dlp latest stable GitHub tag",
+      "checksum": "PyPI sha256 digest + every file vs wheel RECORD",
+      "license": "Unlicense",
+      "pair": "manifest.compatible_with.yt_dlp_ejs = exact version pinned in the wheel METADATA (extra 'default')",
+      "layout": ["yt_dlp/**", "yt_dlp-<v>.dist-info/**"]
     },
     {
       "id": "yt_dlp_ejs",
-      "status": "pending_license_integrity_compatibility_review"
+      "status": "test_manual_signed_prerelease",
+      "upstream": "https://pypi.org/project/yt-dlp-ejs/<pin>/ : the exact version yt_dlp pins (never 'latest')",
+      "checksum": "PyPI sha256 digest + every file vs wheel RECORD",
+      "license": "Unlicense AND MIT AND ISC",
+      "layout": ["yt_dlp_ejs/** (incl. yt/solver/core.min.js, lib.min.js)", "yt_dlp_ejs-<v>.dist-info/**"]
     }
   ]
 }

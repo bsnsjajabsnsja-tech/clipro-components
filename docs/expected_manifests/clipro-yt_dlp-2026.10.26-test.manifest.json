@@ -1,0 +1,5285 @@
+{
+ "archive_name": "clipro-yt_dlp-2026.10.26-py3.zip",
+ "archive_sha256": "5ee95014badceaf30dd977daa3acec811ca8f5e57f18aaf26eb31a8fe8974870",
+ "archive_size": 3071743,
+ "channel": "test",
+ "compatible_with": {
+  "yt_dlp_ejs": "0.8.0"
+ },
+ "component_id": "yt_dlp",
+ "files": [
+  {
+   "path": "yt_dlp-2026.10.26.dist-info/METADATA",
+   "sha256": "5523c4803f68a48ee82608e830db576080b0dff69247f0ffbc314ceb6fef4936",
+   "size": 183431
+  },
+  {
+   "path": "yt_dlp-2026.10.26.dist-info/RECORD",
+   "sha256": "a7fcce29032ebf2efb8fcddbbe61d037a4220793fb0647d91384c5d175035d6c",
+   "size": 90108
+  },
+  {
+   "path": "yt_dlp-2026.10.26.dist-info/WHEEL",
+   "sha256": "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
+   "size": 87
+  },
+  {
+   "path": "yt_dlp-2026.10.26.dist-info/entry_points.txt",
+   "sha256": "bd67deb6fcd88192300df316e818c27b40b2e299936445d1373c4091f6254490",
+   "size": 103
+  },
+  {
+   "path": "yt_dlp-2026.10.26.dist-info/licenses/LICENSE",
+   "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+   "size": 1211
+  },
+  {
+   "path": "yt_dlp/YoutubeDL.py",
+   "sha256": "1e6e127e8b03e987dfe81dc83e8de1217145339280e043feb867de168aef3e21",
+   "size": 218917
+  },
+  {
+   "path": "yt_dlp/__init__.py",
+   "sha256": "17a973557d2add12472b1b2b045d9d29db8ead6b16908c3f2888df04515790df",
+   "size": 47928
+  },
+  {
+   "path": "yt_dlp/__main__.py",
+   "sha256": "0f3a8c84d636cbcf5eaacd079dde213a18cc7d6f4e86785d8497431fdca2ce6c",
+   "size": 367
+  },
+  {
+   "path": "yt_dlp/__pyinstaller/__init__.py",
+   "sha256": "f9ce19a3c9d018a026f3073f2c3b1cc4cb4aef3aff6216704670bd08caee5011",
+   "size": 72
+  },
+  {
+   "path": "yt_dlp/__pyinstaller/hook-yt_dlp.py",
+   "sha256": "e51774cd5da90ec9236352ad4f4c2c8f1bf8852b71ebbb0b0a351ec6c16f16eb",
+   "size": 1339
+  },
+  {
+   "path": "yt_dlp/aes.py",
+   "sha256": "348b7e01eeaabbedb3f6c13cea85da760f53bf25661ad47e51c3799c6ef201c1",
+   "size": 21937
+  },
+  {
+   "path": "yt_dlp/cache.py",
+   "sha256": "9e90beafabddfc7aec9d39460ef4e1cf80fb9cbe28127d3a877001b18c24da26",
+   "size": 3370
+  },
+  {
+   "path": "yt_dlp/compat/__init__.py",
+   "sha256": "72bc1c92df435d08531b507edd5ad6ddf3ed7d630d409879f0370d695f3807f3",
+   "size": 2276
+  },
+  {
+   "path": "yt_dlp/compat/_deprecated.py",
+   "sha256": "b0121f3ae1e0ec2d45f4459efd7b773e77c1787f8cdf36e50a5b4ce4d6c7d1fa",
+   "size": 570
+  },
+  {
+   "path": "yt_dlp/compat/_legacy.py",
+   "sha256": "6c3bd8d3a754415a5bd72f794509227dcc1f0ff453d0c9c55e72c21f548e34a0",
+   "size": 4211
+  },
+  {
+   "path": "yt_dlp/compat/compat_utils.py",
+   "sha256": "0037463de05d4bb8ccc06007e5130a7982f052fd2fd91d6853ac615ebf0bd2f6",
+   "size": 2579
+  },
+  {
+   "path": "yt_dlp/compat/imghdr.py",
+   "sha256": "cf7f86113ae22fbb44469a226ceaaa7f0cab0788674f1c61b18732d320f284a8",
+   "size": 582
+  },
+  {
+   "path": "yt_dlp/compat/shutil.py",
+   "sha256": "560eab5169657b2800777bca44061dd5b9738a3642c4d4760f94d6cf6c242117",
+   "size": 859
+  },
+  {
+   "path": "yt_dlp/cookies.py",
+   "sha256": "ac2507541c20f4944dd9af0990e3ffee093cb3223c17a3e2cb928fd198ef2000",
+   "size": 59001
+  },
+  {
+   "path": "yt_dlp/dependencies/Cryptodome.py",
+   "sha256": "f75fe4e478c9db85ccd37f98ebeded58736bea49de6ef34844e95b4448328e46",
+   "size": 1423
+  },
+  {
+   "path": "yt_dlp/dependencies/__init__.py",
+   "sha256": "86321ceb0672a3d1954ad7b8298fb356bd121865d12af50dc218de1caf087b75",
+   "size": 2277
+  },
+  {
+   "path": "yt_dlp/downloader/__init__.py",
+   "sha256": "0342e193cb315d6b89384645501761c47a0c5a70d289fe60ff43d67d591e17f7",
+   "size": 4508
+  },
+  {
+   "path": "yt_dlp/downloader/bunnycdn.py",
+   "sha256": "b35f3e0ed482b65469d60c88a35079f406c411e697e39adf5871e6271d252d03",
+   "size": 1762
+  },
+  {
+   "path": "yt_dlp/downloader/common.py",
+   "sha256": "ee2e5cd7959ff3c19247e4ced7579037963e1a372875bc67a097b887a60d453b",
+   "size": 20700
+  },
+  {
+   "path": "yt_dlp/downloader/dash.py",
+   "sha256": "92b6c7c0944af2620a1f9581dd6e1ef177059519b480581b990047b53f0ae4a9",
+   "size": 3936
+  },
+  {
+   "path": "yt_dlp/downloader/external.py",
+   "sha256": "b66b51ea0236ff7c657d210dadb7e211a39b9a9b8cbfd82c1b5ce549158b314f",
+   "size": 25033
+  },
+  {
+   "path": "yt_dlp/downloader/f4m.py",
+   "sha256": "69bee927f11bac2796a5d606d0932feff8517216982863130759f8f74bb04d60",
+   "size": 15326
+  },
+  {
+   "path": "yt_dlp/downloader/fc2.py",
+   "sha256": "395880854b894d634692f372f36e5645461028d523767d8841e9ed1d1a4bd1bb",
+   "size": 1324
+  },
+  {
+   "path": "yt_dlp/downloader/fragment.py",
+   "sha256": "3f48cd2fb5a8fa479084c9422c9c7ea51dc6186fd911c5fcbded3114a3e90a29",
+   "size": 21675
+  },
+  {
+   "path": "yt_dlp/downloader/hls.py",
+   "sha256": "6be21d86f40c5aba39c874b5a01b1821ea240a3cb147bdb92e65058226e5d947",
+   "size": 19535
+  },
+  {
+   "path": "yt_dlp/downloader/http.py",
+   "sha256": "e111fffdc894f68253ce3c5155fa1aa7390e58caa9a33eeb28d9ef78134e2cd0",
+   "size": 16515
+  },
+  {
+   "path": "yt_dlp/downloader/ism.py",
+   "sha256": "cb3438948b0f045ca79df72aa4dc99857c2341dbb2bb272a721becad1d4ae0e7",
+   "size": 11621
+  },
+  {
+   "path": "yt_dlp/downloader/mhtml.py",
+   "sha256": "ec97d3388792de9b21baaa881f078724b9f0fcffbbd91a989a0868ccdf37c815",
+   "size": 5798
+  },
+  {
+   "path": "yt_dlp/downloader/niconico.py",
+   "sha256": "1023d2b478ae307f0f7d688d28340bc4ced34ef928427dbcd5c209d779fc5849",
+   "size": 3612
+  },
+  {
+   "path": "yt_dlp/downloader/rtmp.py",
+   "sha256": "7496098bdc9a927386ef8608adf485836a30721ac6b28b9e971e0c1c4374fa13",
+   "size": 8851
+  },
+  {
+   "path": "yt_dlp/downloader/soop.py",
+   "sha256": "2e62d293452c6165965fdf28e783459632da8294e42684f91af36a6e0de424bb",
+   "size": 2432
+  },
+  {
+   "path": "yt_dlp/downloader/websocket.py",
+   "sha256": "1b7f529171081ad50461a3f5fce0d732264666022b15e6f7c2a95f572a5c1d43",
+   "size": 1772
+  },
+  {
+   "path": "yt_dlp/downloader/youtube_live_chat.py",
+   "sha256": "24ba4621434d6ee33b66e64c63d03a5f7c6b4437ecdec5b3e2dcd72d7a5ad4fe",
+   "size": 10875
+  },
+  {
+   "path": "yt_dlp/extractor/__init__.py",
+   "sha256": "5cc5790694966da0d71a4908dac8a6fe2264ef2d01a4282b0dc3e3c1e9c0d58d",
+   "size": 1764
+  },
+  {
+   "path": "yt_dlp/extractor/_extractors.py",
+   "sha256": "f9f5b32f7eb62861470e6d69d55ab953ebc462de9fb42f508bf0a6c2c92c6996",
+   "size": 51043
+  },
+  {
+   "path": "yt_dlp/extractor/abc.py",
+   "sha256": "ac6ca8b848463fa81d6650f19181c799d9cca5a398a100d7791332fc978e3752",
+   "size": 18876
+  },
+  {
+   "path": "yt_dlp/extractor/abcnews.py",
+   "sha256": "49324fd729f110e594447412a13fb9ebc9252ba34897b318e0a4a38d42bf0808",
+   "size": 6326
+  },
+  {
+   "path": "yt_dlp/extractor/abcotvs.py",
+   "sha256": "5582efa84781af4db139a92ac74f40e69e1ef35029d51a76c9f70fa4d893bbd8",
+   "size": 4555
+  },
+  {
+   "path": "yt_dlp/extractor/abematv.py",
+   "sha256": "894dc28e4191fbb24e5c9b4c70a453ec04c9d000f09aa60f117e9479dc5f7a6f",
+   "size": 19976
+  },
+  {
+   "path": "yt_dlp/extractor/academicearth.py",
+   "sha256": "94b5edb9e0450d5ba20e4b206a147bff209d724b7f234ad3abc20e59a451a2b0",
+   "size": 1357
+  },
+  {
+   "path": "yt_dlp/extractor/acast.py",
+   "sha256": "1859febac9f3879cd3b5750f40ea482b18603675a18af1843e9a794095705f68",
+   "size": 5816
+  },
+  {
+   "path": "yt_dlp/extractor/acfun.py",
+   "sha256": "7ec227469abf4cbcaee6e6362128e621183e6589f1917e35c180a13729c58ff3",
+   "size": 7948
+  },
+  {
+   "path": "yt_dlp/extractor/adn.py",
+   "sha256": "00ba30ddf95a1897764f7dbcb9818e4a075743553c218285463a613b6fbcf201",
+   "size": 14053
+  },
+  {
+   "path": "yt_dlp/extractor/adobeconnect.py",
+   "sha256": "2767df16ebd7061c2da608e8e2bb5e9c4cd7afac8b80067ef87eb9a9d1e7a27e",
+   "size": 1196
+  },
+  {
+   "path": "yt_dlp/extractor/adobepass.py",
+   "sha256": "4dd4a28748995600d5c8fdd54fdb500af0e63dcaae5247df66374a4bdf9f57d9",
+   "size": 58147
+  },
+  {
+   "path": "yt_dlp/extractor/adobetv.py",
+   "sha256": "ef1439c2574b28dc314855e6065a962008a268ec2abceaa7239a26639d48e151",
+   "size": 3990
+  },
+  {
+   "path": "yt_dlp/extractor/adultswim.py",
+   "sha256": "69f8279b21e2e697f277a2ffb6c2e8f42e2e7a520ab5441c699d1e674254be90",
+   "size": 8394
+  },
+  {
+   "path": "yt_dlp/extractor/aenetworks.py",
+   "sha256": "2c16a7a383d41edb7c5b5278971425729b213ace213e0761a44ae360fe5a2e2c",
+   "size": 18808
+  },
+  {
+   "path": "yt_dlp/extractor/aeonco.py",
+   "sha256": "b9080d71ed945730e2127c86e0db3b40a79bc4226f50ee1dd5f4cac1ab0707ee",
+   "size": 3303
+  },
+  {
+   "path": "yt_dlp/extractor/afreecatv.py",
+   "sha256": "f8577731f848c51d48a1f10ac08267decd38acad2bff6b68d2c417c5434bc573",
+   "size": 19852
+  },
+  {
+   "path": "yt_dlp/extractor/agalega.py",
+   "sha256": "d2749ad3b32b5d8a3e1b65c5c241e349b638f210df9008889ad47888d5350cbf",
+   "size": 3714
+  },
+  {
+   "path": "yt_dlp/extractor/agora.py",
+   "sha256": "8299a02d144ae8ef87e6593926a935d84d71384b2bf3d1052c7d2e0defd54b9d",
+   "size": 9579
+  },
+  {
+   "path": "yt_dlp/extractor/aitube.py",
+   "sha256": "190ad4717bd8bd444226e1f4a706e505b955a228a691ae525c7986ead0644e48",
+   "size": 2957
+  },
+  {
+   "path": "yt_dlp/extractor/alibaba.py",
+   "sha256": "93afdd6ca4efe8d3e034eb1359a6040a732ed0f75b11d188d6783772107b1016",
+   "size": 1971
+  },
+  {
+   "path": "yt_dlp/extractor/aliexpress.py",
+   "sha256": "ede305080f32fb37c689fbda7d9eab6c45b3429f023b378c97d589306619df2c",
+   "size": 1487
+  },
+  {
+   "path": "yt_dlp/extractor/aljazeera.py",
+   "sha256": "77a63d96ed360cb9d74bf10108de243b6bdc2f7d77519bf950897479537eedca",
+   "size": 3399
+  },
+  {
+   "path": "yt_dlp/extractor/allocine.py",
+   "sha256": "c032916aae63cbbe78be189afe6316ef26d25a13c3aec00c24a9dd47e0072bfd",
+   "size": 4762
+  },
+  {
+   "path": "yt_dlp/extractor/allstar.py",
+   "sha256": "4297c8bee2d809cd21857ecbad20bf8369cc37abc1b7babba9ac074b8b077736",
+   "size": 9265
+  },
+  {
+   "path": "yt_dlp/extractor/alphaporno.py",
+   "sha256": "0ee8fadcb82728879343857ba7e20dc771e24211b82f5029805290f8ec409373",
+   "size": 2684
+  },
+  {
+   "path": "yt_dlp/extractor/altcensored.py",
+   "sha256": "902b2685d5209c5299f019ab53e6a3e65d7502cf953aacd95e61c2e889d17fd2",
+   "size": 3977
+  },
+  {
+   "path": "yt_dlp/extractor/alura.py",
+   "sha256": "cb704e0e3523af665490a8f44b124a7fd4f96d128e45cfd1c36bb825f4bb6431",
+   "size": 6481
+  },
+  {
+   "path": "yt_dlp/extractor/amadeustv.py",
+   "sha256": "b862213cbe5fb312057a3beb4b3129fc0234a886523fcfd7b22b2ef0a8b0dd78",
+   "size": 3293
+  },
+  {
+   "path": "yt_dlp/extractor/amara.py",
+   "sha256": "120d1f137650e88753d1a436e3932cb55b72b6405fdffdde3240548d7c2f50c1",
+   "size": 3528
+  },
+  {
+   "path": "yt_dlp/extractor/amazon.py",
+   "sha256": "25d1f0090378a3c452eb5c6faf24861ef8c30074384e7a8bafd7cbb444ba688f",
+   "size": 6625
+  },
+  {
+   "path": "yt_dlp/extractor/amazonminitv.py",
+   "sha256": "be48f3ec5e0c4d1fb37d4af9b7ffeadb128b041bdf73d563f2f84defe934d4e6",
+   "size": 10730
+  },
+  {
+   "path": "yt_dlp/extractor/amcnetworks.py",
+   "sha256": "5d259c126abd7c15c9c0711ccd2237cef7a0d3acea5298dbd08d7592f5ee7724",
+   "size": 2823
+  },
+  {
+   "path": "yt_dlp/extractor/americastestkitchen.py",
+   "sha256": "3fc1ea84b33bea4bb6a66a6086d2164ffbaa0f62cf5fbfd9252756ab2b8db97d",
+   "size": 8765
+  },
+  {
+   "path": "yt_dlp/extractor/amp.py",
+   "sha256": "480353e24dfd8aa0681dbc327981c2e7d4a82bd2b8d754827765d176d5d0b53b",
+   "size": 4222
+  },
+  {
+   "path": "yt_dlp/extractor/angel.py",
+   "sha256": "4b4bbd6333d1369d28d6799c3664f54beaabb5912ded6e2dfef9177a8b9f2d72",
+   "size": 2555
+  },
+  {
+   "path": "yt_dlp/extractor/antenna.py",
+   "sha256": "e02ad7ef48f188232b6ed85733c8fd146330ab71a811f5b1f51ec3a53a56f197",
+   "size": 5965
+  },
+  {
+   "path": "yt_dlp/extractor/anvato.py",
+   "sha256": "e78eb9fd37e45cd620384ec17dc797b4b5f6300b5bab274befb5127a9d2333c2",
+   "size": 24648
+  },
+  {
+   "path": "yt_dlp/extractor/aol.py",
+   "sha256": "9054cc9302b05753cd82694b67a030e5bc9db16e11b3c3485f99482c06693bbf",
+   "size": 5471
+  },
+  {
+   "path": "yt_dlp/extractor/apa.py",
+   "sha256": "7d6650520686abdc276eedf870560a014376e40d7876864493dc3ca5b4adc3b3",
+   "size": 3389
+  },
+  {
+   "path": "yt_dlp/extractor/aparat.py",
+   "sha256": "18a6cb94d01a66e9baf627a776cc7c3b44e4e2200821619a829860ef235c8be9",
+   "size": 3374
+  },
+  {
+   "path": "yt_dlp/extractor/appleconnect.py",
+   "sha256": "f7d02bd976c7d7de9885728127baac15f8aa585794e27fef77b02a89f539891b",
+   "size": 3210
+  },
+  {
+   "path": "yt_dlp/extractor/applepodcasts.py",
+   "sha256": "d7b29bd6911d483a0380e69db5378ef1f4b6e6bc1ac74eaf72a0d310bf07dbbf",
+   "size": 6965
+  },
+  {
+   "path": "yt_dlp/extractor/archiveorg.py",
+   "sha256": "766dde0affa4e6a09d335886ab751d9ae45005840277dbf30b89a8668fc3adb1",
+   "size": 58264
+  },
+  {
+   "path": "yt_dlp/extractor/arcpublishing.py",
+   "sha256": "cfd30070bbbaafbd9f3de55a28a08f3746bbd2bcc8ea248607880f2761d955e2",
+   "size": 8170
+  },
+  {
+   "path": "yt_dlp/extractor/ard.py",
+   "sha256": "1c3810e2d72ba99976822cafa024df0d6c71016bb9606d6cf57ab65c2a399f03",
+   "size": 29363
+  },
+  {
+   "path": "yt_dlp/extractor/arnes.py",
+   "sha256": "9dd0619a50b1b4b0c1cd713ac0ab8caf2defb4d1a4572c26839b1c5dfaa64ee9",
+   "size": 3497
+  },
+  {
+   "path": "yt_dlp/extractor/art19.py",
+   "sha256": "d7d0308e99a5ab151312c4262d5e2838e9dd254e5337b2cd3831f754f2aba6d8",
+   "size": 12860
+  },
+  {
+   "path": "yt_dlp/extractor/arte.py",
+   "sha256": "9786ac4031e5a6a3f1ab1d6977766d3ef3fa7e10a7b758aac38d317fa937fcb3",
+   "size": 17133
+  },
+  {
+   "path": "yt_dlp/extractor/asobichannel.py",
+   "sha256": "49ad1c0312cbe2c18067f813e6210c031dd3769563b58babb7449b1389774c76",
+   "size": 6806
+  },
+  {
+   "path": "yt_dlp/extractor/asobistage.py",
+   "sha256": "a794fd39a373fe945574fb88c815855f21fca87b9cc483afef13f4dafebb1b44",
+   "size": 7002
+  },
+  {
+   "path": "yt_dlp/extractor/atresplayer.py",
+   "sha256": "704e55ab69365db84c100ecf9a5324db27f817132a47136f6e310e14c815255d",
+   "size": 7541
+  },
+  {
+   "path": "yt_dlp/extractor/atscaleconf.py",
+   "sha256": "20a0a3db55cedcbbf245ff4b83c6686a5eafb19a58b191fda2f1981f9dc9613f",
+   "size": 1241
+  },
+  {
+   "path": "yt_dlp/extractor/audimedia.py",
+   "sha256": "7c848a0367cc5092c3ccdeea03d0b13e9d36f75035eada28d25a4709e4af9096",
+   "size": 3928
+  },
+  {
+   "path": "yt_dlp/extractor/audioboom.py",
+   "sha256": "353ec7c9a913479a6e31621cbe4d1e6c36d9fdd316bf4695a901f998bb227c61",
+   "size": 2868
+  },
+  {
+   "path": "yt_dlp/extractor/audiodraft.py",
+   "sha256": "23a2a1fbbbf7189637ce72fcfe9eedff7e9b7ba45b908ac7326131da7cec927c",
+   "size": 3249
+  },
+  {
+   "path": "yt_dlp/extractor/audiomack.py",
+   "sha256": "fabcb2fa33ae76d8f6746f25fb0070dcb250f185d1c7440362eb06cf82549d74",
+   "size": 6123
+  },
+  {
+   "path": "yt_dlp/extractor/audius.py",
+   "sha256": "d66fce27620b337d897fd0103ca791c5af418134a41ded3f2495f7afd17cefb8",
+   "size": 10749
+  },
+  {
+   "path": "yt_dlp/extractor/aws.py",
+   "sha256": "8dd4e17aa580fbe1c9ff532dc6db77e480127edcf933214e4ce9224e8da5a395",
+   "size": 3053
+  },
+  {
+   "path": "yt_dlp/extractor/azmedien.py",
+   "sha256": "c4ae36c7e4285ccf8816bdef0eb25d459e1b83db536d2bf691b36b01050df6e3",
+   "size": 2304
+  },
+  {
+   "path": "yt_dlp/extractor/baidu.py",
+   "sha256": "5bf432c79f34165e5546e2451602bd5c78769d3e3ee8aa91670eb297b43b76bc",
+   "size": 1913
+  },
+  {
+   "path": "yt_dlp/extractor/banbye.py",
+   "sha256": "d2bbd6871468a0c160400d0f3306ae3eecbc5fd4ba6aadf3ad11b2cc117e4dbf",
+   "size": 8969
+  },
+  {
+   "path": "yt_dlp/extractor/bandcamp.py",
+   "sha256": "0bca5741aa6b6010b2ca89f6ad764eed95eee32b81e5bf5c62c1b0dc0e6a5074",
+   "size": 22802
+  },
+  {
+   "path": "yt_dlp/extractor/bandlab.py",
+   "sha256": "56681963ab5aa87e426486c6162c235aa63b4e2918d5c5cc1d19365b37200833",
+   "size": 19200
+  },
+  {
+   "path": "yt_dlp/extractor/bannedvideo.py",
+   "sha256": "3a271b10fc5a037f8b6058e07b1372a11e4f7eacafe0cf641b4f38d5152beb3c",
+   "size": 5315
+  },
+  {
+   "path": "yt_dlp/extractor/bbc.py",
+   "sha256": "6ed05679f5ff4385e14e0fbbeba928dd6093307b11313ed90c4dcdbf8204c9cf",
+   "size": 82481
+  },
+  {
+   "path": "yt_dlp/extractor/beacon.py",
+   "sha256": "733d597c619c0f0490e5578afe87fcb985b416db81bf3664b6457cedac571245",
+   "size": 2710
+  },
+  {
+   "path": "yt_dlp/extractor/beatport.py",
+   "sha256": "f36d1d55bf7857b44e3192a4738c15a0f48b9b792a2c549c5a2f9e12725a7078",
+   "size": 3206
+  },
+  {
+   "path": "yt_dlp/extractor/beeg.py",
+   "sha256": "a8ebb8cbb868bd9c5cc9151ba3ffa1312d7ab68a8c967f5c4e61504b69e391bc",
+   "size": 3177
+  },
+  {
+   "path": "yt_dlp/extractor/behindkink.py",
+   "sha256": "d10688f32d60b192900ef828f227b27a9b0064c70a12e0a96022ae7773bf8b74",
+   "size": 1597
+  },
+  {
+   "path": "yt_dlp/extractor/berufetv.py",
+   "sha256": "af49575a67bcdad205691f3605727d0773a5663bdb8b0513acabe92afeddd4da",
+   "size": 3103
+  },
+  {
+   "path": "yt_dlp/extractor/bet.py",
+   "sha256": "99429d897c7c99ac4b53ab77bce3813802d5c565c942ec2ac6c64d60beaf6acd",
+   "size": 1798
+  },
+  {
+   "path": "yt_dlp/extractor/bfi.py",
+   "sha256": "9eab0397df9dedd17568876cc72f2f6190eb9798a9a108a87ae6f0d915ab4586",
+   "size": 1305
+  },
+  {
+   "path": "yt_dlp/extractor/bfmtv.py",
+   "sha256": "9b4e417edab670ef98c505912080df6d27adee607ba99225fd39cb057cb486a3",
+   "size": 5757
+  },
+  {
+   "path": "yt_dlp/extractor/bibeltv.py",
+   "sha256": "70f6e4f51ad50796aa0fcb58ebd769cbbc74619568f99519c53ffeeb40474c2f",
+   "size": 6795
+  },
+  {
+   "path": "yt_dlp/extractor/bigo.py",
+   "sha256": "0690dfc035f2803a35630f480ff323fa87408cd284e54fcfbc669090475eed7e",
+   "size": 2009
+  },
+  {
+   "path": "yt_dlp/extractor/bild.py",
+   "sha256": "c4c7b78a289587347ecaba0d586343d36a84d6357e9380667dfbf8879ed3ef42",
+   "size": 2445
+  },
+  {
+   "path": "yt_dlp/extractor/bilibili.py",
+   "sha256": "b99ad995a016b11097cdadfb64bc6da55cd64129b76e7914eafbc7e45685ec33",
+   "size": 113650
+  },
+  {
+   "path": "yt_dlp/extractor/biobiochiletv.py",
+   "sha256": "34be345fd38f1c8f54c9d8b1a56b651634cd5472385b42eeca77fe81632f3f35",
+   "size": 3454
+  },
+  {
+   "path": "yt_dlp/extractor/bitchute.py",
+   "sha256": "d5fb81db243de75b689e52f88e1d220c91b5879149e5f06c2be0c76f7b5a0048",
+   "size": 13674
+  },
+  {
+   "path": "yt_dlp/extractor/bitmovin.py",
+   "sha256": "ebfa39aebc57a446bf7c7b26469859feb2f61771f43538a064f0f24e39eb2476",
+   "size": 2940
+  },
+  {
+   "path": "yt_dlp/extractor/blackboardcollaborate.py",
+   "sha256": "c16d92311be21faf5a23cec365c942e1acdda5ac4afa14406d4b772f79ffa607",
+   "size": 8584
+  },
+  {
+   "path": "yt_dlp/extractor/bleacherreport.py",
+   "sha256": "7c008518173fcdcf54779453e2b4742199ccd5405b2c6114a5889e92e192aa7c",
+   "size": 4301
+  },
+  {
+   "path": "yt_dlp/extractor/blerp.py",
+   "sha256": "1b9f9888055862e62e80d40a866563a293b89c120beaf161237c7def37c87dd7",
+   "size": 4685
+  },
+  {
+   "path": "yt_dlp/extractor/blogger.py",
+   "sha256": "dbcad558f14a321c5aa0d8adb6cae8ddd35a70144e3aca05fbc7ccbc33f82c62",
+   "size": 2304
+  },
+  {
+   "path": "yt_dlp/extractor/bloomberg.py",
+   "sha256": "b08b4d1e88e84e651fa70ccf7534160b478cb9dfba636c9d9f1a7d181cbdfbeb",
+   "size": 3178
+  },
+  {
+   "path": "yt_dlp/extractor/bluesky.py",
+   "sha256": "e392f1ede0362d409a5517c2cd973de9adda95a87c482564d616b13a8984ff66",
+   "size": 17248
+  },
+  {
+   "path": "yt_dlp/extractor/bongacams.py",
+   "sha256": "775231563b631f9084f79c39b58ccd808b5fa960fd7a37b4050fb6a7d646ce35",
+   "size": 2215
+  },
+  {
+   "path": "yt_dlp/extractor/boosty.py",
+   "sha256": "3dd693e1a72a92386029c0a92700a7e0df3d37c81411ccca2d3e91b25325a851",
+   "size": 10930
+  },
+  {
+   "path": "yt_dlp/extractor/bostonglobe.py",
+   "sha256": "d42fb2010070fb135618843cd4e0ec26cde7e6b7781be1a34daa7efa0c6ddcb9",
+   "size": 3104
+  },
+  {
+   "path": "yt_dlp/extractor/box.py",
+   "sha256": "67414883351add249d3e58cd982274a0a1fa1dcb5a2a0d6315693e6771a2706f",
+   "size": 4800
+  },
+  {
+   "path": "yt_dlp/extractor/boxcast.py",
+   "sha256": "e1cfcbad1a80f4858d7c64a4570ad484274a90c85e0466143cf69abd7c9c1d88",
+   "size": 4745
+  },
+  {
+   "path": "yt_dlp/extractor/bpb.py",
+   "sha256": "009be541fb9fcc8d26437e947cfe1df1d120c05dd80fb96a98be0c78f90a681c",
+   "size": 7275
+  },
+  {
+   "path": "yt_dlp/extractor/br.py",
+   "sha256": "63130d36a23685cfba7dbb49a027c96cdff7caa016d5fa90173d3356c11fc80e",
+   "size": 7474
+  },
+  {
+   "path": "yt_dlp/extractor/brainpop.py",
+   "sha256": "10ddb0fcbd370aa3e7182000acc3a7d6e9280f94e593676cd839395035883b8a",
+   "size": 12922
+  },
+  {
+   "path": "yt_dlp/extractor/breitbart.py",
+   "sha256": "3c3d46d7e32542879a55eaeff7102ea87a8471880cfd500e7d067b767731ed11",
+   "size": 1347
+  },
+  {
+   "path": "yt_dlp/extractor/brightcove.py",
+   "sha256": "0d21b50fcfec82ad40d74f151f0ee9d5ee2055365d483cdfc2fa06c5f8e9b54d",
+   "size": 43050
+  },
+  {
+   "path": "yt_dlp/extractor/brilliantpala.py",
+   "sha256": "4da0620a8d6ad428469e52885b6f0e164c6022f8d2d82500509d4a37d7b3d714",
+   "size": 5824
+  },
+  {
+   "path": "yt_dlp/extractor/btvplus.py",
+   "sha256": "e456f0aeb4f57dcc935fb6d0abfaac60f6fc5844fed172e4da25556ba93f6c37",
+   "size": 2829
+  },
+  {
+   "path": "yt_dlp/extractor/bundesliga.py",
+   "sha256": "6e963c62726a38d56ecb048719c1ace16b43c57276c250ba13d3ab8e3126223c",
+   "size": 1348
+  },
+  {
+   "path": "yt_dlp/extractor/bundestag.py",
+   "sha256": "edfa3f7446f7a8d6be69de7bf56e7d0a019ff20ec51a789c5fa1217d40279812",
+   "size": 5013
+  },
+  {
+   "path": "yt_dlp/extractor/bunnycdn.py",
+   "sha256": "50377887f10e3417af76c47a35a330d1ac14e7c5152a50433bfa6e9c523e7f1b",
+   "size": 8492
+  },
+  {
+   "path": "yt_dlp/extractor/businessinsider.py",
+   "sha256": "abdc30ac0c4a6f711a81358381800b8d70de49be59b9a5a5dddef61d4399c95f",
+   "size": 1939
+  },
+  {
+   "path": "yt_dlp/extractor/buzzfeed.py",
+   "sha256": "60a983eb3d9a1333e84275fea8874fcb9ef1f7e03709360ea7400f9c566eb44a",
+   "size": 3612
+  },
+  {
+   "path": "yt_dlp/extractor/byutv.py",
+   "sha256": "ef0fe8b8b163571f9835c2f65cc8f263b9ff7e877059cfb0e38b3d4e0cc6c8c2",
+   "size": 3937
+  },
+  {
+   "path": "yt_dlp/extractor/c56.py",
+   "sha256": "af4462a92a3bd2126f5e0af2eb42d97cd52d211510380f3f02a020f0a00dbbbf",
+   "size": 1956
+  },
+  {
+   "path": "yt_dlp/extractor/caltrans.py",
+   "sha256": "7407b1efc462e3b8156e314d60fef33cc9a800d5a0e7cb6b3e0548c3557fef28",
+   "size": 1563
+  },
+  {
+   "path": "yt_dlp/extractor/cam4.py",
+   "sha256": "a29b6cc7525c514f10343f677d0a47bcdca29aa1a59e7f0f9ad5bfbf448b90a0",
+   "size": 1108
+  },
+  {
+   "path": "yt_dlp/extractor/camfm.py",
+   "sha256": "b41e96ca6fb8ecba8e7e0a6c7ef3708380aaf86cf4020461ae0c4807043c0bfd",
+   "size": 3460
+  },
+  {
+   "path": "yt_dlp/extractor/cammodels.py",
+   "sha256": "84bcfc716e5285498383caa9fff689bc2e62031fd93007c442c2dbe9cd6418f0",
+   "size": 2824
+  },
+  {
+   "path": "yt_dlp/extractor/camsoda.py",
+   "sha256": "40dd5d5a0d5157b32767eeaa2e69982b6d3b2ed684d41d2b66ee0e565fdaf9a2",
+   "size": 2183
+  },
+  {
+   "path": "yt_dlp/extractor/camtasia.py",
+   "sha256": "bb5a4457af6c3e63b9a6ac02e1eab16c51d0d10b7e57db49b9ec6bbe81c70c18",
+   "size": 2478
+  },
+  {
+   "path": "yt_dlp/extractor/canal1.py",
+   "sha256": "ba99412389cd059a3df3cb2d498687b9e0a7a0ec125cc7ad2bcf4278d6493478",
+   "size": 1957
+  },
+  {
+   "path": "yt_dlp/extractor/canalalpha.py",
+   "sha256": "509600ceab4c74e8d582555b3a2c6d58583025e5cd3c296523adde330eb75ed1",
+   "size": 4842
+  },
+  {
+   "path": "yt_dlp/extractor/canalc2.py",
+   "sha256": "d6809f784820cb0e6fc3f366168d7f2e3895036b6b1dc849447fa63a2f0053b3",
+   "size": 2213
+  },
+  {
+   "path": "yt_dlp/extractor/canalplus.py",
+   "sha256": "a6da23d9350b4524e46dd6453075a47c083a2bfcc4424bb9dd01f1d3405ea258",
+   "size": 4329
+  },
+  {
+   "path": "yt_dlp/extractor/canalsurmas.py",
+   "sha256": "28dc2b2fec692237af55cc6490d11234eaf02579b0c3e5f094c029b202827928",
+   "size": 3336
+  },
+  {
+   "path": "yt_dlp/extractor/caracoltv.py",
+   "sha256": "7b2ed4737d8bce84dd7c3d7437f4af1389d00fa82793090efaafe08ce8d907d5",
+   "size": 5735
+  },
+  {
+   "path": "yt_dlp/extractor/cbc.py",
+   "sha256": "72b4f0157290529032189aad6c85bf4523f439f90071d11d1d2c613e9ce7c006",
+   "size": 48030
+  },
+  {
+   "path": "yt_dlp/extractor/cbs.py",
+   "sha256": "022d859a1d29c4686d88e55328868c3e75da8fe29f418d394ef7722bc2f28d2a",
+   "size": 11852
+  },
+  {
+   "path": "yt_dlp/extractor/cbsnews.py",
+   "sha256": "627afcc34a6e48cd09a8e0008817cdebbd72df8181417d1be5105e30aaa3b217",
+   "size": 19081
+  },
+  {
+   "path": "yt_dlp/extractor/cbssports.py",
+   "sha256": "d9db5e76cc81f6a030366e48bb27ef1d10e4507ef996a33289969e40d9791661",
+   "size": 4883
+  },
+  {
+   "path": "yt_dlp/extractor/ccc.py",
+   "sha256": "1e51ff776bedbb782e58a37f35979f9353d50fa908a5284ddcbb6eb9dfb6ed6f",
+   "size": 5000
+  },
+  {
+   "path": "yt_dlp/extractor/ccma.py",
+   "sha256": "26e3180a06ec43dbb5f7f24e69afdca04fed91d6ad0d8d0a61ebaa7390e1bdde",
+   "size": 7050
+  },
+  {
+   "path": "yt_dlp/extractor/cctv.py",
+   "sha256": "30503a1884909a2c9b6bf7b2535d71eb0cfe71144245843a44b115d526cd0ad3",
+   "size": 7346
+  },
+  {
+   "path": "yt_dlp/extractor/cda.py",
+   "sha256": "f804ae328d244c58f50736d20299222c668b8790bf779bc1b04b8bb6fd6c67ca",
+   "size": 16947
+  },
+  {
+   "path": "yt_dlp/extractor/cellebrite.py",
+   "sha256": "b0a5c427ae367ba07dcb8c26a428d81535a3d49b5318ae39c501e19054b8ee96",
+   "size": 1746
+  },
+  {
+   "path": "yt_dlp/extractor/ceskatelevize.py",
+   "sha256": "2785795cc1f922ec474d0808cc646f1651fe5784211db6b325c724dec0bc846c",
+   "size": 11714
+  },
+  {
+   "path": "yt_dlp/extractor/cgtn.py",
+   "sha256": "afe11ad87f9d6fa72a0611ebd84dbf88a11b7077b622444f916e5dd875f9fe0a",
+   "size": 2920
+  },
+  {
+   "path": "yt_dlp/extractor/charlierose.py",
+   "sha256": "5b641ac7f81ba87b0392ad02560924cc9dc477d99f069447265dfe3072fb002d",
+   "size": 1929
+  },
+  {
+   "path": "yt_dlp/extractor/chaturbate.py",
+   "sha256": "512222820a7faed02e032362e45e542e7e142979baeeededc4afa071b026fb42",
+   "size": 5793
+  },
+  {
+   "path": "yt_dlp/extractor/chilloutzone.py",
+   "sha256": "fe407f2b67a147c5d50dfc31921029ef0c3e4cf9fd439d9b5bb22cce36b56d9c",
+   "size": 4822
+  },
+  {
+   "path": "yt_dlp/extractor/chzzk.py",
+   "sha256": "9fa3bd53d61448546ac16ca4799fd9fd47e4ba409b52f635421b374e38df66cc",
+   "size": 8397
+  },
+  {
+   "path": "yt_dlp/extractor/cinemax.py",
+   "sha256": "04bc9e9d8128a0594a7abe076585c9a2ac7502b48c95bdeaf20ed4ceba8f394b",
+   "size": 896
+  },
+  {
+   "path": "yt_dlp/extractor/cinetecamilano.py",
+   "sha256": "4d3e923a9b69b77d02aa8c46e2543c5c11d4fb6f85412bfadb2d54bc4f287d86",
+   "size": 2446
+  },
+  {
+   "path": "yt_dlp/extractor/cineverse.py",
+   "sha256": "922575b0c9e90c3d252be200bc16362b843f0b7ca79e930272c2396e1818ed69",
+   "size": 5809
+  },
+  {
+   "path": "yt_dlp/extractor/ciscolive.py",
+   "sha256": "b6ffa7cc0976c6fe4e7ae4060ec0f334a382a7af31c624d354f9723cfd8a1c9c",
+   "size": 5834
+  },
+  {
+   "path": "yt_dlp/extractor/ciscowebex.py",
+   "sha256": "c24f8c9c7ae0f3e89170662c7cf13e2a4382b2545c8fecd601515a5a07d4f487",
+   "size": 4418
+  },
+  {
+   "path": "yt_dlp/extractor/cjsw.py",
+   "sha256": "cfd58e075ce10fd35b22a817ec1f1e881ce245a883e41dbb025e6733ada9d71b",
+   "size": 2334
+  },
+  {
+   "path": "yt_dlp/extractor/clipchamp.py",
+   "sha256": "5c06626deaf38d40eee0998e33568473bd226eb858f55ff6eccda1ee8ede3ba0",
+   "size": 2418
+  },
+  {
+   "path": "yt_dlp/extractor/cliprs.py",
+   "sha256": "c93d566f7624420bb521a6d9637320fdc029f8b5da5bd7f73a92e2adcecb2237",
+   "size": 995
+  },
+  {
+   "path": "yt_dlp/extractor/closertotruth.py",
+   "sha256": "f7657ea48add95efd87e82c97be5418ca7d5d3eb0b9c311417ad7ef8bdf09b7a",
+   "size": 3007
+  },
+  {
+   "path": "yt_dlp/extractor/cloudflarestream.py",
+   "sha256": "261f2f26747d181c2fee01a5f065b12d02b055828c99dbdd8261b67193c29a81",
+   "size": 4673
+  },
+  {
+   "path": "yt_dlp/extractor/cloudycdn.py",
+   "sha256": "8e6eda6ca0155cf4bad6e63a42c787bb75e3dc9cf3190f8dd647e132d38bc615",
+   "size": 4201
+  },
+  {
+   "path": "yt_dlp/extractor/clubic.py",
+   "sha256": "1f40912269e67744bcc304eed7f8b544f991ad187de3207bf0797ea238893eff",
+   "size": 1903
+  },
+  {
+   "path": "yt_dlp/extractor/clyp.py",
+   "sha256": "792a74a7d4427c7fd030eb657976e82dc63b0ab7f6ac7294613e4a33062362e2",
+   "size": 3073
+  },
+  {
+   "path": "yt_dlp/extractor/cnbc.py",
+   "sha256": "fd6e25b4975e36ad7e01acc72b791805869bab21f1852582d796f344b8eec3b4",
+   "size": 4615
+  },
+  {
+   "path": "yt_dlp/extractor/cnn.py",
+   "sha256": "80653c77150ab9870612d659e4be180bbfb4cbbac3b1064a602f7db1db31479e",
+   "size": 13381
+  },
+  {
+   "path": "yt_dlp/extractor/comedycentral.py",
+   "sha256": "bdb8be09e0b303f80b7744c7355732b014319da9ea5d753047155abe3485eea3",
+   "size": 1048
+  },
+  {
+   "path": "yt_dlp/extractor/common.py",
+   "sha256": "2af848c92490fdb5867a884db5886ef791c3fa3b36bc62d10e83aa58fe72a000",
+   "size": 203615
+  },
+  {
+   "path": "yt_dlp/extractor/commonmistakes.py",
+   "sha256": "a096e898c171942aa2e8c326320a384bc5cf9910a8c2eb355a0e0a0f021c7b60",
+   "size": 1738
+  },
+  {
+   "path": "yt_dlp/extractor/commonprotocols.py",
+   "sha256": "04ade96407ce6e6eacda10dd4ffc41704d1cb785a84d412c81a8f19bd71cd19c",
+   "size": 1250
+  },
+  {
+   "path": "yt_dlp/extractor/condenast.py",
+   "sha256": "22098339eda4fdaec4697b8d3763c3b3aa292a1da48cbfece152a1aebfd16d54",
+   "size": 10391
+  },
+  {
+   "path": "yt_dlp/extractor/corus.py",
+   "sha256": "3b0a1f469a73f1708a988a0c7ca6c92713ff7658b436e9e30cbcc3d40f1d208d",
+   "size": 6319
+  },
+  {
+   "path": "yt_dlp/extractor/coub.py",
+   "sha256": "9e035aa00cb1fb8c02f57a2de5ea4e4a0db7eef8d3e3a1f1be181cc2031ded46",
+   "size": 4551
+  },
+  {
+   "path": "yt_dlp/extractor/cozytv.py",
+   "sha256": "0a3b08b735377ca44a72c3c4fcffd28b87441760d4af29e9e5ecfb1d5c3cf8ba",
+   "size": 1397
+  },
+  {
+   "path": "yt_dlp/extractor/cpac.py",
+   "sha256": "5da55064282626ecab24e0731a06f77b7286cff72719763dc8905eb590288424",
+   "size": 5583
+  },
+  {
+   "path": "yt_dlp/extractor/cracked.py",
+   "sha256": "ce9044329249e7ea263a2792bd267850dbbed10679b1e0f540185a761161be39",
+   "size": 3099
+  },
+  {
+   "path": "yt_dlp/extractor/craftsy.py",
+   "sha256": "e346f7027bd368b17341aad391858343580e882dc78344947f8d53778d61f533",
+   "size": 3184
+  },
+  {
+   "path": "yt_dlp/extractor/croatianfilm.py",
+   "sha256": "72a8c290247cd7e2dfee5020102cb600fe94b0cf98049fc670f6bda71c15719d",
+   "size": 3240
+  },
+  {
+   "path": "yt_dlp/extractor/crooksandliars.py",
+   "sha256": "73b2ee5db880194567a2ba69447ddd15679bf265ddb262189c99c1a168fbd05b",
+   "size": 2655
+  },
+  {
+   "path": "yt_dlp/extractor/crowdbunker.py",
+   "sha256": "42d45d9a7908e303293283b55e3da1799e811a26f41bcd44864ce7551a8acc84",
+   "size": 4348
+  },
+  {
+   "path": "yt_dlp/extractor/crtvg.py",
+   "sha256": "1c80abb3be500a8cf3acf26c9ccee277f38d2f295bb9467314d6b3eb4435657b",
+   "size": 2315
+  },
+  {
+   "path": "yt_dlp/extractor/cspan.py",
+   "sha256": "2a468b6a11dcc7c77e35c37e4b9a5b6f6aa7704caf3e7a3c7cdff67b45ce027e",
+   "size": 12090
+  },
+  {
+   "path": "yt_dlp/extractor/ctsnews.py",
+   "sha256": "797df59b6d9b4eaad3469ef0def4db3716cade7dcba496e34acd8788abca2824",
+   "size": 3593
+  },
+  {
+   "path": "yt_dlp/extractor/ctvnews.py",
+   "sha256": "57cd3d160adc49a96288da9e8b57fa6fa7bc25161b68c5251dede6c001d7fba1",
+   "size": 7438
+  },
+  {
+   "path": "yt_dlp/extractor/cultureunplugged.py",
+   "sha256": "375a168422f523f40e65545b4501241ec57d980513540090e57e85a6f8f5e098",
+   "size": 2832
+  },
+  {
+   "path": "yt_dlp/extractor/curiositystream.py",
+   "sha256": "6f38706c0f63072dbcb569fc9bfcb4f261db4e90c9eb1cf44b85c31916864c14",
+   "size": 8341
+  },
+  {
+   "path": "yt_dlp/extractor/cybrary.py",
+   "sha256": "a12957ab0d90ce1bb75b2eeeb73127f86ade083e61eca27f283718cac31399aa",
+   "size": 6288
+  },
+  {
+   "path": "yt_dlp/extractor/dacast.py",
+   "sha256": "88eed188503987176e0ea89c61dcca86ba61519595e392b9ca8964d39eccd24a",
+   "size": 7498
+  },
+  {
+   "path": "yt_dlp/extractor/dailymail.py",
+   "sha256": "0322c8f12860a67d0ddcdcf8035624febe2ca1afec7df07be20a772a7c61b882",
+   "size": 3577
+  },
+  {
+   "path": "yt_dlp/extractor/dailymotion.py",
+   "sha256": "ff856fe832c297eeab400242999aa7b0b632c48ffdc5852c92d5735dba5ff63c",
+   "size": 25628
+  },
+  {
+   "path": "yt_dlp/extractor/dailywire.py",
+   "sha256": "e5d08ed89e13849f86e29b6101a56cfc31650e6d8dd0182ef0307c31bb61be8b",
+   "size": 4857
+  },
+  {
+   "path": "yt_dlp/extractor/damtomo.py",
+   "sha256": "c254733383d86cc13b11f094d37a5cc3e3d11d378a02ef9e223730da1bf13306",
+   "size": 5464
+  },
+  {
+   "path": "yt_dlp/extractor/dangalplay.py",
+   "sha256": "2e6071098ee19ddd5424a0820ef6063b3bfb64248368a1aba907c61ea3eb6b13",
+   "size": 9345
+  },
+  {
+   "path": "yt_dlp/extractor/daum.py",
+   "sha256": "7a88358ff875fbbacc0348ebb50a82108cd9032b55552ad18b9e38fb76e577b7",
+   "size": 9349
+  },
+  {
+   "path": "yt_dlp/extractor/daystar.py",
+   "sha256": "e2aed03a9a65fda716c34596818bb336b9356a3cd6a4c737d0051cbc14d79ba6",
+   "size": 1988
+  },
+  {
+   "path": "yt_dlp/extractor/dbtv.py",
+   "sha256": "88272e2ea5cdb82bf1823c9b4a9f9b144f1a1740f144f42591f9c454ca9d96b4",
+   "size": 2346
+  },
+  {
+   "path": "yt_dlp/extractor/dctp.py",
+   "sha256": "f20c3cfb265fa43e6ede30151960f5ea23971aded53fccfedf305e18d6bcc087",
+   "size": 3485
+  },
+  {
+   "path": "yt_dlp/extractor/democracynow.py",
+   "sha256": "c7da7d9810a2fef29e2b3801af2b34e1f1b03d12fe2e7de72a2ce051d8683598",
+   "size": 2981
+  },
+  {
+   "path": "yt_dlp/extractor/detik.py",
+   "sha256": "56d1a222d2e12dbf05d79e6f8ebd5979ab88dd5214d0f09b0f2f548a3dbb4e66",
+   "size": 8098
+  },
+  {
+   "path": "yt_dlp/extractor/deuxm.py",
+   "sha256": "08ffd84bf3ba017a2094ff969ccee82d06c4ca69b72f9d487dca4cfb230539c8",
+   "size": 3203
+  },
+  {
+   "path": "yt_dlp/extractor/dfb.py",
+   "sha256": "c1650a64774a2b7707eada2a9a40f25af4b39fef220087f2cddaa73d4603903a",
+   "size": 2159
+  },
+  {
+   "path": "yt_dlp/extractor/dhm.py",
+   "sha256": "393d961f2d4af4a732db61f848d0bbf94212c3827ce7e5f9b090aee002507193",
+   "size": 2071
+  },
+  {
+   "path": "yt_dlp/extractor/digitalconcerthall.py",
+   "sha256": "d2bce2d4518676f65a3021907a59028d9c433a7ccdf95a3f860b8fceab69cf6e",
+   "size": 12743
+  },
+  {
+   "path": "yt_dlp/extractor/digiteka.py",
+   "sha256": "609139b59985e5c09b774465e1b211fcfd4f398f30c324f1b680df2b86a3cf8f",
+   "size": 2836
+  },
+  {
+   "path": "yt_dlp/extractor/digiview.py",
+   "sha256": "7ac2fa7541a1a31fcc93899f4d89805803c3dd8ba9e70bf94fcac6af8b68c576",
+   "size": 5432
+  },
+  {
+   "path": "yt_dlp/extractor/discogs.py",
+   "sha256": "1d6193cf735fe3318dc6e94b15d25dabf9b286e2866e1490343290280a8fe055",
+   "size": 1281
+  },
+  {
+   "path": "yt_dlp/extractor/disney.py",
+   "sha256": "48c5a4aa58da710db02744639b17e11bd332b8933f30eb5d83873682e04a6c2a",
+   "size": 6770
+  },
+  {
+   "path": "yt_dlp/extractor/dispeak.py",
+   "sha256": "774d722e7297c48ef9b53bc045471b0143b4f12f3fffcea6a7a563be6831d97e",
+   "size": 4957
+  },
+  {
+   "path": "yt_dlp/extractor/dlf.py",
+   "sha256": "91ac94e8f5144c7835673dc8be881cd28e810d1e10c401ec3e4a3248c791d1ef",
+   "size": 8710
+  },
+  {
+   "path": "yt_dlp/extractor/dlive.py",
+   "sha256": "12d3e157122c85d7075d3cfcf729d362b015c727f44b1cd528391e154c7991d9",
+   "size": 3005
+  },
+  {
+   "path": "yt_dlp/extractor/douyutv.py",
+   "sha256": "2eb15c8e158ca5f470bfaabc2d4f30de630be7f5eaaa8e84869b7e8f868d580d",
+   "size": 11975
+  },
+  {
+   "path": "yt_dlp/extractor/dplay.py",
+   "sha256": "c4d052e4066373a5e8adda97fb1e9cd6268e78ec9bd511b0c274640083d9d7e8",
+   "size": 53648
+  },
+  {
+   "path": "yt_dlp/extractor/drbonanza.py",
+   "sha256": "e853fd37fa8ed58e94b68d47c4af87a5286e2395350c617583ecf3bc61042001",
+   "size": 1879
+  },
+  {
+   "path": "yt_dlp/extractor/dreisat.py",
+   "sha256": "b8dd686372894fdd7a2a07de749e9e1472da712cedb8a90e23f80e34790475dd",
+   "size": 6131
+  },
+  {
+   "path": "yt_dlp/extractor/dropbox.py",
+   "sha256": "66fcb9f64f9d564628ada3bafee75531f1ff5ebf425c41a74e9c5d884aa01c44",
+   "size": 4450
+  },
+  {
+   "path": "yt_dlp/extractor/dropout.py",
+   "sha256": "2057ff19698256f940e5207afba80cce6eba3208a8dda678f9a0a317506921b9",
+   "size": 10162
+  },
+  {
+   "path": "yt_dlp/extractor/drtalks.py",
+   "sha256": "86ba638e43a3d532bc62a711442fa2de001ca38e4b95160f7950e90bee303d45",
+   "size": 2251
+  },
+  {
+   "path": "yt_dlp/extractor/drtuber.py",
+   "sha256": "49ba6bbedd4bf8f57cc13a66178775f0236d6f0d1bf8ed1aa300ff8e8e2f003c",
+   "size": 3792
+  },
+  {
+   "path": "yt_dlp/extractor/drtv.py",
+   "sha256": "1a00f8a27a8b5c0b95e4679ad4e1b8bbbd74303550d527629c5611c7ef255371",
+   "size": 15887
+  },
+  {
+   "path": "yt_dlp/extractor/dtube.py",
+   "sha256": "f425ce7db00031d134ff50db0bd7f47bb43fb85e7bef0c0c21dcfaab0aa967e9",
+   "size": 2712
+  },
+  {
+   "path": "yt_dlp/extractor/dumpert.py",
+   "sha256": "ceed7d1952afa0b969d45264c3ed1c9902479473c1b6287eac6bfa87bfdbdb24",
+   "size": 4001
+  },
+  {
+   "path": "yt_dlp/extractor/duoplay.py",
+   "sha256": "a33ab85b68d76ce6ba9edf653501a2be2cfc6caddfa541d42feae78b46442144",
+   "size": 5437
+  },
+  {
+   "path": "yt_dlp/extractor/dvtv.py",
+   "sha256": "3188baba91da4ef57bd34ab69a7b7a61662e1d469331219801e16942f1089d59",
+   "size": 7442
+  },
+  {
+   "path": "yt_dlp/extractor/dw.py",
+   "sha256": "5f000e14a59c904956a00e697fdadaa0fb8625e33255af8a497e24090c25f6f5",
+   "size": 4136
+  },
+  {
+   "path": "yt_dlp/extractor/ebaumsworld.py",
+   "sha256": "34fc1ae7ae08a7d032624716a7752130cd0689fd4ca2630c21197688864aac07",
+   "size": 1043
+  },
+  {
+   "path": "yt_dlp/extractor/ebay.py",
+   "sha256": "3a41614da9470fa0524b1875a8ca0d340b81c2926c7205505d4097fd5ec45766",
+   "size": 1274
+  },
+  {
+   "path": "yt_dlp/extractor/egghead.py",
+   "sha256": "63a080b1de9125b44ba1128306414d76f040d5124d1202e97826e7f1a827abc3",
+   "size": 4876
+  },
+  {
+   "path": "yt_dlp/extractor/eggs.py",
+   "sha256": "bb65cf2f40abd585b36ded6366f5a28bc28613296693aa7c28c3bedb7ba69c90",
+   "size": 5979
+  },
+  {
+   "path": "yt_dlp/extractor/elementorembed.py",
+   "sha256": "0fea0b0c3c211efecbc548b16f6e06c55139512e9f77409601dd7dfae609d49b",
+   "size": 3327
+  },
+  {
+   "path": "yt_dlp/extractor/elonet.py",
+   "sha256": "8d8e5619ac28995839032e983d3095b0a527011e1c51bc110568b34b72de2c7f",
+   "size": 2585
+  },
+  {
+   "path": "yt_dlp/extractor/elpais.py",
+   "sha256": "38bad84bf26713edceaa9bd9d2f4f1a06680c2c1cc8d821b2dfe27a648f13d1e",
+   "size": 4309
+  },
+  {
+   "path": "yt_dlp/extractor/eltrecetv.py",
+   "sha256": "683dc2a6465413e1a91e72463c65a7976514f5db6fc42a20f10c457f7270b646",
+   "size": 2652
+  },
+  {
+   "path": "yt_dlp/extractor/embedly.py",
+   "sha256": "4667bd402f4b1387e40aa0d158b00b067b165ec134fa1b2aacb008a8f062b8e9",
+   "size": 5286
+  },
+  {
+   "path": "yt_dlp/extractor/epicon.py",
+   "sha256": "868bfbb170311b134e688e45f71529e9abcf133acf41e76633f32c8f79043ff4",
+   "size": 4268
+  },
+  {
+   "path": "yt_dlp/extractor/epidemicsound.py",
+   "sha256": "0bed4593051017db92d5c00638e4f3b91166655b368879b4691170dcde5e5008",
+   "size": 4874
+  },
+  {
+   "path": "yt_dlp/extractor/eplus.py",
+   "sha256": "c79296e36574d1d9443662e5dd3797f6e60b2cac577b7f7f3bac5e7bf1892664",
+   "size": 8859
+  },
+  {
+   "path": "yt_dlp/extractor/epoch.py",
+   "sha256": "bfa115057783f941e4f555df0c65b4868af8cf2e4c46522420521ebd02b00916",
+   "size": 2518
+  },
+  {
+   "path": "yt_dlp/extractor/eporner.py",
+   "sha256": "f4723b9fa70eaf3aae32716e89fdd2044ba1c85aa31d129090ebbf931b307ac7",
+   "size": 4987
+  },
+  {
+   "path": "yt_dlp/extractor/erocast.py",
+   "sha256": "b01059b2d024f779e3d1e5769926a9f359a2823cd92796835d065054d8ed79aa",
+   "size": 2687
+  },
+  {
+   "path": "yt_dlp/extractor/eroprofile.py",
+   "sha256": "d6fe2ab8b9c5cfe2172f7e3ea405d5338c09b13f0487b815322d49bbee148543",
+   "size": 4430
+  },
+  {
+   "path": "yt_dlp/extractor/err.py",
+   "sha256": "2112be7dd0c42825bfb5fc9b4a6e35f90d6cce648dbebb0af4f8b8207939b5cf",
+   "size": 11654
+  },
+  {
+   "path": "yt_dlp/extractor/ertgr.py",
+   "sha256": "1a917b7660db404d79b874472c23a79e697f1d2e4e2c82e685c7a696b88ebaf7",
+   "size": 12626
+  },
+  {
+   "path": "yt_dlp/extractor/espn.py",
+   "sha256": "c5fd3174b057e8471c9df4cd674c9a69658870a70ddcae35a29dc3c7a5486f77",
+   "size": 18099
+  },
+  {
+   "path": "yt_dlp/extractor/ettutv.py",
+   "sha256": "ba122564d424118d4134d4f3ddb25b46b20ee97cae086e7809a7db195469bbee",
+   "size": 2180
+  },
+  {
+   "path": "yt_dlp/extractor/europa.py",
+   "sha256": "bd3232ffe9e89d6c4c3665b646c6fcf6b9c4043dbd91ae539b0cffa3a2c460a5",
+   "size": 7434
+  },
+  {
+   "path": "yt_dlp/extractor/europeantour.py",
+   "sha256": "4a3ac9e00fb7b2e0fbba37ccc7a1db2d5ee36b0977d771c3456fd9dc37fe8324",
+   "size": 1279
+  },
+  {
+   "path": "yt_dlp/extractor/eurosport.py",
+   "sha256": "d436eed7eb32728e6dc5acc8a019b0d9eb5970c59b081dc0b2d4acf89fb27de1",
+   "size": 9286
+  },
+  {
+   "path": "yt_dlp/extractor/euscreen.py",
+   "sha256": "ccb290e65f787e324716513cd3edfced882da79d4b51735b24f30ec57d634090",
+   "size": 3372
+  },
+  {
+   "path": "yt_dlp/extractor/expressen.py",
+   "sha256": "00f09a8caf71f017142a0d4e6fe84a523ad06ab3d6d038220b845f47904abcfb",
+   "size": 4086
+  },
+  {
+   "path": "yt_dlp/extractor/extractors.py",
+   "sha256": "53d940d1453102334fd93515b8544e8919c03334c545c2601a60fb0007e9d4b9",
+   "size": 1275
+  },
+  {
+   "path": "yt_dlp/extractor/facebook.py",
+   "sha256": "3b0edf40d895b70bb572ded06bf35298187d6484670c56dbf0bfa39ff90ad2a6",
+   "size": 55535
+  },
+  {
+   "path": "yt_dlp/extractor/fancode.py",
+   "sha256": "e60f6f2f7b9216426e386bbd8c0ed1bcd31afc924e76c4d8f6d24aecc7a54cb2",
+   "size": 7235
+  },
+  {
+   "path": "yt_dlp/extractor/fathom.py",
+   "sha256": "65e9f438334d0e7a3ae46cc1e157c3b1aae66036f7beb3205c241e4414a77a82",
+   "size": 1836
+  },
+  {
+   "path": "yt_dlp/extractor/faulio.py",
+   "sha256": "2ffa9c5349d6e4fb504e2f20ad6e9c86ab7fa9a389b0295b47e5d1d9f4278984",
+   "size": 8606
+  },
+  {
+   "path": "yt_dlp/extractor/faz.py",
+   "sha256": "e750c649cd974da4a5dae95bbb24be916a73dc6f8e143e6138cbc773e34879e2",
+   "size": 3493
+  },
+  {
+   "path": "yt_dlp/extractor/fc2.py",
+   "sha256": "f01eb1875694febed64c166b72993e7580a16973e3556c7aef33355900e3a04c",
+   "size": 11493
+  },
+  {
+   "path": "yt_dlp/extractor/fczenit.py",
+   "sha256": "b1771bf85b935b7737e00788a166bf273e6d8d55befaaaf485b43e4eef079852",
+   "size": 1666
+  },
+  {
+   "path": "yt_dlp/extractor/fifa.py",
+   "sha256": "a47c20161b23d587ef480c7d4de209303303da7d22f964211858e9a4e5b8f359",
+   "size": 3795
+  },
+  {
+   "path": "yt_dlp/extractor/filmarchiv.py",
+   "sha256": "78ee07ce07b480c8a9d2679e8caafbf1a3701f10388f6d1f1de447d02f105106",
+   "size": 2257
+  },
+  {
+   "path": "yt_dlp/extractor/filmon.py",
+   "sha256": "a20995389eff23b44b0dcc2c0531893548fde3d5a3bd15691a659487a6ed423f",
+   "size": 5832
+  },
+  {
+   "path": "yt_dlp/extractor/filmweb.py",
+   "sha256": "95c7a783fc2ab6c19bcc06e19c990940bbe22732664e8ddb869452830050fa2f",
+   "size": 1424
+  },
+  {
+   "path": "yt_dlp/extractor/firsttv.py",
+   "sha256": "5521870f1a94301ed886a7c65876b850ae6eda9181ca6a3488fb0217f55613a5",
+   "size": 7267
+  },
+  {
+   "path": "yt_dlp/extractor/fivetv.py",
+   "sha256": "289d8cf724c3006200bcec665d6ccd1ffd083307344cb3f0bd2eb532d01c0c82",
+   "size": 3045
+  },
+  {
+   "path": "yt_dlp/extractor/flextv.py",
+   "sha256": "dc73fd14081197bbb64d3684214a49e8840dfd4497f4c4ecce1f339a30465df7",
+   "size": 2961
+  },
+  {
+   "path": "yt_dlp/extractor/flickr.py",
+   "sha256": "efca12cb7ed94b644d4d75858b4b2b7867f2ab1a3a7e2118cbaad334a1a26f9b",
+   "size": 4631
+  },
+  {
+   "path": "yt_dlp/extractor/floatplane.py",
+   "sha256": "db522b5994e39aaefa237ea5a3b7eed5f92b1e40240c1484fa115149d10657a7",
+   "size": 17222
+  },
+  {
+   "path": "yt_dlp/extractor/folketinget.py",
+   "sha256": "13fb67e0b7b0d47ba6d78c1db295f6d813efc37ab7898e2ac307ba51314a95af",
+   "size": 2561
+  },
+  {
+   "path": "yt_dlp/extractor/footyroom.py",
+   "sha256": "b55d6cf18ac4032764667df0b813132337e04c72970cb99510f1beab53053271",
+   "size": 1242
+  },
+  {
+   "path": "yt_dlp/extractor/formula1.py",
+   "sha256": "32887ea5bddc4a16e40c5a7d35be9e66eefee0db7e64dad66e4adfdd5ed50fbe",
+   "size": 938
+  },
+  {
+   "path": "yt_dlp/extractor/fourtube.py",
+   "sha256": "afbb88d80e2ade97cd405b4035926ef79fccc2406685be2a8629cd899a5b6191",
+   "size": 11340
+  },
+  {
+   "path": "yt_dlp/extractor/fox.py",
+   "sha256": "e11f45cec4513bc8310e3a4368ed87c9d1adf98978c76a0da2c406dcbefdc2bf",
+   "size": 6773
+  },
+  {
+   "path": "yt_dlp/extractor/fox9.py",
+   "sha256": "a87c0a82839165c833c2625aa1aeb618e42247c816ed7d415fb55e6a85fea7bb",
+   "size": 1409
+  },
+  {
+   "path": "yt_dlp/extractor/foxnews.py",
+   "sha256": "4619190e4b7ca586a93b7483b15f7c8173d7662d1effdb88fb15c8c6ae1d65d5",
+   "size": 7661
+  },
+  {
+   "path": "yt_dlp/extractor/foxsports.py",
+   "sha256": "3934ed06161c24c545de626a88092f087353e4df7a8c1f08751fda56c28eb208",
+   "size": 2231
+  },
+  {
+   "path": "yt_dlp/extractor/fptplay.py",
+   "sha256": "e833b3d23e0159e240bc971784f7ccbb16ac79f2c8a73fe5376af0a5baefab45",
+   "size": 4848
+  },
+  {
+   "path": "yt_dlp/extractor/francaisfacile.py",
+   "sha256": "60a4b3dfe9913cd6a6de801c87c4e83ca2d46f2283b0809cacfda5b2123e7947",
+   "size": 3511
+  },
+  {
+   "path": "yt_dlp/extractor/francetv.py",
+   "sha256": "f24da75502892ace11db36d5ed205970d2579aba1790e35e4b9a859c52c550bc",
+   "size": 20338
+  },
+  {
+   "path": "yt_dlp/extractor/freesound.py",
+   "sha256": "d33d1394444092d75994af0e6e7dcf41da49a70f8a3631b72e7d9dc3864dc917",
+   "size": 2505
+  },
+  {
+   "path": "yt_dlp/extractor/freespeech.py",
+   "sha256": "7854e6bb3c6fce21c4e6301d8c89cd053352ba735819adc4caa1de48f6be6721",
+   "size": 1016
+  },
+  {
+   "path": "yt_dlp/extractor/freetv.py",
+   "sha256": "02a376881b9395165c16cb6310f7550cade0832fb4b0314148102f58fac06663",
+   "size": 5534
+  },
+  {
+   "path": "yt_dlp/extractor/frontendmasters.py",
+   "sha256": "ac971b07d7c47fb039171677c4c87a0cd50f0431b5a37e8fadc79fba751b77b6",
+   "size": 8519
+  },
+  {
+   "path": "yt_dlp/extractor/frontro.py",
+   "sha256": "5bed2b24635655c50cc632e9b0402a0e68d88dafa56fb1e6d39766caf15a6a59",
+   "size": 4157
+  },
+  {
+   "path": "yt_dlp/extractor/funk.py",
+   "sha256": "f0cc8fc2d281bfe4b8f4b5c7692d15cc09fcb9e183293e478cdfbb98d1f13d7f",
+   "size": 1798
+  },
+  {
+   "path": "yt_dlp/extractor/funker530.py",
+   "sha256": "41c036ae35c5773182e1041935bbbaadc062d812eb39fafc0b60f827047a7c26",
+   "size": 3275
+  },
+  {
+   "path": "yt_dlp/extractor/fuyintv.py",
+   "sha256": "de164932f40e9228f00898ddd6b528c7685e384001e21f38fd9d53913299204b",
+   "size": 1012
+  },
+  {
+   "path": "yt_dlp/extractor/gab.py",
+   "sha256": "e701ae43b28819f330ed06857b598a762bada6962c367bc727fabbfd78680007",
+   "size": 3208
+  },
+  {
+   "path": "yt_dlp/extractor/gaia.py",
+   "sha256": "47f074f8e0ed18bfcd9c8c172ecaa9bac195a6c74f64b6dd0b6ea4dc6e20238b",
+   "size": 4431
+  },
+  {
+   "path": "yt_dlp/extractor/gamedevtv.py",
+   "sha256": "2195a5d67e7a7b514abce59eaa762d8ba733e4f7dadaa69c2d5b5b596690abad",
+   "size": 6266
+  },
+  {
+   "path": "yt_dlp/extractor/gamejolt.py",
+   "sha256": "30283ebf682e894bcc5e6cac6ccc24d421fbd098d8a751cd8c7170177ab60326",
+   "size": 25053
+  },
+  {
+   "path": "yt_dlp/extractor/gamespot.py",
+   "sha256": "23594416219e0c7466c535fb3dc964c872cc7354fb531dd16277ea8ffddab46a",
+   "size": 3059
+  },
+  {
+   "path": "yt_dlp/extractor/gamestar.py",
+   "sha256": "4342516f63f0d3400007a7445b15223871f718e3c9427236a0cd3a8de850b5ed",
+   "size": 2552
+  },
+  {
+   "path": "yt_dlp/extractor/gaskrank.py",
+   "sha256": "2738d6bc193a865a007604f982df1c7fb4132a5159553f45e37bbc0a863d6bf7",
+   "size": 3710
+  },
+  {
+   "path": "yt_dlp/extractor/gazeta.py",
+   "sha256": "4cf0320144fac0f5ab3c0043772f011013eaae23e127357909f11fce8d89499f",
+   "size": 1908
+  },
+  {
+   "path": "yt_dlp/extractor/gbnews.py",
+   "sha256": "23c6ed15864c3fc20733bd8dc5b4386dc2d10948ac8cbf43057bfa9529f70479",
+   "size": 4514
+  },
+  {
+   "path": "yt_dlp/extractor/gdcvault.py",
+   "sha256": "5e3a9b1189b47a68e513e88ff1a5e65a3675ec3d1d57a05dbf9d62754190690c",
+   "size": 8542
+  },
+  {
+   "path": "yt_dlp/extractor/gedidigital.py",
+   "sha256": "5c6791342ecb98d2017b8b4b560786413632ca47201e316efc1162ff49404b8b",
+   "size": 8521
+  },
+  {
+   "path": "yt_dlp/extractor/generic.py",
+   "sha256": "b164f939bbffb83c5937348f948dff5a838154f512c41be71d0331b53bb7cfee",
+   "size": 58980
+  },
+  {
+   "path": "yt_dlp/extractor/genericembeds.py",
+   "sha256": "eaf54d75e09c719e4971d671b0b4801cf7e11b59235ce01e9475825dac7c2c76",
+   "size": 4613
+  },
+  {
+   "path": "yt_dlp/extractor/genius.py",
+   "sha256": "060469211c95ae3a99f5be12beb453224420b7313a2f99247bb979396dc032ff",
+   "size": 6103
+  },
+  {
+   "path": "yt_dlp/extractor/germanupa.py",
+   "sha256": "14c996bb4ce149b6c676b4daf3aaf502dbea1be32d477758b260a7e98755068e",
+   "size": 4051
+  },
+  {
+   "path": "yt_dlp/extractor/getcourseru.py",
+   "sha256": "8d6e6728e73f0c8a4ef2a2b495f737fba3a95d791e6eb3a813f9c9de0323c8a9",
+   "size": 8031
+  },
+  {
+   "path": "yt_dlp/extractor/gettr.py",
+   "sha256": "8573ded713d5b375d22e21ce2ea89d5fb4e51d60a39e381020e5c97d80dac43a",
+   "size": 7839
+  },
+  {
+   "path": "yt_dlp/extractor/giantbomb.py",
+   "sha256": "15be6066855c59b52fa79a3c0e8bbba74254ee1bf8e929a8c888b361e533a008",
+   "size": 2965
+  },
+  {
+   "path": "yt_dlp/extractor/glide.py",
+   "sha256": "b60d3ede8ed61ecc489f2a56350918bc6f14a3082a9b2f35317353ffced21eb9",
+   "size": 1380
+  },
+  {
+   "path": "yt_dlp/extractor/globalplayer.py",
+   "sha256": "6c26e9b1da748b6f23eecaf062c7c5add295ea2fecabf77a1fa17fdf30bfeae9",
+   "size": 9065
+  },
+  {
+   "path": "yt_dlp/extractor/globo.py",
+   "sha256": "87edd5f7d5c22edfe32058a096895122bdfd919b3d4e4c5ff18d3ae06876d9c2",
+   "size": 8963
+  },
+  {
+   "path": "yt_dlp/extractor/glomex.py",
+   "sha256": "8fc7f34c38de5d9b7a344198b43a4872795a92151b75b582fed269245c948fb0",
+   "size": 9535
+  },
+  {
+   "path": "yt_dlp/extractor/gmanetwork.py",
+   "sha256": "797b6929ebf969e740d5346a2429f249078a6daf5f614e00c147cb3ed4adfe84",
+   "size": 3928
+  },
+  {
+   "path": "yt_dlp/extractor/go.py",
+   "sha256": "23195ba6a1318e1782c92e4f6ca9022f2f90e928843b39fb1e557ff811b89791",
+   "size": 15607
+  },
+  {
+   "path": "yt_dlp/extractor/godresource.py",
+   "sha256": "5cfbb0cce9107dccd5af7d71c91d908fcb5915189d7c4b89bf6ffcac97803457",
+   "size": 2766
+  },
+  {
+   "path": "yt_dlp/extractor/godtube.py",
+   "sha256": "9985f35ae83a2a44c8d75e3c5f6df6d36175de823b3705b4bd900db4467a02aa",
+   "size": 1747
+  },
+  {
+   "path": "yt_dlp/extractor/golem.py",
+   "sha256": "6bd9b3d26f16ed387ed13c3c4da09d2174371462d8ffecfec971c49313baa65d",
+   "size": 2053
+  },
+  {
+   "path": "yt_dlp/extractor/goodgame.py",
+   "sha256": "34cfe02b86d778bfaf98401488d5e79634c5b9b73bdfa9d6472a38a6f89e5a24",
+   "size": 2668
+  },
+  {
+   "path": "yt_dlp/extractor/googledrive.py",
+   "sha256": "79891e046443ca05c02fe73516e7a3e658584f372d54a96dfad6ec0c908e91c5",
+   "size": 13459
+  },
+  {
+   "path": "yt_dlp/extractor/googlesearch.py",
+   "sha256": "265261801df2dbbda099a0fb9ab777d75a18d9dd7877b9699d9469a0a894c6d3",
+   "size": 1163
+  },
+  {
+   "path": "yt_dlp/extractor/goplay.py",
+   "sha256": "8d427425463ff3ad47aee0cd26dfc9279754c3fefcff5cb993702114ccaf60d6",
+   "size": 17441
+  },
+  {
+   "path": "yt_dlp/extractor/gopro.py",
+   "sha256": "36b38e6086c64b833325a3f150f7790ab6f6ea17c45b505e1a2120bd3403b8eb",
+   "size": 3777
+  },
+  {
+   "path": "yt_dlp/extractor/gotostage.py",
+   "sha256": "3519f2704fbe2c2ecf3343164dfba48ea5feb1529e5ac64397414daac9cce8a9",
+   "size": 2662
+  },
+  {
+   "path": "yt_dlp/extractor/graspop.py",
+   "sha256": "cdcda823af25973d9e1cb5dbd5f18faf2e492823eb7cca23ddd5973ac1996d55",
+   "size": 1209
+  },
+  {
+   "path": "yt_dlp/extractor/gronkh.py",
+   "sha256": "d966340807bd1dad5891f36d52d77c878cb1fe134ab85930e13db1635ceaa82c",
+   "size": 4443
+  },
+  {
+   "path": "yt_dlp/extractor/groupon.py",
+   "sha256": "cb603d9247addc822fbd9a66fc4a186d41823870759ad811f433f3cc1fff5355",
+   "size": 2489
+  },
+  {
+   "path": "yt_dlp/extractor/harpodeon.py",
+   "sha256": "411127b5408de9ea644dfd9a4918254c4066b0c16a27735b4da2ae6d27e6d231",
+   "size": 2832
+  },
+  {
+   "path": "yt_dlp/extractor/hbo.py",
+   "sha256": "c37440c70e7f85c26f1d08ae1d843ff479def535293f7fbebd81c087a6a44cf4",
+   "size": 6047
+  },
+  {
+   "path": "yt_dlp/extractor/hearthisat.py",
+   "sha256": "0c234b367017025ef3593414016432508150006bf94a598190cbaacd34430e38",
+   "size": 4971
+  },
+  {
+   "path": "yt_dlp/extractor/heise.py",
+   "sha256": "9dd74912e6336137e4af863e861e513ca81404660cce322e5ca9972ed04825cc",
+   "size": 8425
+  },
+  {
+   "path": "yt_dlp/extractor/hellporno.py",
+   "sha256": "c50e15f9178a85fe9d2902230c907a1b81638b4de3b22cfd18da410d577e347f",
+   "size": 2583
+  },
+  {
+   "path": "yt_dlp/extractor/hgtv.py",
+   "sha256": "d618adbaa94faa68e45ae1916b399e9abaadc2443534c5b80bdb72b6738508c7",
+   "size": 1378
+  },
+  {
+   "path": "yt_dlp/extractor/hidive.py",
+   "sha256": "0922ac40673d7c476aa6d28ec7e422ae8465fdf7a6aaba2adef031ce473b76cb",
+   "size": 4941
+  },
+  {
+   "path": "yt_dlp/extractor/historicfilms.py",
+   "sha256": "a0f78976aabb8c00b1a0e7e0c35dec63f98940044c4d30e6384741a58af22b4d",
+   "size": 1534
+  },
+  {
+   "path": "yt_dlp/extractor/hitrecord.py",
+   "sha256": "71dcd4604f536cbd7fd580a125d5439272976b3295962d506c68c64a4992ea33",
+   "size": 2174
+  },
+  {
+   "path": "yt_dlp/extractor/hollywoodreporter.py",
+   "sha256": "29eeaf2f355b42aae1e9e486c338838d075233beb1e40c7099598c726e457043",
+   "size": 2872
+  },
+  {
+   "path": "yt_dlp/extractor/holodex.py",
+   "sha256": "9b71f4c91bcc9ac010797afe45e70aa7b24990c8dae2443d2b3f7ebc403144f6",
+   "size": 4268
+  },
+  {
+   "path": "yt_dlp/extractor/hotnewhiphop.py",
+   "sha256": "4b75731f0cab6344666c0ad5e88c6a90a1566dfbd237a324f6cf6cc2f5d37b66",
+   "size": 2218
+  },
+  {
+   "path": "yt_dlp/extractor/hotstar.py",
+   "sha256": "5002f6471a26bbaddaad84dd9d48c170d2ab952d7b0526d277f577256481ddd4",
+   "size": 19268
+  },
+  {
+   "path": "yt_dlp/extractor/hrefli.py",
+   "sha256": "cafbb26fb778be16c29ce05c8417ae53c09eb49deac126d597d97428b7dc8c48",
+   "size": 554
+  },
+  {
+   "path": "yt_dlp/extractor/hrfensehen.py",
+   "sha256": "09c27528c4fe4d48166aac7b9d1a170a01b69b9213817ee764f472909d4568cb",
+   "size": 3827
+  },
+  {
+   "path": "yt_dlp/extractor/hrti.py",
+   "sha256": "93019efaae1eb4afeaa1ef65bac923473283acb75c9400a3943b9d385f651923",
+   "size": 7003
+  },
+  {
+   "path": "yt_dlp/extractor/hse.py",
+   "sha256": "b3966963db72b0307df50afcd1650d186d956c582ccf66f02d1695358713283d",
+   "size": 3569
+  },
+  {
+   "path": "yt_dlp/extractor/huajiao.py",
+   "sha256": "4b76bc95ebe6bb621d363760806d847fb2f596ca3a5c0e294e639f673547aa5e",
+   "size": 1794
+  },
+  {
+   "path": "yt_dlp/extractor/huffpost.py",
+   "sha256": "1814ecdb6b84c7674536818447a8728bd25e30a3dd46817b1c355b90c2a510ac",
+   "size": 3295
+  },
+  {
+   "path": "yt_dlp/extractor/hungama.py",
+   "sha256": "257f1e694604df10ebca2b81bcda76d6f0b9617539ba98e33def435b4c1854de",
+   "size": 7692
+  },
+  {
+   "path": "yt_dlp/extractor/huya.py",
+   "sha256": "c5e1db0cd8f2f163ee5a7459fdf79872308481ab07d851bdf3e26b508ec03ba8",
+   "size": 9027
+  },
+  {
+   "path": "yt_dlp/extractor/hypem.py",
+   "sha256": "e9f22d33212a17d7bfd7aad3a1413623d58eac53353a574631af140ffc099cb0",
+   "size": 1516
+  },
+  {
+   "path": "yt_dlp/extractor/hypergryph.py",
+   "sha256": "a15d6122e6ebfe50e5f67fa3edf9fbfef6943f1fd35d5147cffa5ac9bada8ec3",
+   "size": 2517
+  },
+  {
+   "path": "yt_dlp/extractor/hytale.py",
+   "sha256": "e354f320ee70a0adfe72a68a4990f40697b9f236060cab1b5b9f79e12dc01609",
+   "size": 2280
+  },
+  {
+   "path": "yt_dlp/extractor/icareus.py",
+   "sha256": "8d08cdf6d3f1204bd356473cdff27d6f8fe789b7683c87ba4f2183552d79367a",
+   "size": 7397
+  },
+  {
+   "path": "yt_dlp/extractor/ichinanalive.py",
+   "sha256": "609ccb8a75baf8a3047549b0d3e92753eb2d81c0c65fac103cac97dc2b6718ea",
+   "size": 7912
+  },
+  {
+   "path": "yt_dlp/extractor/idagio.py",
+   "sha256": "0e7734bd79b4ffec824a2063f5eb019af967e1c74d5309475d668ba7fbd45fe7",
+   "size": 11737
+  },
+  {
+   "path": "yt_dlp/extractor/ign.py",
+   "sha256": "300c76634fe467dbf0fb14c8eb136d67e89093a4199223b945f70b305c6d0e6d",
+   "size": 16225
+  },
+  {
+   "path": "yt_dlp/extractor/iheart.py",
+   "sha256": "2727c43729c1f2348ba82a4b0b86327e2cc56ffa4539953b0e598b37bb1fdb6c",
+   "size": 3410
+  },
+  {
+   "path": "yt_dlp/extractor/ilpost.py",
+   "sha256": "bb982a040f3339e55d5f358bfecd0419cd677dce00b9109df2877683a2b2a980",
+   "size": 2528
+  },
+  {
+   "path": "yt_dlp/extractor/iltalehti.py",
+   "sha256": "4c33fc6fb4f21fda06454b07f248ff304fe82e493ee766346d034bc9b5ea7bea",
+   "size": 2341
+  },
+  {
+   "path": "yt_dlp/extractor/imdb.py",
+   "sha256": "9cdac0cca5a0e43e0655a10f71ca1ceef3a72585bdc2f0e03d12dac1b494c391",
+   "size": 5634
+  },
+  {
+   "path": "yt_dlp/extractor/imggaming.py",
+   "sha256": "cf2adcf1f9553a4cd01ec96298072a406a36d69f4c1f4d80bda3ebc9c89a40ac",
+   "size": 4822
+  },
+  {
+   "path": "yt_dlp/extractor/imgur.py",
+   "sha256": "66f1b55bd79c56ffdab6ff0e3364cc678d6455860c356735830bc1236c293e66",
+   "size": 16003
+  },
+  {
+   "path": "yt_dlp/extractor/ina.py",
+   "sha256": "6c1059779ee3d1c6bde0a79935bb27854215e05876af797cc43f46849f65bc74",
+   "size": 3618
+  },
+  {
+   "path": "yt_dlp/extractor/inc.py",
+   "sha256": "fe606326687a1171fe9e883e0896ae14e846809af9f6bdbfe2019ed98e695575",
+   "size": 2252
+  },
+  {
+   "path": "yt_dlp/extractor/indavideo.py",
+   "sha256": "99b0e7a9625c1bc75aac14ba26f0cfc2ea0ad2591219628858c561b078f7b986",
+   "size": 4677
+  },
+  {
+   "path": "yt_dlp/extractor/infoq.py",
+   "sha256": "932d9c9d4215de599df1fa951875bb39d2671e371ed58cb8b982d1ebbed9de3a",
+   "size": 4832
+  },
+  {
+   "path": "yt_dlp/extractor/instagram.py",
+   "sha256": "c535e3ce0202f6111ee417cca10ee30870bf4eb0471c5102a1552c846508df34",
+   "size": 31336
+  },
+  {
+   "path": "yt_dlp/extractor/internazionale.py",
+   "sha256": "68139641e3881c7b65385a9cb95b1ce43785cf384e753cae3c1be9fcfbc94d64",
+   "size": 3106
+  },
+  {
+   "path": "yt_dlp/extractor/iprima.py",
+   "sha256": "8f050a69756e75192ac1e342010f3b7c2df36562cc6b8c012fc636c30693f249",
+   "size": 10579
+  },
+  {
+   "path": "yt_dlp/extractor/iqiyi.py",
+   "sha256": "59f5826b16af15dfdaf5b06561a3fe93de1de2fa9bd02a5b98406b8eb739fb64",
+   "size": 24721
+  },
+  {
+   "path": "yt_dlp/extractor/islamchannel.py",
+   "sha256": "93b2832210e335f4f7f3fecbe48c6f819e27993171d746f6a312d04da5562b2e",
+   "size": 3178
+  },
+  {
+   "path": "yt_dlp/extractor/israelnationalnews.py",
+   "sha256": "b8ab6e636c4813f193e9ec303b75b7de9818464e02d361fd751ad047ba93c669",
+   "size": 2162
+  },
+  {
+   "path": "yt_dlp/extractor/itprotv.py",
+   "sha256": "b5ff5ad3a595d0b0325723335ec80ce4da01f2ec082610df40e3b8680015e8b5",
+   "size": 5350
+  },
+  {
+   "path": "yt_dlp/extractor/itv.py",
+   "sha256": "bc1927203fe4d619979af9fac1c18b9fd93c4236d7854e39703eab4da065530e",
+   "size": 10772
+  },
+  {
+   "path": "yt_dlp/extractor/ivi.py",
+   "sha256": "721176301fe12962c67695bfc4c57d45654008ec41f921c451a32114f95400ba",
+   "size": 10022
+  },
+  {
+   "path": "yt_dlp/extractor/ivideon.py",
+   "sha256": "0fe9dd2511779d94e2fd99ca3a15d462db88549b85cd2fe45426c86e6daabb9f",
+   "size": 3059
+  },
+  {
+   "path": "yt_dlp/extractor/ivoox.py",
+   "sha256": "2aaca4653d6b8224a33bd1ccf8b2f28eeb1a0a05a568104fbec0a0027a875313",
+   "size": 3641
+  },
+  {
+   "path": "yt_dlp/extractor/iwara.py",
+   "sha256": "08f0a6a4296e2a4360ec1e02a8ffaada39410758813cccda7205684b18c9b6a7",
+   "size": 11745
+  },
+  {
+   "path": "yt_dlp/extractor/ixigua.py",
+   "sha256": "60b2936bf6f303044fd498a0a745457c56095ceb70a637e38ae3bc0b910aab44",
+   "size": 3427
+  },
+  {
+   "path": "yt_dlp/extractor/jamendo.py",
+   "sha256": "ad3beccc6f45ae759086302a2437e246b4017777372f9198183bed25a91d1fad",
+   "size": 8212
+  },
+  {
+   "path": "yt_dlp/extractor/japandiet.py",
+   "sha256": "160bc2c8cf7021cc1947963a7c90b1726e7793c1e974226e59bdbb369d013f8b",
+   "size": 10390
+  },
+  {
+   "path": "yt_dlp/extractor/jeuxvideo.py",
+   "sha256": "b9e1b0f19c581eb187b2c7531e926fc4041b9d2acaa7f73c0c8c25e7bc0f857b",
+   "size": 2043
+  },
+  {
+   "path": "yt_dlp/extractor/jiosaavn.py",
+   "sha256": "9fcd5746a79513e718e231ac7ec4e447531a03d4addc7d08ac6ba1417ce8f151",
+   "size": 16465
+  },
+  {
+   "path": "yt_dlp/extractor/jixie.py",
+   "sha256": "353e359daa2e0f88755e5c4621c27861b345d69e179d2a3b151072b76d76390a",
+   "size": 2198
+  },
+  {
+   "path": "yt_dlp/extractor/joj.py",
+   "sha256": "d8c2a905d8e5808210829107ac9056df963f457c83ccc750e44844e8d09a409a",
+   "size": 4190
+  },
+  {
+   "path": "yt_dlp/extractor/jove.py",
+   "sha256": "7d1d329bcbbff7fa7a905bff9ae4431d4d167d107484fdd537dfa735b187b854",
+   "size": 3009
+  },
+  {
+   "path": "yt_dlp/extractor/jstream.py",
+   "sha256": "18bbb76bf9810ad4cb2a9067b189200f0cd19d42d9f82c881beaa56c9feba7a5",
+   "size": 3341
+  },
+  {
+   "path": "yt_dlp/extractor/jtbc.py",
+   "sha256": "9d14d4fe02c1815ca70e48e9ad51d19f231f691f90484e0017c81d6c4beaa338",
+   "size": 6331
+  },
+  {
+   "path": "yt_dlp/extractor/jwplatform.py",
+   "sha256": "69f807db20a4e3330548231ff68524df815e7d3ad94d6146865e97e9ecc2d856",
+   "size": 4268
+  },
+  {
+   "path": "yt_dlp/extractor/kakao.py",
+   "sha256": "2bc22a9845ea9eb7de751e654a26b03297db1851a9d1c7129ec40b2a64aa9d25",
+   "size": 5914
+  },
+  {
+   "path": "yt_dlp/extractor/kaltura.py",
+   "sha256": "ef95ead0422a6b00d0d3f1b82148cf8d6eab0765c61b7c8f2e108efd64d38f3b",
+   "size": 25253
+  },
+  {
+   "path": "yt_dlp/extractor/kankanews.py",
+   "sha256": "146652d70350e9383798a50fe792ada7a11ade3226980b15485b1d1d27d6f24c",
+   "size": 1812
+  },
+  {
+   "path": "yt_dlp/extractor/karaoketv.py",
+   "sha256": "392a1f247e49b2125e0340116c029b91ff796c83f88ef44057d6a135277f8233",
+   "size": 2303
+  },
+  {
+   "path": "yt_dlp/extractor/kelbyone.py",
+   "sha256": "5e81e86b9d6a0a7d644c07084780273f427be05ef2eae81476eca6c929965cc6",
+   "size": 3489
+  },
+  {
+   "path": "yt_dlp/extractor/kenh14.py",
+   "sha256": "770421c21d3a3b27236cbe4e9259aedc1d47db8c685817b3419e96c83e9890fc",
+   "size": 7063
+  },
+  {
+   "path": "yt_dlp/extractor/khanacademy.py",
+   "sha256": "9ecdd8470bd7f6b13fa430a7801bf31c9fe4503107b91d47bc83ccf82ef18d04",
+   "size": 5909
+  },
+  {
+   "path": "yt_dlp/extractor/kick.py",
+   "sha256": "3555219bdca0a9affd6afd45186676847db6b1ec9f030bc8f9cd0b97830715ab",
+   "size": 18795
+  },
+  {
+   "path": "yt_dlp/extractor/kicker.py",
+   "sha256": "4b34465da7ab6dbfc57f7282bdb81aff8dc43677d8c9dd210aa951b658dfdf6b",
+   "size": 2307
+  },
+  {
+   "path": "yt_dlp/extractor/kickstarter.py",
+   "sha256": "4bec01d0ecfb6c18bf461a411a7e6fe17b49b2d3e5c84be36eb5f58a5a5e4bdd",
+   "size": 2651
+  },
+  {
+   "path": "yt_dlp/extractor/kika.py",
+   "sha256": "d7913ef435f8cf36cd0f3832746d04ad7e5c92cd34e47eb15b674ce0f39c1faa",
+   "size": 6989
+  },
+  {
+   "path": "yt_dlp/extractor/kinopoisk.py",
+   "sha256": "df388000b98527cd80c897dfbb336d6b18f3cf802f1b11e4c802361014caa040",
+   "size": 2068
+  },
+  {
+   "path": "yt_dlp/extractor/kommunetv.py",
+   "sha256": "e38fec80ef25bcb2368e3c2a598e616a893e05cea65b37d85ce102b4da0a6309",
+   "size": 1095
+  },
+  {
+   "path": "yt_dlp/extractor/kompas.py",
+   "sha256": "8954b60f2cfb9f66a9827961554da1d40a4f783d23887c651ba3f5d2000c3613",
+   "size": 1087
+  },
+  {
+   "path": "yt_dlp/extractor/krasview.py",
+   "sha256": "2872c8331cde8130f9966c359da69b1219b2fcb8c8f4f610f9c5fbe38f585bdf",
+   "size": 1921
+  },
+  {
+   "path": "yt_dlp/extractor/kth.py",
+   "sha256": "94fc321c57dcad67a898cc1f6e930a3e4e72ee63b902827d18e0b7d5f652a34d",
+   "size": 978
+  },
+  {
+   "path": "yt_dlp/extractor/ku6.py",
+   "sha256": "f07baf6710ac41b6cfac369b30e002567d2462ae7edd4abe5d56cb4354ec7052",
+   "size": 957
+  },
+  {
+   "path": "yt_dlp/extractor/kukululive.py",
+   "sha256": "573fdfed704272eec5fbf09f54257341bbfbff606a4494d2de6616baa3bcd69d",
+   "size": 5694
+  },
+  {
+   "path": "yt_dlp/extractor/kuwo.py",
+   "sha256": "856a42bfa63357a87c6a50d177007d3bbd225fafc6d7f85f3c6ee6b2be120ec4",
+   "size": 12476
+  },
+  {
+   "path": "yt_dlp/extractor/la7.py",
+   "sha256": "1928432eed4dd2b4b56d8e2e222524ce74e1be7ee0362c2d4a09a1ed1b3bb74f",
+   "size": 9435
+  },
+  {
+   "path": "yt_dlp/extractor/laracasts.py",
+   "sha256": "3f34ea01b1d7894aa883e9a9a76a91feba4a6beb197a5e262f2cd64cf91b0ee7",
+   "size": 4587
+  },
+  {
+   "path": "yt_dlp/extractor/lastfm.py",
+   "sha256": "3a9984f98fb6adc6afdabdb16834335ff1098a5b666db7ba7cef55ce42ea3564",
+   "size": 4748
+  },
+  {
+   "path": "yt_dlp/extractor/laxarxames.py",
+   "sha256": "f98c8bfb9cb8b762fda6d4d22d786f2be489c2f5c6aafe65d477d3d76f731747",
+   "size": 2773
+  },
+  {
+   "path": "yt_dlp/extractor/lazy_extractors.py",
+   "sha256": "94ff66255407cdd98ac8bdb2b0afa6fa2f124e7ccc33c6c17b2224e849aa668c",
+   "size": 782398
+  },
+  {
+   "path": "yt_dlp/extractor/lbry.py",
+   "sha256": "bde78285e96f7ee16234278786a60b12a47c5f999c9b17af69e926660a0993e4",
+   "size": 18112
+  },
+  {
+   "path": "yt_dlp/extractor/lci.py",
+   "sha256": "ff45eea084c8b7f40503ee9e04da435d965fa2ec1459f71d1d096900eba22c4b",
+   "size": 2131
+  },
+  {
+   "path": "yt_dlp/extractor/lcp.py",
+   "sha256": "79d300f0bf9e2592eab83bc7712638a05588d02f321a08ea5b5b668612cc2795",
+   "size": 2279
+  },
+  {
+   "path": "yt_dlp/extractor/learningonscreen.py",
+   "sha256": "86bea4618b1ed571eca3c32f956e732d9356e6e336c6fc049808c327ceb1b40b",
+   "size": 2774
+  },
+  {
+   "path": "yt_dlp/extractor/lecture2go.py",
+   "sha256": "e08f0670243a2676793325e2fc2eff89f31002ef76c9b6aa45a1f4eb042b40c5",
+   "size": 2330
+  },
+  {
+   "path": "yt_dlp/extractor/lecturio.py",
+   "sha256": "a35e82da46a1107a7a1e1c4172fcc7b4a1259869afe506bab1614def897be418",
+   "size": 8352
+  },
+  {
+   "path": "yt_dlp/extractor/leeco.py",
+   "sha256": "ef25d78f033d0d71560138db02c491bf0a72bece22ddd17ce67427c903a7dd49",
+   "size": 8605
+  },
+  {
+   "path": "yt_dlp/extractor/lefigaro.py",
+   "sha256": "053111bb10e1219619e19a92888ccdd99abee8232fd77622abb85d720eda873d",
+   "size": 5417
+  },
+  {
+   "path": "yt_dlp/extractor/lego.py",
+   "sha256": "a707dd5bb621bec7dd2a991e36abb7db458e2550e1e3a93dfc263da634e1c020",
+   "size": 5875
+  },
+  {
+   "path": "yt_dlp/extractor/lemonde.py",
+   "sha256": "1e6e8d9e7c84dc8ab6a61e81bf8262f94daa22b5b3eabd255cf1b36b481db07a",
+   "size": 2288
+  },
+  {
+   "path": "yt_dlp/extractor/lenta.py",
+   "sha256": "487288604f65f39b7ed58d90eab72858de946071849df76f63e3b35fb156a161",
+   "size": 1644
+  },
+  {
+   "path": "yt_dlp/extractor/libraryofcongress.py",
+   "sha256": "4c989959b0acba529bd09d154774377ab5cb9453c1e09d4d1a6e339b1d100980",
+   "size": 4932
+  },
+  {
+   "path": "yt_dlp/extractor/libsyn.py",
+   "sha256": "7688e2589ce3287f230b4c0c96c639d584ead8bd34e738e5cc92d2ae9a9bed22",
+   "size": 4400
+  },
+  {
+   "path": "yt_dlp/extractor/lifenews.py",
+   "sha256": "324a78d89295b29cd4fb14cb722b1c072aeb87581aa64f591f25f2be1071b778",
+   "size": 9448
+  },
+  {
+   "path": "yt_dlp/extractor/likee.py",
+   "sha256": "3a3f220a619e5872075dd1fbc2750ee0bd4f901f123adea5341e0583d0d339fb",
+   "size": 7014
+  },
+  {
+   "path": "yt_dlp/extractor/linkedin.py",
+   "sha256": "e1988ba45ab1e7e1bf4709a3ca7f790bed4e2dcabfa5b1189d38b99b674430f8",
+   "size": 14684
+  },
+  {
+   "path": "yt_dlp/extractor/liputan6.py",
+   "sha256": "8f17e58a0d16102e73bf9817d32915fd07f1726e58eb1f379d54ffd0351a56af",
+   "size": 3134
+  },
+  {
+   "path": "yt_dlp/extractor/listennotes.py",
+   "sha256": "6250479a8eb67a48693a854bc515a5e4dafae56b243cd7af7b11a8e76cd03ad5",
+   "size": 4253
+  },
+  {
+   "path": "yt_dlp/extractor/litv.py",
+   "sha256": "a30ba643d88cb73b579c19fb7c6a250ce6d6b1a8898c9e3a3a66955c7e5154a2",
+   "size": 5516
+  },
+  {
+   "path": "yt_dlp/extractor/livejournal.py",
+   "sha256": "8033d3af46a4c5e2b40d352d0810f0828bc86b80087159bf01a33740fd74b7ce",
+   "size": 1456
+  },
+  {
+   "path": "yt_dlp/extractor/livestreamfails.py",
+   "sha256": "98d8ef705f687ef2737ae5cca644b1024f58bfbdf2595f0d09c24974705065b9",
+   "size": 1568
+  },
+  {
+   "path": "yt_dlp/extractor/lnk.py",
+   "sha256": "f5c637a3d6fabadad4eed710301285b758a462f9eb6ce598da2b41113b2c33f4",
+   "size": 3377
+  },
+  {
+   "path": "yt_dlp/extractor/locipo.py",
+   "sha256": "4a21e7b868add69b3672a3c79b85281f560b8a83e828ca5d007df52bf2f0e1d3",
+   "size": 8647
+  },
+  {
+   "path": "yt_dlp/extractor/loco.py",
+   "sha256": "7df7b64f41fa73d80c99ee4f0e7a761c2811dd0305a735d005ba7b2b4b0d1442",
+   "size": 6973
+  },
+  {
+   "path": "yt_dlp/extractor/loom.py",
+   "sha256": "ec4d6748df20589e0cafce82f8749458a21b182517e93fe09f11295c498f1f8c",
+   "size": 19354
+  },
+  {
+   "path": "yt_dlp/extractor/lovehomeporn.py",
+   "sha256": "8afeb42f4697720d44a199061974fe321dc94bbf0cfcd399fd8e5ba2e2026676",
+   "size": 1130
+  },
+  {
+   "path": "yt_dlp/extractor/lrt.py",
+   "sha256": "b8d9e96d7a678096550723fd602a0520aca19d6d0d6d47822aff2b72a600b873",
+   "size": 7088
+  },
+  {
+   "path": "yt_dlp/extractor/lsm.py",
+   "sha256": "ff0087736eeecd104bf41714937b03d9faa3f5d54a7f1139a7c4f65315cc5158",
+   "size": 12816
+  },
+  {
+   "path": "yt_dlp/extractor/lumni.py",
+   "sha256": "0c73dea4ee49dc6a9ba11f1303ed9f22133b3922dd68e779f3b7a37c76b341a0",
+   "size": 1054
+  },
+  {
+   "path": "yt_dlp/extractor/maariv.py",
+   "sha256": "abb6392eaf6407e64a01451559b06dbfa8d149c3c8a21c12d069a0f714438b57",
+   "size": 2120
+  },
+  {
+   "path": "yt_dlp/extractor/magellantv.py",
+   "sha256": "25ea7e0505ac892aa1698234d1368bff667e7c98aee70be823ef666fba9d3077",
+   "size": 3111
+  },
+  {
+   "path": "yt_dlp/extractor/magentamusik.py",
+   "sha256": "5d56dbe1d5c02303bcaeef384f0c155e27c8b288c26bf028c49d89bfcbb4ba12",
+   "size": 2763
+  },
+  {
+   "path": "yt_dlp/extractor/mailru.py",
+   "sha256": "9bc826262d552afa2f0d709d8408b9c0c05f46951dcdec42bb80db579ae4d700",
+   "size": 11946
+  },
+  {
+   "path": "yt_dlp/extractor/mainstreaming.py",
+   "sha256": "7a784bb6f2e3d317e4e1bf8f04926c1be1c02a57c2885299f99773c2bcee9d44",
+   "size": 9346
+  },
+  {
+   "path": "yt_dlp/extractor/mangomolo.py",
+   "sha256": "38d5f6551e763f100566ed3c401eabbfe5994dbd6c2daba1d9cd9ac30038da50",
+   "size": 3072
+  },
+  {
+   "path": "yt_dlp/extractor/manyvids.py",
+   "sha256": "a818efd58fdd820ba783e94be800fb6c31185c9009ccd9744966d754a1188e7e",
+   "size": 4439
+  },
+  {
+   "path": "yt_dlp/extractor/maoritv.py",
+   "sha256": "d870f2dfd46bd537aec12d2b4140fcf0263aa93878929e2acff3f62733325fca",
+   "size": 1178
+  },
+  {
+   "path": "yt_dlp/extractor/markiza.py",
+   "sha256": "cb82b051d8cc6e60218bdd819e02ea4cade4639403cbb4b20abffc7acde1c0d0",
+   "size": 4441
+  },
+  {
+   "path": "yt_dlp/extractor/massengeschmacktv.py",
+   "sha256": "6a39c67df872272d2ab2d6c89ea59c92359db7850f8b4ff8bdd14b2884c25d9f",
+   "size": 2642
+  },
+  {
+   "path": "yt_dlp/extractor/masters.py",
+   "sha256": "ee5130a025d9b6c3a0f4cf04712e67f9ac294d2c1b7147668496f3ff3fa5671e",
+   "size": 1449
+  },
+  {
+   "path": "yt_dlp/extractor/matchitv.py",
+   "sha256": "49c51d95e1e511a87887ff5719f5e95d5b9fd82ba93d0888f86b14b0b630b941",
+   "size": 1585
+  },
+  {
+   "path": "yt_dlp/extractor/matchtv.py",
+   "sha256": "8e178dc68b98a34c9ad52dc67bff6fe10e3744d75a00d7bc87adafc5bb34a9ef",
+   "size": 1248
+  },
+  {
+   "path": "yt_dlp/extractor/mave.py",
+   "sha256": "ce00b35074cb49b20f0eccf9e59f0051d7ddce6760f6c1b6d9f929dfd0ead34f",
+   "size": 7768
+  },
+  {
+   "path": "yt_dlp/extractor/mbn.py",
+   "sha256": "5ca91ba259ccd7114ceb6079289cd6b1de1f0cb7fb6b4d34cead087a58f73b0d",
+   "size": 3897
+  },
+  {
+   "path": "yt_dlp/extractor/mdr.py",
+   "sha256": "4d3e02c4d1e4919347ccfe1695822864508a80161ec4ec0693807a8f75fe8c40",
+   "size": 5103
+  },
+  {
+   "path": "yt_dlp/extractor/medaltv.py",
+   "sha256": "1f23e52329881b3cd7e39a764fa62e2a168fd1c949978e6ba6c6910d453de206",
+   "size": 4905
+  },
+  {
+   "path": "yt_dlp/extractor/mediaite.py",
+   "sha256": "b72811cda24a3b6f05c359f860fb7eea47ffdc0f9532b5a2db21f0eafe8f7582",
+   "size": 4937
+  },
+  {
+   "path": "yt_dlp/extractor/mediaklikk.py",
+   "sha256": "00b2e69a4fba102547111d8f3c7e0b019b839b8fa831bcf52fd0cd1b2c2c853a",
+   "size": 4970
+  },
+  {
+   "path": "yt_dlp/extractor/medialaan.py",
+   "sha256": "42c8135cb90362d7a37a3507fdd82750c8bef89cb5f8db5287beb48a36658b03",
+   "size": 9206
+  },
+  {
+   "path": "yt_dlp/extractor/mediaset.py",
+   "sha256": "770a077d19dd7a9d1e3932165f5507f1acfd6d352c61eaac36ac5b32d9967e49",
+   "size": 13317
+  },
+  {
+   "path": "yt_dlp/extractor/mediasite.py",
+   "sha256": "dc057932f0bb739492ff3aed6f142c4f03660085cfad1c9e084d170e5e8f79a5",
+   "size": 16853
+  },
+  {
+   "path": "yt_dlp/extractor/mediastream.py",
+   "sha256": "69844da9812aae38189d8bb32c818d0a8b6045da3816c01d3be9b5e5dbf8ae59",
+   "size": 10320
+  },
+  {
+   "path": "yt_dlp/extractor/mediaworksnz.py",
+   "sha256": "a2954818b71a0838c8a74a2b11741bf37e14a98f7a0c64892eef4b245c0e9c5f",
+   "size": 4083
+  },
+  {
+   "path": "yt_dlp/extractor/medici.py",
+   "sha256": "506fb187b952767c1fc0992d6769100a590f56a60257dae294fe0da5580db81b",
+   "size": 6712
+  },
+  {
+   "path": "yt_dlp/extractor/megaphone.py",
+   "sha256": "5f94914c50a89668fd95a51d8a7c66c3f7f34bc05fa99105d183c5bbfd1b57d4",
+   "size": 1628
+  },
+  {
+   "path": "yt_dlp/extractor/megatvcom.py",
+   "sha256": "90f11ae0a879b30af49e8e2dc1d3431a924cb23f9ba00fc5ad84322061d143ff",
+   "size": 7254
+  },
+  {
+   "path": "yt_dlp/extractor/meipai.py",
+   "sha256": "becc39bc9ff291a88fa3ee4a24dd4faacbf2544c1221225cab077edaaeac2f53",
+   "size": 3539
+  },
+  {
+   "path": "yt_dlp/extractor/melonvod.py",
+   "sha256": "348d65a8864937ed00ba924f2d9c99e17465792c38402663ec6593fe00802aba",
+   "size": 2160
+  },
+  {
+   "path": "yt_dlp/extractor/metacritic.py",
+   "sha256": "45ebead9cc18e0e9e73b43b098c51d151ee27c56559e986a9245fcf73a9f14de",
+   "size": 2597
+  },
+  {
+   "path": "yt_dlp/extractor/mgtv.py",
+   "sha256": "29c09d3498c28d9730f709b7bcde6f228150289539fc6dd1edf868c3db2f77ad",
+   "size": 6823
+  },
+  {
+   "path": "yt_dlp/extractor/microsoftembed.py",
+   "sha256": "db5f1ef49c835e942cf7ae4e5338bff29c3671273eba35c8f79433cedaf83361",
+   "size": 15501
+  },
+  {
+   "path": "yt_dlp/extractor/minds.py",
+   "sha256": "745ef1ec9e92f7bac2d02e79a52a3cfe36ee18dddb516ba117ce70de314408a3",
+   "size": 6778
+  },
+  {
+   "path": "yt_dlp/extractor/mir24tv.py",
+   "sha256": "e4b130db38d8e8a4bbfc57d99410c69588b83ba76f02ab4ec88163884dadcd8f",
+   "size": 1686
+  },
+  {
+   "path": "yt_dlp/extractor/mirrativ.py",
+   "sha256": "94de7789319fc1a20203671716a22cbd361b8087ac8ca5a62c98cba72e52ddef",
+   "size": 4898
+  },
+  {
+   "path": "yt_dlp/extractor/mirrorcouk.py",
+   "sha256": "2ffeb130e37a9952f331835d484f5ba7fd74ae532be146558b6b23785cf6c5d5",
+   "size": 4403
+  },
+  {
+   "path": "yt_dlp/extractor/mit.py",
+   "sha256": "a9b94f289ddb4081ae173eaefa4c38cde225a9d0a6ac4e8b7aaaae049a0c1351",
+   "size": 5165
+  },
+  {
+   "path": "yt_dlp/extractor/mixch.py",
+   "sha256": "f1b37213ffeece5e5aa79f3b8081b9cf855abebcc72ced7deb9cc4ae466fd330",
+   "size": 6268
+  },
+  {
+   "path": "yt_dlp/extractor/mixcloud.py",
+   "sha256": "f41b0f2500e684cf026d3c12c527504a3627df0cf226074a5d022ff947b68078",
+   "size": 12716
+  },
+  {
+   "path": "yt_dlp/extractor/mixlr.py",
+   "sha256": "57a89d54759d33486cd52b34ce845f075c235c72707411de9166826f92974892",
+   "size": 5826
+  },
+  {
+   "path": "yt_dlp/extractor/mlb.py",
+   "sha256": "61f91c9fba108d9cf7142d44bcd96810b09cb47ec3fbd136bf38c70c7fae8b89",
+   "size": 20028
+  },
+  {
+   "path": "yt_dlp/extractor/mlssoccer.py",
+   "sha256": "f6d491cdda2d6e0f0aff7001a5d8e2dc714b142a6cd7b5e0b7cec8a985c5cc6f",
+   "size": 6763
+  },
+  {
+   "path": "yt_dlp/extractor/mocha.py",
+   "sha256": "0c8b7fc67f29b9567363a3cab28afb1426e899b0717c39458831640acd85ef37",
+   "size": 2961
+  },
+  {
+   "path": "yt_dlp/extractor/mojevideo.py",
+   "sha256": "f9279857a84bfcae33156cb912e473fb588c7f1629a6f941f20f175850755033",
+   "size": 4966
+  },
+  {
+   "path": "yt_dlp/extractor/monstercat.py",
+   "sha256": "f4f4985301540ebc4dbf3ddd109446584c793cb4146bfcdd184486b8c485501e",
+   "size": 4078
+  },
+  {
+   "path": "yt_dlp/extractor/motorsport.py",
+   "sha256": "b42f685101b25bfb38e0e5973789217b9d3dbd9a0ef5458d19d5f4d78cd93b4e",
+   "size": 1981
+  },
+  {
+   "path": "yt_dlp/extractor/moviepilot.py",
+   "sha256": "512c457f22d86cd594c72ae00120413396b4d13a99c720723cc9797fb05d154e",
+   "size": 3544
+  },
+  {
+   "path": "yt_dlp/extractor/movingimage.py",
+   "sha256": "8107d6e16391949613ff43d85eb936fb05d83ec29de73044cfabffa9b2b2dcbf",
+   "size": 1731
+  },
+  {
+   "path": "yt_dlp/extractor/msn.py",
+   "sha256": "f827b8c66caf5ea447a22a33ff35ac58f105ccd078acc960cbd9d91a9cb30b59",
+   "size": 9700
+  },
+  {
+   "path": "yt_dlp/extractor/mtv.py",
+   "sha256": "e2d34f4598f274e3fcd1f2d8bf889cdff03f0a0da5cf771cbcfbd385ef64125a",
+   "size": 12242
+  },
+  {
+   "path": "yt_dlp/extractor/muenchentv.py",
+   "sha256": "2ffb3c04f42f4299adc142e57328e03243c5e99464cd626f862c5f3186e0f84f",
+   "size": 2075
+  },
+  {
+   "path": "yt_dlp/extractor/murrtube.py",
+   "sha256": "4ea262cb226b9c252d13b1112b6b6d422400465b1a2d5e08f44f5fbc5e25857a",
+   "size": 5868
+  },
+  {
+   "path": "yt_dlp/extractor/museai.py",
+   "sha256": "d589e21284946a28d5fec90fb6a02d66ca6641e1bb3bb9ca0b7663a02b1c3879",
+   "size": 4093
+  },
+  {
+   "path": "yt_dlp/extractor/musescore.py",
+   "sha256": "2d0d7371f45c791b6507ad782eca0d3e69ab1a82269a22b54dc3a391507a0264",
+   "size": 2868
+  },
+  {
+   "path": "yt_dlp/extractor/mux.py",
+   "sha256": "ccd39ccae2d209b0b4f18448848079cc712d8939d5ed59658d326f073fcbb739",
+   "size": 3341
+  },
+  {
+   "path": "yt_dlp/extractor/mx3.py",
+   "sha256": "7307abc2ad96cecdf3e97d8ae663742d183f766e97089f556a968fba50a97491",
+   "size": 6384
+  },
+  {
+   "path": "yt_dlp/extractor/mxplayer.py",
+   "sha256": "56905d3a8aa5e0d574a491896cfab9b0f113152fa1354bc92e44d516cd7cbfd9",
+   "size": 17700
+  },
+  {
+   "path": "yt_dlp/extractor/myspace.py",
+   "sha256": "f07fb3c8626c3d7264d3c0a103c07b135fd5c9b6272f08c004bd70d2d23e1079",
+   "size": 7751
+  },
+  {
+   "path": "yt_dlp/extractor/myspass.py",
+   "sha256": "3a1db5d8d1b943431f9629a3b68a7ed6a3cde567277fa8e82e6f3a7fcf3aa9c4",
+   "size": 3675
+  },
+  {
+   "path": "yt_dlp/extractor/myvideoge.py",
+   "sha256": "5c7ec9f8039f05f92c0bfe186b2a8df442645f163e73578528be1eb42d34324e",
+   "size": 3341
+  },
+  {
+   "path": "yt_dlp/extractor/myvidster.py",
+   "sha256": "c53b2102e2643724422ac08330196c14c6296aae2f18499595545b937dc81327",
+   "size": 876
+  },
+  {
+   "path": "yt_dlp/extractor/mzaalo.py",
+   "sha256": "45c90e618aab64e8f151401f307fb446157618bb93a560aa3450658cf24d0a3d",
+   "size": 3749
+  },
+  {
+   "path": "yt_dlp/extractor/n1.py",
+   "sha256": "62dc86eafb1f0be03417926f7eb2929926e4d56dc3e9e934743cb225c95c2b4d",
+   "size": 8907
+  },
+  {
+   "path": "yt_dlp/extractor/nascar.py",
+   "sha256": "73a92cd71c44a0970c4a99e03e7e103f805fb8e211e010af03b8ac184683b3a6",
+   "size": 2543
+  },
+  {
+   "path": "yt_dlp/extractor/nate.py",
+   "sha256": "3f52073aee8c929781b80258b8b80e003e3bd926d87c0be972c2987885c09faa",
+   "size": 4326
+  },
+  {
+   "path": "yt_dlp/extractor/nationalgeographic.py",
+   "sha256": "0a095e48d28e3ff8ee619a0d99b56206583c11d0f0632bf5f95e5f72eaf6a9aa",
+   "size": 952
+  },
+  {
+   "path": "yt_dlp/extractor/naver.py",
+   "sha256": "ddb8ec8ad327884e96619dfe74b151342205bba92468cca9b08420d22247599b",
+   "size": 11433
+  },
+  {
+   "path": "yt_dlp/extractor/nba.py",
+   "sha256": "f0f19892254c9d9a08da7677007bf9848f068274ad35a84bf3a1fa33efb87a21",
+   "size": 16293
+  },
+  {
+   "path": "yt_dlp/extractor/nbc.py",
+   "sha256": "830344cb2e2e7c05eb0ea1d07f60118f2c672a99f35036109e0ca36c6d3b3fc1",
+   "size": 48091
+  },
+  {
+   "path": "yt_dlp/extractor/ndr.py",
+   "sha256": "1d22a4ad025d95728bac13f84193bfd35c0b72c13001b710a6c495b2bd6a8581",
+   "size": 18173
+  },
+  {
+   "path": "yt_dlp/extractor/ndtv.py",
+   "sha256": "e404820139c32738cacc51237eb7aa5319f412ae712aa1f97c095d5fc0f8c991",
+   "size": 4513
+  },
+  {
+   "path": "yt_dlp/extractor/nebula.py",
+   "sha256": "753226d5560104741317dab8bf34650f3a6455aab6ea278999db90574f75b1fa",
+   "size": 23728
+  },
+  {
+   "path": "yt_dlp/extractor/nekohacker.py",
+   "sha256": "5eba8906d2f1c6b51f73c41f339dda095fe4104a6c76cefdac42360a57965f96",
+   "size": 9549
+  },
+  {
+   "path": "yt_dlp/extractor/nest.py",
+   "sha256": "c6315e9b345895c69cec612150eb45ade2991f1849debfdba9317138765acca6",
+   "size": 4647
+  },
+  {
+   "path": "yt_dlp/extractor/netapp.py",
+   "sha256": "b9ff584299d870a2b0aa6d3dc089ed7841a00f6e3e38ad832a1e6db6ad3c418c",
+   "size": 3346
+  },
+  {
+   "path": "yt_dlp/extractor/neteasemusic.py",
+   "sha256": "3fba9b6296e4fe284c42482698168407429fc99b57b8c561c703224bfd404730",
+   "size": 26246
+  },
+  {
+   "path": "yt_dlp/extractor/netzkino.py",
+   "sha256": "c9a21b2ae087c7569a71596baa4c42c1db12d1c789863ff2e8f49b059f472a77",
+   "size": 2481
+  },
+  {
+   "path": "yt_dlp/extractor/newgrounds.py",
+   "sha256": "e61303149a84be934bfc84c12f2f3b352fa5eebff23414d1993c38b9751a9993",
+   "size": 11830
+  },
+  {
+   "path": "yt_dlp/extractor/newspicks.py",
+   "sha256": "87eb7daac0af4bdbeb240f347341b9b88fc6ea5123d9b3017d00408a7b2223c1",
+   "size": 3169
+  },
+  {
+   "path": "yt_dlp/extractor/newsy.py",
+   "sha256": "80b68f64df2ba9805c000d43e953e0c578d5f08cca3be632835e9a7dfc68fda7",
+   "size": 1832
+  },
+  {
+   "path": "yt_dlp/extractor/nexx.py",
+   "sha256": "94851490fa6371afe364443fdd0983adcf121897ce367dc21c237dd998e6cc3e",
+   "size": 20909
+  },
+  {
+   "path": "yt_dlp/extractor/nfb.py",
+   "sha256": "8688dd08db6db05e5348f08e5be0a3f163dd47a269f80939ce3f9fc21d6e1f71",
+   "size": 12645
+  },
+  {
+   "path": "yt_dlp/extractor/nfhsnetwork.py",
+   "sha256": "e2f8a3c6121c090c61dd9d3dfb30a445a0764cdb58257f74ba58544365d9c5d5",
+   "size": 5868
+  },
+  {
+   "path": "yt_dlp/extractor/nfl.py",
+   "sha256": "a7e4ef1488f1c49708a345ecad3baf42c1973f6d7d6b2b60d1dca300cfeb976e",
+   "size": 16180
+  },
+  {
+   "path": "yt_dlp/extractor/nhk.py",
+   "sha256": "80c7c782f13d9157665fb93f41b9c54b998352dbdca37ce589ced6fd2adb8e2a",
+   "size": 40002
+  },
+  {
+   "path": "yt_dlp/extractor/nhl.py",
+   "sha256": "e03987860604471c02c74135c6dc42fe140f7d5a6ca9443f64f494dfee3c0493",
+   "size": 4905
+  },
+  {
+   "path": "yt_dlp/extractor/nick.py",
+   "sha256": "27c0e3585becd01480fa64c2836a57a4d2e064d576b25d852d559563ef8fc221",
+   "size": 1953
+  },
+  {
+   "path": "yt_dlp/extractor/niconico.py",
+   "sha256": "9a31000cb9e2fe67a17bc59b592d3d91fa3a82bfc5113bd43cb139fd9e162048",
+   "size": 47815
+  },
+  {
+   "path": "yt_dlp/extractor/niconicochannelplus.py",
+   "sha256": "09686c6145a262ed781e6d2748b1f3bcb2ebde47c869fac847224cda956e48cd",
+   "size": 18080
+  },
+  {
+   "path": "yt_dlp/extractor/ninaprotocol.py",
+   "sha256": "3f390fe2d69b6abe7bb0d3d3cbd431d2597ffe50cc6131cdf70d9fbd737735b6",
+   "size": 10394
+  },
+  {
+   "path": "yt_dlp/extractor/ninecninemedia.py",
+   "sha256": "0fa80fe73e28837e75231750d68c1cd409cf76dcc366765bb16dec3ad97810e8",
+   "size": 5128
+  },
+  {
+   "path": "yt_dlp/extractor/ninegag.py",
+   "sha256": "ad920e34083bc1bd3dc5f1c771d48f67cc91811ebad91b956f099ce45d399bec",
+   "size": 5180
+  },
+  {
+   "path": "yt_dlp/extractor/ninenews.py",
+   "sha256": "e585d3a4d85c179ac5631b4a5e5bd8c0f3aa2cd24569f2b7e5f25ff802930712",
+   "size": 3636
+  },
+  {
+   "path": "yt_dlp/extractor/ninenow.py",
+   "sha256": "6b3b82dae7209babcd658d6ee91cd7e130f9bf625c3fb3f9c94ad2975f15ef21",
+   "size": 5825
+  },
+  {
+   "path": "yt_dlp/extractor/nintendo.py",
+   "sha256": "247beb61c4babca5ebd959b872c49311744ab86774c53c44b954e52fd0bee8da",
+   "size": 5474
+  },
+  {
+   "path": "yt_dlp/extractor/nitter.py",
+   "sha256": "2bb6b2d1d4673d86b5ac7e6a72a42e8b55dc568e9de556d24184c697e633ce0e",
+   "size": 13645
+  },
+  {
+   "path": "yt_dlp/extractor/nobelprize.py",
+   "sha256": "62b739a857420da2acc971cf0602958d73d8d94fb407d7e103067a30865527f7",
+   "size": 2078
+  },
+  {
+   "path": "yt_dlp/extractor/noice.py",
+   "sha256": "4ee86425c949416489640cdfcafb081912c1f18b49c8b05717dc1d7a76b6a4a5",
+   "size": 5059
+  },
+  {
+   "path": "yt_dlp/extractor/nonktube.py",
+   "sha256": "c8b998b5bd27b21c11d69f921c15d48d6e1ffc196e2169decafe6476a3940860",
+   "size": 1111
+  },
+  {
+   "path": "yt_dlp/extractor/noodlemagazine.py",
+   "sha256": "a91d679880e07ceef50967d291997828b8a1693e91765608338054bd410fb0a8",
+   "size": 3021
+  },
+  {
+   "path": "yt_dlp/extractor/nosnl.py",
+   "sha256": "107fad355b94099a3c580245a096ac78182f2db284d4721726bf01d0b6728d00",
+   "size": 5820
+  },
+  {
+   "path": "yt_dlp/extractor/nova.py",
+   "sha256": "4d4a25666278505e0721c8a536cf4ca10e80d4730218d18e2bd80bb91ada13ca",
+   "size": 12074
+  },
+  {
+   "path": "yt_dlp/extractor/novaplay.py",
+   "sha256": "abbce4e84b85a26dce0dc94c886611e47e3189dca43ad941c40f3438c69130e5",
+   "size": 3032
+  },
+  {
+   "path": "yt_dlp/extractor/nowcanal.py",
+   "sha256": "af58581147443831790ef0b4dc9d728a342ee58f78500d8bdc6fb0805dad70e0",
+   "size": 1522
+  },
+  {
+   "path": "yt_dlp/extractor/nowness.py",
+   "sha256": "f139bb1df4c199c532fd703aeb0a13ac6e288a538202a4b367d833379bfef2cf",
+   "size": 5902
+  },
+  {
+   "path": "yt_dlp/extractor/noz.py",
+   "sha256": "d3d683945dfb2d10375a45a40056f1866fa84f70183ec517491545d0c6f14cb6",
+   "size": 3522
+  },
+  {
+   "path": "yt_dlp/extractor/npo.py",
+   "sha256": "449324955821e086e2b229c5df7c87b4f8d4ecfc567655a4351b386b742f094b",
+   "size": 22285
+  },
+  {
+   "path": "yt_dlp/extractor/npr.py",
+   "sha256": "80ee2f203f9068f210292a892fd04a36ecd78641c8f247ed4cfa8974d2a30b70",
+   "size": 5742
+  },
+  {
+   "path": "yt_dlp/extractor/nrk.py",
+   "sha256": "d0ab3a4b50a86d9c4a9234b14ee3f9909be50e459abba55ffa994eafd6474443",
+   "size": 33670
+  },
+  {
+   "path": "yt_dlp/extractor/nrl.py",
+   "sha256": "daf9ca56f44177733496bd8ff319e15eba9e97ee0001294bc97e34a31c3957d4",
+   "size": 953
+  },
+  {
+   "path": "yt_dlp/extractor/nts.py",
+   "sha256": "403b1706e45eec0700b5283ad54ec3d6009c6532f8a568b27682855150f1684d",
+   "size": 3290
+  },
+  {
+   "path": "yt_dlp/extractor/ntvcojp.py",
+   "sha256": "deeeb761a0c82a7d2d693758f75f10b373b0df011e7371cb03c441b63a03ccc5",
+   "size": 3474
+  },
+  {
+   "path": "yt_dlp/extractor/ntvde.py",
+   "sha256": "40730423d7c7cee5610b48b54734e2a83f6bc4155e5900b41af843698875ede0",
+   "size": 3711
+  },
+  {
+   "path": "yt_dlp/extractor/ntvru.py",
+   "sha256": "c01b0f4cb9213ef386f3e654563ecc631f58725edbe91058a26d55d16a88c78c",
+   "size": 7784
+  },
+  {
+   "path": "yt_dlp/extractor/nubilesporn.py",
+   "sha256": "a79a34cc075dac5dc723578bd6fb21d2d71b2b4e3aad7615231fdc1b264985bd",
+   "size": 4529
+  },
+  {
+   "path": "yt_dlp/extractor/nuevo.py",
+   "sha256": "d291c0c2a3109e5d38d3d62396fc33e3b78db28b2d0804f6ba942de08501085a",
+   "size": 1140
+  },
+  {
+   "path": "yt_dlp/extractor/nuvid.py",
+   "sha256": "14a0f9c71051eff22c67ac225e97394a313f4419ad596cd848a4d595d25f55ae",
+   "size": 3529
+  },
+  {
+   "path": "yt_dlp/extractor/nytimes.py",
+   "sha256": "ddbbaa4dc69b9dec84ae3d83efb7e9882b3fad5dc4369fbf3371cdc0009a1bbc",
+   "size": 18185
+  },
+  {
+   "path": "yt_dlp/extractor/nzherald.py",
+   "sha256": "a7b048c58733b6357966531ea4b105e733de9175454f6af6116b1c02a6800b69",
+   "size": 5851
+  },
+  {
+   "path": "yt_dlp/extractor/nzonscreen.py",
+   "sha256": "59f8f25a2fa0f7b1b5cd4ff29cb3e72611b1980efb49ec91dcf007c070172110",
+   "size": 3955
+  },
+  {
+   "path": "yt_dlp/extractor/nzz.py",
+   "sha256": "dec025bc916c30046958d266aa5110e315b2a33338ea79f08b1504dd2019c77f",
+   "size": 1158
+  },
+  {
+   "path": "yt_dlp/extractor/odkmedia.py",
+   "sha256": "503ef313b0cd8feb9d484528b0b8ebf8eebef06d5a7ecac74dd6b5a95b990252",
+   "size": 4287
+  },
+  {
+   "path": "yt_dlp/extractor/odnoklassniki.py",
+   "sha256": "3c153039df68688c02b9b51af6247b415967a3144e341296bfca44c787ddb819",
+   "size": 14366
+  },
+  {
+   "path": "yt_dlp/extractor/oftv.py",
+   "sha256": "b9fa71b51747c89b5855823f2e706e51746e2d9195045c2def0c8cadfc5a7abc",
+   "size": 1921
+  },
+  {
+   "path": "yt_dlp/extractor/oktoberfesttv.py",
+   "sha256": "66151d9dd4cb06c3dc5134406e79fecb0c5464f27529d9f439cf35e4c8c8b8eb",
+   "size": 1451
+  },
+  {
+   "path": "yt_dlp/extractor/olympics.py",
+   "sha256": "9f30db56c1581d1149cd92b74570c9cdad767473c4c919aa686eca10e7bec4b0",
+   "size": 6671
+  },
+  {
+   "path": "yt_dlp/extractor/omnyfm.py",
+   "sha256": "76b26be9492f4ecb5cfc094eac6cda29fb3035ec680eca92ddcebfe0d5ba2de6",
+   "size": 11150
+  },
+  {
+   "path": "yt_dlp/extractor/on24.py",
+   "sha256": "fde49f819fd16e6ad46b95f5d7242dcd778736d5579f521607a2768039cb57d2",
+   "size": 5094
+  },
+  {
+   "path": "yt_dlp/extractor/ondemandkorea.py",
+   "sha256": "5d411456f84516e1e353e4027bdaf20b8741c6cc2450a52eef022348eaea1088",
+   "size": 6738
+  },
+  {
+   "path": "yt_dlp/extractor/onefootball.py",
+   "sha256": "9489f0493891451540bfb55f01f88243d164d189c309fe9e6344c4eb5fcf6e88",
+   "size": 2239
+  },
+  {
+   "path": "yt_dlp/extractor/onenewsnz.py",
+   "sha256": "04c02f6073de048f190d083dcf868177b09c3b8746caa3203a9ed78b119fc718",
+   "size": 5128
+  },
+  {
+   "path": "yt_dlp/extractor/oneplace.py",
+   "sha256": "2db96efbf783062b80831e5ead67c0d9b2a0ecfe5ba71fd4b185b02d3e612b78",
+   "size": 1844
+  },
+  {
+   "path": "yt_dlp/extractor/onet.py",
+   "sha256": "dc9cbd2ae324fdb313976e096710b09b28744e1509dc436627c15b9d2f216557",
+   "size": 9845
+  },
+  {
+   "path": "yt_dlp/extractor/onsen.py",
+   "sha256": "1e3dbb93ec990e843cf17c78a7b4b86abe164e5872bd02bc1b41699ef4e4bdd0",
+   "size": 6623
+  },
+  {
+   "path": "yt_dlp/extractor/opencast.py",
+   "sha256": "c2a28c5bbf3151cbdfc40c4126be449be388fd1f38bf0ee1459a585d2b1f7ee3",
+   "size": 8207
+  },
+  {
+   "path": "yt_dlp/extractor/openload.py",
+   "sha256": "6e745192de4fb317fbd4c27b46a45f7591312b6b7dea088d5dc83d55a203aaad",
+   "size": 8611
+  },
+  {
+   "path": "yt_dlp/extractor/openrec.py",
+   "sha256": "0ce4ec92a4c34b446c70a18dc34dd22796400f93dba74d02fb9dc898366c71f3",
+   "size": 28573
+  },
+  {
+   "path": "yt_dlp/extractor/orf.py",
+   "sha256": "73d3ceb0abff3cb40907a63f750507a54a8fc0dd52b7b95e124a78b160cc00ca",
+   "size": 22252
+  },
+  {
+   "path": "yt_dlp/extractor/outsidetv.py",
+   "sha256": "9de6ec1af9ff4ea53020a5ae128a732daf4e61bbd1301191efa92a2e4d918541",
+   "size": 939
+  },
+  {
+   "path": "yt_dlp/extractor/owncloud.py",
+   "sha256": "8a34c35eca2aa46a6124843d793f529bd885f1f7f4afca1a3887010bba816518",
+   "size": 2709
+  },
+  {
+   "path": "yt_dlp/extractor/packtpub.py",
+   "sha256": "a5c7ffde5839b99f26242ec45e7adee5828e2641bf04fa17ce6d7e121c9c25d8",
+   "size": 6105
+  },
+  {
+   "path": "yt_dlp/extractor/palcomp3.py",
+   "sha256": "c05aa405ad5712875a4f0d8e66a2ea450f2342f78bdfd47ab17087fe26f0c91a",
+   "size": 4382
+  },
+  {
+   "path": "yt_dlp/extractor/pandatv.py",
+   "sha256": "ae5bf09828403ba831ea1fae28708b940b9c6ebadf9e86544be190f4cc4bb281",
+   "size": 3521
+  },
+  {
+   "path": "yt_dlp/extractor/panopto.py",
+   "sha256": "09b21e921f01f3b2727de9b9d2756c4a869b54667ec93dbd121c35cdaac0689b",
+   "size": 25714
+  },
+  {
+   "path": "yt_dlp/extractor/parler.py",
+   "sha256": "42d208dbf26a8c4c4176410297b454661e4f135bb294e7fb1c9e159269fd62ed",
+   "size": 3766
+  },
+  {
+   "path": "yt_dlp/extractor/parlview.py",
+   "sha256": "22d98271f77aff4e394f092b92a9c401895fd7cf8b71fa5da4505922a7677812",
+   "size": 2611
+  },
+  {
+   "path": "yt_dlp/extractor/parti.py",
+   "sha256": "f63464ecbae8a7b27872d8a17b0a384a5e33bd011bbdc37915ff0cf199857698",
+   "size": 3721
+  },
+  {
+   "path": "yt_dlp/extractor/patreon.py",
+   "sha256": "368cfe145f91204e3b9fb93c1aa078ecbe09a56c3f9f0390a6abfcf6e2d1c7ef",
+   "size": 32598
+  },
+  {
+   "path": "yt_dlp/extractor/pbs.py",
+   "sha256": "37cc0cbfc129821d3b7881a5dfcab00777b1ab2a7e1bc097e44dc3f99d3eefb5",
+   "size": 41791
+  },
+  {
+   "path": "yt_dlp/extractor/pearvideo.py",
+   "sha256": "9eb24a355f7547680c7ddeb9bc7fa2e0b9ab542ad509aad7c675ce1c55b5443b",
+   "size": 2494
+  },
+  {
+   "path": "yt_dlp/extractor/peekvids.py",
+   "sha256": "d073101e95c5009b16e07482812ed377d4440b23b4907b8e42a5f65435395dfd",
+   "size": 7214
+  },
+  {
+   "path": "yt_dlp/extractor/peertube.py",
+   "sha256": "66be4f7993d2da7e656aa2e278bbc7ae9145ad7ecb69ed6461dab632064d8238",
+   "size": 84420
+  },
+  {
+   "path": "yt_dlp/extractor/peertv.py",
+   "sha256": "96383a9974698cb617c205b729b861dc61273b0343a14a6dfbd49b4f175cf397",
+   "size": 2175
+  },
+  {
+   "path": "yt_dlp/extractor/peloton.py",
+   "sha256": "f9347f00d48b4c7c4e2d3f79ac2ff81a65e3ddbc8f3c2ad237917630a6a92f02",
+   "size": 8873
+  },
+  {
+   "path": "yt_dlp/extractor/performgroup.py",
+   "sha256": "35b4d514195957595dcc5f9b498e2c5d698b8ed3a1eb5ffa462a2f95b786e20d",
+   "size": 3179
+  },
+  {
+   "path": "yt_dlp/extractor/periscope.py",
+   "sha256": "80737b50283faa9d87341107665d1ff484c34cde1b70fb09821939a0bd10fb78",
+   "size": 6977
+  },
+  {
+   "path": "yt_dlp/extractor/pgatour.py",
+   "sha256": "70392abf9dc8b56ca1fc05aae5c130f86db38296471273047462dfc3cd22d651",
+   "size": 1959
+  },
+  {
+   "path": "yt_dlp/extractor/philharmoniedeparis.py",
+   "sha256": "8bc5235ed47897f297ca022ec2b640b9ce33cad7312fbdcced973c6e677890c8",
+   "size": 4021
+  },
+  {
+   "path": "yt_dlp/extractor/phoenix.py",
+   "sha256": "46299927f099daef025d6cd6cec471cb3f23da1d695fc6a83c47317028367a54",
+   "size": 3661
+  },
+  {
+   "path": "yt_dlp/extractor/photobucket.py",
+   "sha256": "399459d647bcefc353a8d9de1a9f5ad3278803efe5954cbb583384d807b1296c",
+   "size": 1698
+  },
+  {
+   "path": "yt_dlp/extractor/pialive.py",
+   "sha256": "65e2c2f2ba566091070ee97961844665c089dd57da0cb6756e2943e7446dc6fd",
+   "size": 5522
+  },
+  {
+   "path": "yt_dlp/extractor/piapro.py",
+   "sha256": "4024a7c5feb4200d650d5dbc5b544a432cb071f69a2f31f7e73fbe48431b6707",
+   "size": 4302
+  },
+  {
+   "path": "yt_dlp/extractor/picarto.py",
+   "sha256": "2fdad1922e6eebf50a493f73436d21f4fad5871b263e5c3bc0c5d1273435b2cd",
+   "size": 5295
+  },
+  {
+   "path": "yt_dlp/extractor/piksel.py",
+   "sha256": "18886c36dabb975ce6e6fb1e81e3ac67e0cf4fcbd5d1e1550a3d13dd6c78335a",
+   "size": 7206
+  },
+  {
+   "path": "yt_dlp/extractor/pinkbike.py",
+   "sha256": "2755f26d65477d77cd9f3cf8a8fada94f31dee114b7b5afa5e588fc4cdee2423",
+   "size": 3351
+  },
+  {
+   "path": "yt_dlp/extractor/pinterest.py",
+   "sha256": "e39e0fd4cbf17a3eba8ceb06814612bde202fe43190a74943af3b3e23743af8e",
+   "size": 10545
+  },
+  {
+   "path": "yt_dlp/extractor/platzi.py",
+   "sha256": "dd32227ce9ff5b3e30b5c390aed41cf520af437b833445b863f5bb016e07f75f",
+   "size": 7315
+  },
+  {
+   "path": "yt_dlp/extractor/playerfm.py",
+   "sha256": "b177226f14017f88c970760ce90cd00bc27221753408da88e180bc3d4e91f35e",
+   "size": 3162
+  },
+  {
+   "path": "yt_dlp/extractor/playsuisse.py",
+   "sha256": "249cc15c8a6dfd0f6dd45d4df6df0c3c4708b882b6ec058f434fc9fbd89eebe7",
+   "size": 11394
+  },
+  {
+   "path": "yt_dlp/extractor/playtvak.py",
+   "sha256": "c51d690a425958fc89d9388a1084c60b357be1bb92e65084cab1c5ca8296d553",
+   "size": 7068
+  },
+  {
+   "path": "yt_dlp/extractor/pluralsight.py",
+   "sha256": "7193f1ed0e621de9e0ac1d1aac40ed6acb2514a05735e3c4847e035d8a0cce8e",
+   "size": 18159
+  },
+  {
+   "path": "yt_dlp/extractor/plutotv.py",
+   "sha256": "55fdafb018cf22c994d1d6f34cccb5977795db72d385274b87b0fd6d2c21ed34",
+   "size": 8037
+  },
+  {
+   "path": "yt_dlp/extractor/plyr.py",
+   "sha256": "2125e11fcc88fb7d019d9af2fcd7bf06812e901a77ab6f20654372dc196b65af",
+   "size": 4418
+  },
+  {
+   "path": "yt_dlp/extractor/podbayfm.py",
+   "sha256": "f1a6f424eeaf62e96bdc4aec93573718ad57aa15dcf89e09e6ff185b6ef5d18f",
+   "size": 3065
+  },
+  {
+   "path": "yt_dlp/extractor/podchaser.py",
+   "sha256": "c912b572b4838168e742bcb1349e0d4931f4b3f2fb9145474b970a8e897aa1f3",
+   "size": 4596
+  },
+  {
+   "path": "yt_dlp/extractor/podomatic.py",
+   "sha256": "5ebf13ef22d58c1b6b86dfe882a3f29c5b930f1dad09734232efeac7da9bee14",
+   "size": 2581
+  },
+  {
+   "path": "yt_dlp/extractor/pokergo.py",
+   "sha256": "f1535d964590a4b050c2eaf24ad96f9c46cd828f624719fd7221d76f07feaaf5",
+   "size": 4275
+  },
+  {
+   "path": "yt_dlp/extractor/polsatgo.py",
+   "sha256": "a9ee50b2701ff1b0ae329466bed8e882228e8f41032d167c476daa8d5912c3c0",
+   "size": 3145
+  },
+  {
+   "path": "yt_dlp/extractor/polskieradio.py",
+   "sha256": "9d4b3f8b194ba65966b3ae6a398d45426173934db70dd8e4a751f14d92ec4298",
+   "size": 24440
+  },
+  {
+   "path": "yt_dlp/extractor/popcorntimes.py",
+   "sha256": "222645a91a939d6227bb7b8ed314ed613bccf73f629753efdc8e193fb8a4b117",
+   "size": 3235
+  },
+  {
+   "path": "yt_dlp/extractor/popcorntv.py",
+   "sha256": "28bfe577a7c742dae53bfb01cb853aa42911564052e542ad98b0a9b81c072489",
+   "size": 2631
+  },
+  {
+   "path": "yt_dlp/extractor/pornbox.py",
+   "sha256": "65738e64d38f4a9c15f86f6ed8fd20498dee8932c6b2f70d76999de2869fea8f",
+   "size": 4447
+  },
+  {
+   "path": "yt_dlp/extractor/pornflip.py",
+   "sha256": "287c2a92ac058b3568d4eff26f668dc2a53eba200c4d52d628ceef9716c982ce",
+   "size": 3474
+  },
+  {
+   "path": "yt_dlp/extractor/pornhub.py",
+   "sha256": "c678dc3eae1ec9b6555043ac3ebd18686db63caef4f2a66a79e65085a9cf4b6c",
+   "size": 32199
+  },
+  {
+   "path": "yt_dlp/extractor/pornotube.py",
+   "sha256": "7e43ffd21f2a52c833c2d8b99fafae00fb8739f760ff66d1e0105cc75d7fb614",
+   "size": 3098
+  },
+  {
+   "path": "yt_dlp/extractor/pornovoisines.py",
+   "sha256": "e1874f69aa770bd298aaddccc8ba28245e06ebb8089e20365ea9fa722230dc50",
+   "size": 3916
+  },
+  {
+   "path": "yt_dlp/extractor/pornoxo.py",
+   "sha256": "58b039769e3b851110353c43ef07ce0b353f85bcc753d66dcab5c441a8e97a18",
+   "size": 1905
+  },
+  {
+   "path": "yt_dlp/extractor/pr0gramm.py",
+   "sha256": "da0d6230883cda5e14e0031192ec9dee7898096232582fc901f4c39cd0f11b5f",
+   "size": 8104
+  },
+  {
+   "path": "yt_dlp/extractor/prankcast.py",
+   "sha256": "b92ae25ed02542cec6fc9723c33476b7ef28e7f1f16da77b6d34d58482f5454c",
+   "size": 6881
+  },
+  {
+   "path": "yt_dlp/extractor/premiershiprugby.py",
+   "sha256": "f19e2b64486ede8cdb2967a6f21ed9e0322c2ee783fa67771c6b3df9f8ece210",
+   "size": 1836
+  },
+  {
+   "path": "yt_dlp/extractor/presstv.py",
+   "sha256": "1e6f21b0acdd706f9ac564224b6982cf0fb626110c30d37adec4d6e007f70ace",
+   "size": 2320
+  },
+  {
+   "path": "yt_dlp/extractor/projectveritas.py",
+   "sha256": "a9fbdaeb414ea4b6228bf2a7da409d3b83faa07f20f3aea03a6cd8a5d37eef0c",
+   "size": 2473
+  },
+  {
+   "path": "yt_dlp/extractor/prx.py",
+   "sha256": "9f41bc3db47d2e78dbee53d344e61907357f538405219c535f2e9c9a835d27a6",
+   "size": 16123
+  },
+  {
+   "path": "yt_dlp/extractor/puhutv.py",
+   "sha256": "79e7377af36eac59fba461172fb645e28f3965b299eb2a13ce9ca0208e2c6f10",
+   "size": 8271
+  },
+  {
+   "path": "yt_dlp/extractor/pyvideo.py",
+   "sha256": "96e4ad9fdf0f6af9cec0b4d714b16166fa7189acf6e3de829e9ddcb67a6d6080",
+   "size": 2674
+  },
+  {
+   "path": "yt_dlp/extractor/qdance.py",
+   "sha256": "457f6d8ee3f0353b5b8ff7af973feb3b13f40cfc057932ae12417405f4b6334c",
+   "size": 7422
+  },
+  {
+   "path": "yt_dlp/extractor/qingting.py",
+   "sha256": "2329e7f79857f9548857bb5aa886d0971d02eda5daacd540b7c43898bf981d9f",
+   "size": 1911
+  },
+  {
+   "path": "yt_dlp/extractor/qqmusic.py",
+   "sha256": "2bf521bf4d35e079663636197ebcf68ef49f4d2ae3bba6a3c56d6d1bef46ebc3",
+   "size": 19236
+  },
+  {
+   "path": "yt_dlp/extractor/r7.py",
+   "sha256": "aad7f3f1298f40eb43b7676ef45aa68316a8c5b84187322636e57d0c078a8695",
+   "size": 4637
+  },
+  {
+   "path": "yt_dlp/extractor/radiko.py",
+   "sha256": "4882be5221fd2f5aac7420b32968a1296f6ba2d395222aaaa2d3031459904757",
+   "size": 9906
+  },
+  {
+   "path": "yt_dlp/extractor/radiocanada.py",
+   "sha256": "9b8004fbdb1988938195371253a59e0a716818d41228dc174185f2a84779709f",
+   "size": 6267
+  },
+  {
+   "path": "yt_dlp/extractor/radiode.py",
+   "sha256": "f458e8cd7401e297fe711732ce6989dcaf2b1be62ee67cafc89d766f777819b7",
+   "size": 1748
+  },
+  {
+   "path": "yt_dlp/extractor/radiofrance.py",
+   "sha256": "b707d9a9fd809c91d330ad9f95b4057e1a9d8437a4789b0c831817707331ec5a",
+   "size": 18182
+  },
+  {
+   "path": "yt_dlp/extractor/radiojavan.py",
+   "sha256": "00a2d010978b0f06c1ac0ad11d790d819f6c55764440c975132af338ca752414",
+   "size": 2706
+  },
+  {
+   "path": "yt_dlp/extractor/radiokapital.py",
+   "sha256": "18087fad81ce626630da8503cf1fe04f033a0ea6a3454238c78357c91d447442",
+   "size": 3347
+  },
+  {
+   "path": "yt_dlp/extractor/radioradicale.py",
+   "sha256": "f9b9c084b94632802f5f1c635a599eb190e13bc18b25942cb601da45cc8386b8",
+   "size": 4031
+  },
+  {
+   "path": "yt_dlp/extractor/radiozet.py",
+   "sha256": "d85c115404095d272e322786b4af68f1aac2681db20afba35310a8f2a14c49f8",
+   "size": 2180
+  },
+  {
+   "path": "yt_dlp/extractor/radlive.py",
+   "sha256": "2dec2b628dad072365ca3bb6f630256675dac54a598bef9ff5a665100435a97b",
+   "size": 6884
+  },
+  {
+   "path": "yt_dlp/extractor/rai.py",
+   "sha256": "0950d476cc95b8a702b47967e56a235442f3e203d733183a88f42f202b224b07",
+   "size": 36383
+  },
+  {
+   "path": "yt_dlp/extractor/raywenderlich.py",
+   "sha256": "42a53877858e8cbecc5f95c696ad6d2542408f1818471af35c239d782041ab32",
+   "size": 6034
+  },
+  {
+   "path": "yt_dlp/extractor/rbgtum.py",
+   "sha256": "0dceda8f6aa7d55e9a3871e6556e7f32da22a0c2af3dfc92a7e67eb0f44d0afb",
+   "size": 5342
+  },
+  {
+   "path": "yt_dlp/extractor/rcs.py",
+   "sha256": "13751e3c91ae1e5589296e760185e5b1299b1095171a4e66705bdf65f6541666",
+   "size": 16264
+  },
+  {
+   "path": "yt_dlp/extractor/rcti.py",
+   "sha256": "c4ebecc29b76ca20a4afd827e49f79787b2355c4498947c826ca869038c35e2d",
+   "size": 16854
+  },
+  {
+   "path": "yt_dlp/extractor/rds.py",
+   "sha256": "77d67f4abf92d09980ed53e8f6b80abf0872ec0137f4b46cd081a8945139029c",
+   "size": 2805
+  },
+  {
+   "path": "yt_dlp/extractor/redbee.py",
+   "sha256": "e8561c6cd45bffffc2a19228d547e4d10705f307fceaad9b4f99b01d16fa9b8a",
+   "size": 14613
+  },
+  {
+   "path": "yt_dlp/extractor/redbulltv.py",
+   "sha256": "6bc5f727a023271adb3d88054326290cbab842c62a25c7f6dbd198110e0cb41a",
+   "size": 9240
+  },
+  {
+   "path": "yt_dlp/extractor/reddit.py",
+   "sha256": "ec14aeb255de05484818c9d85dd3b1a0fd0336999689b2de0ee9d05e68feb971",
+   "size": 18689
+  },
+  {
+   "path": "yt_dlp/extractor/redgifs.py",
+   "sha256": "47dd5290f9b581b3388825dbeaee996d3e5731021a684414f46d8b70a24b2234",
+   "size": 10384
+  },
+  {
+   "path": "yt_dlp/extractor/redtube.py",
+   "sha256": "9505be8e1cc5766c5af61fe62d083b3ac8d03395f9c1b171c55f31dfbb45241f",
+   "size": 6209
+  },
+  {
+   "path": "yt_dlp/extractor/rentv.py",
+   "sha256": "d06a1aa8e6deb9b015c3634c703ddba76c61254dc43ee89fbefbcbe40330c8be",
+   "size": 4068
+  },
+  {
+   "path": "yt_dlp/extractor/restudy.py",
+   "sha256": "a56ae25a38b64c1a61f669fca4660cb6db106d2890ca8c99c470917cf39be2a8",
+   "size": 1278
+  },
+  {
+   "path": "yt_dlp/extractor/reuters.py",
+   "sha256": "244e8c0930fb60b201712d31708fb1a71b537fa6e5d4196803af86f707078e80",
+   "size": 2357
+  },
+  {
+   "path": "yt_dlp/extractor/reverbnation.py",
+   "sha256": "3a122958c01fb2303ae6a16010d02957827a09a7f153a35cf9870db36e57cc30",
+   "size": 1583
+  },
+  {
+   "path": "yt_dlp/extractor/ridehome.py",
+   "sha256": "76d83be184412f61e6e5b28b11742be6540b006f94d4c52695244a0e4e36aa05",
+   "size": 4419
+  },
+  {
+   "path": "yt_dlp/extractor/rinsefm.py",
+   "sha256": "3d57c0faefc2624eb97e0c7f074dc2d333a328d84c7cb0fb5dc360a2731d6efb",
+   "size": 3181
+  },
+  {
+   "path": "yt_dlp/extractor/rockstargames.py",
+   "sha256": "ff25742daab26ee0a75c2a58d2cf34d5b4e089acf01c58fd194b47486010dc7b",
+   "size": 2160
+  },
+  {
+   "path": "yt_dlp/extractor/rokfin.py",
+   "sha256": "092ae634e694a3d6fbdc2b35cb5512c8ca1dd6e3211e8ac03ca1806cb2155c7a",
+   "size": 21052
+  },
+  {
+   "path": "yt_dlp/extractor/roosterteeth.py",
+   "sha256": "5a5b5f9aeecdd40b3269a0c48d9c93dbd2729ec5d31e5e595b069bec69f0f04e",
+   "size": 15756
+  },
+  {
+   "path": "yt_dlp/extractor/rottentomatoes.py",
+   "sha256": "eafb66e3ebb9f3950d530add764151f0dc7c636a1f46f52abc6a10695623f547",
+   "size": 3047
+  },
+  {
+   "path": "yt_dlp/extractor/roya.py",
+   "sha256": "d7364d175745270e7523c7305ab7e64282242103a4160cc8b2c6b371815d603e",
+   "size": 1473
+  },
+  {
+   "path": "yt_dlp/extractor/rozhlas.py",
+   "sha256": "298b4de4d0ef0901a2cf32da954b69355c65e49a916e6b5dc637b1ed2afd6d4d",
+   "size": 15125
+  },
+  {
+   "path": "yt_dlp/extractor/rte.py",
+   "sha256": "0591bd084934b7703556d9bb485b561409cae60ee31f32e19596b3fd719cbecb",
+   "size": 6211
+  },
+  {
+   "path": "yt_dlp/extractor/rtl2.py",
+   "sha256": "5d538a27642e0ee7bf1c94ad7e43e3c54865acc70819d8b82b7d785b068eacfc",
+   "size": 3659
+  },
+  {
+   "path": "yt_dlp/extractor/rtlnl.py",
+   "sha256": "f82a41439c76ef382765f7c87f17cd88d4faa0d13505f4bbbc30907eb106b349",
+   "size": 12129
+  },
+  {
+   "path": "yt_dlp/extractor/rtnews.py",
+   "sha256": "c6b4eb8553c6b7fbcf97db554b9933b0066d323a63816a5afdd996502b0eda09",
+   "size": 7784
+  },
+  {
+   "path": "yt_dlp/extractor/rtp.py",
+   "sha256": "f94570b8e31f7bc3cb1466ef82c969a8e83129fac59ffafd9f43675e1c1b1179",
+   "size": 14636
+  },
+  {
+   "path": "yt_dlp/extractor/rtrfm.py",
+   "sha256": "4c50f938e6c0a1da769f0b85f2f4acb9cfe93f03bcb960394e1a4b13032a3c25",
+   "size": 2744
+  },
+  {
+   "path": "yt_dlp/extractor/rts.py",
+   "sha256": "a652749a8db63df4999c6b94a434f48e020cd3a34b80fa4901830adde83a9ea1",
+   "size": 9491
+  },
+  {
+   "path": "yt_dlp/extractor/rtvcplay.py",
+   "sha256": "61a6c5bccdf9ae0678f72e518028855634f4e47cf8970547d148e65a02141027",
+   "size": 11231
+  },
+  {
+   "path": "yt_dlp/extractor/rtve.py",
+   "sha256": "d34e552d835d5dc0fd796a57147ef02b4c8fa13ce32675021d04104e804651ec",
+   "size": 16729
+  },
+  {
+   "path": "yt_dlp/extractor/rtvs.py",
+   "sha256": "e0a55c2f4a4c1ecf2e2fa7df0f64989e8273d75fa024b1a88e1bb76dd738b629",
+   "size": 3629
+  },
+  {
+   "path": "yt_dlp/extractor/rtvslo.py",
+   "sha256": "539720483ab4f72c6aaca31f1b2943c5357680eaa07cf7feefd62f4eccf73401",
+   "size": 7945
+  },
+  {
+   "path": "yt_dlp/extractor/rudovideo.py",
+   "sha256": "1736ab8366177674cbdb8931ca269ebae46b6b15d069497f8c5909ceb263212c",
+   "size": 5205
+  },
+  {
+   "path": "yt_dlp/extractor/rule34video.py",
+   "sha256": "bdb24fa7b71630918860b1261f0cfe9275e33ae1ef2c4f4ec9e85babf85bc7c3",
+   "size": 5223
+  },
+  {
+   "path": "yt_dlp/extractor/rumble.py",
+   "sha256": "f2cebc5a31ad5961a7cf5242c7b92b89d1da482a09aafb99a75548896a7ca0b7",
+   "size": 16587
+  },
+  {
+   "path": "yt_dlp/extractor/rutube.py",
+   "sha256": "7d0807338de4cc1424529ee6fd4c8a74b6d3bfc31f1ed503ffdecc3ef9fed4b0",
+   "size": 18067
+  },
+  {
+   "path": "yt_dlp/extractor/ruutu.py",
+   "sha256": "847eb54aa47ad3a29acb90d29d7f94be3e44629c7c3a6b57037eb5a8c5c3c811",
+   "size": 10791
+  },
+  {
+   "path": "yt_dlp/extractor/ruv.py",
+   "sha256": "6d7b0cad7b71d8e6150c0b17642087649b2d03fd504b4b91214a28b4bbe8257d",
+   "size": 6857
+  },
+  {
+   "path": "yt_dlp/extractor/s4c.py",
+   "sha256": "d22d667187a5dc61b871c858b23a5196515db7e04048f2bb423b36249fcc657a",
+   "size": 5329
+  },
+  {
+   "path": "yt_dlp/extractor/safari.py",
+   "sha256": "c3bbfbbebcc51b520c625db262e82f3bdde4b8eb9059f64aee9a94e75f39a2b5",
+   "size": 9727
+  },
+  {
+   "path": "yt_dlp/extractor/saitosan.py",
+   "sha256": "2538501d9668ffe18921f173103ec3fb47b181e232a0b51b88d1e2c54e09037d",
+   "size": 3021
+  },
+  {
+   "path": "yt_dlp/extractor/samplefocus.py",
+   "sha256": "9f5e06d7e70d3daaeea3489bb92d4718ff44c09c637e0d913228adad46200823",
+   "size": 4065
+  },
+  {
+   "path": "yt_dlp/extractor/sapo.py",
+   "sha256": "4cac3604268b0d7b30e0c2a099d9014e415b85a1fa6e49c2c76c51de44d20df3",
+   "size": 4396
+  },
+  {
+   "path": "yt_dlp/extractor/sauceplus.py",
+   "sha256": "589e2970befc5b6b3de912f257088e44d59f9dcf8fb6fc7e42ba750fe487b8c2",
+   "size": 2106
+  },
+  {
+   "path": "yt_dlp/extractor/sbs.py",
+   "sha256": "36909335e2c80a89a166a48e89b2452bff6f580ddeb09a8f245826a553224b69",
+   "size": 6917
+  },
+  {
+   "path": "yt_dlp/extractor/sbscokr.py",
+   "sha256": "95139f4c10556e1ae84edb5bce5bc2bc10b965f81471e75cc9cc9676e159eb30",
+   "size": 8282
+  },
+  {
+   "path": "yt_dlp/extractor/screen9.py",
+   "sha256": "ee704cf7ae5edb7df20af42998892eb0cf7f17cec46a92593c7ab1eb2cb3c856",
+   "size": 2606
+  },
+  {
+   "path": "yt_dlp/extractor/screencast.py",
+   "sha256": "a2329161153cbb3b5ccbb6f02c854214771ff1968886f2813a3598b3695ebf0d",
+   "size": 4563
+  },
+  {
+   "path": "yt_dlp/extractor/screencastify.py",
+   "sha256": "d6385b22e95a981909a69f296246dac4e309a2db278624accff093a398a65148",
+   "size": 2518
+  },
+  {
+   "path": "yt_dlp/extractor/screencastomatic.py",
+   "sha256": "7e9638ab6788df3366c8cb2f3cf64c7623217c3dd7469cdd259f34ebbbdbfdb0",
+   "size": 2952
+  },
+  {
+   "path": "yt_dlp/extractor/screenrec.py",
+   "sha256": "ec40985ce291d645d0d603b0039d824004a0a50deb3ef3b39bebf60c4f0ceadb",
+   "size": 1171
+  },
+  {
+   "path": "yt_dlp/extractor/scrippsnetworks.py",
+   "sha256": "5ecebc5d5f8f14defc157f450c3de2c1273bcde2c75e390094a1634926f11f6b",
+   "size": 5957
+  },
+  {
+   "path": "yt_dlp/extractor/scrolller.py",
+   "sha256": "8297fd800307f71517d016f7411b5fab182eb4763c1e4b5bfb48ef1db0fc9c47",
+   "size": 3766
+  },
+  {
+   "path": "yt_dlp/extractor/sejmpl.py",
+   "sha256": "1f4dafeda527966f68ae37e108b4bd78caed53a88dd30ec5afaff55759438ea6",
+   "size": 8589
+  },
+  {
+   "path": "yt_dlp/extractor/sen.py",
+   "sha256": "b265531efbd9fa2bdf85172f56ceb2a661f0dd5d44bdfe3426806914b9b9fbb7",
+   "size": 1459
+  },
+  {
+   "path": "yt_dlp/extractor/senalcolombia.py",
+   "sha256": "6d0b896f67f73ce62260400fa6f95b7ce1d37e55ccc8e6fd642d87a7d673a2fc",
+   "size": 1068
+  },
+  {
+   "path": "yt_dlp/extractor/senategov.py",
+   "sha256": "625484887f6f7380126bcc7b2828db19b8a8ca8146446194cdeb57220094c0df",
+   "size": 12423
+  },
+  {
+   "path": "yt_dlp/extractor/servus.py",
+   "sha256": "d5a999d1c158a40e060cd4cf52726f28dca872e2465fb1207aa881be76b6af82",
+   "size": 5793
+  },
+  {
+   "path": "yt_dlp/extractor/sevenplus.py",
+   "sha256": "6c637cff020ba1d25af5220ea86e2f014495aa259cb2ebabebadc30d36d04653",
+   "size": 4910
+  },
+  {
+   "path": "yt_dlp/extractor/sexu.py",
+   "sha256": "7ac2f6328b87de9d09ba65c12c61b9f91b0bc359af00f5665c7ae3d7434b95b0",
+   "size": 1945
+  },
+  {
+   "path": "yt_dlp/extractor/seznamzpravy.py",
+   "sha256": "d23ed0097c45854d25f9f6cafe0e608877c37d101cb1161e58f522fd97db2249",
+   "size": 7553
+  },
+  {
+   "path": "yt_dlp/extractor/shahid.py",
+   "sha256": "f82c1f065f6aa3dd5ce8ee3491d4c49f245d1e7ba921b8cc0cc9c8658a634fbd",
+   "size": 8286
+  },
+  {
+   "path": "yt_dlp/extractor/sharepoint.py",
+   "sha256": "7418adb2891c921e30752a320b19e765019574c656848dbe36b65c982086ccee",
+   "size": 5505
+  },
+  {
+   "path": "yt_dlp/extractor/shemaroome.py",
+   "sha256": "8bf5ba808217da7cc6461b18b50fe989c2a50a2a02b191ba27e7c0f34beb46a1",
+   "size": 4226
+  },
+  {
+   "path": "yt_dlp/extractor/shiey.py",
+   "sha256": "93a5813e45768b82ca328ed0b599e287efa841934ef3f064fcf36de019fea9fb",
+   "size": 1234
+  },
+  {
+   "path": "yt_dlp/extractor/showroomlive.py",
+   "sha256": "0f7217d03582177c758fb735c94c86155bab200595cd4874535a9349cbdb5417",
+   "size": 4991
+  },
+  {
+   "path": "yt_dlp/extractor/sibnet.py",
+   "sha256": "75a2ceb38a7706a0c018e391e9488ba64b33c29a962d44763015a81046e51268",
+   "size": 743
+  },
+  {
+   "path": "yt_dlp/extractor/simplecast.py",
+   "sha256": "292d435a6e08a5b5f400fa19ebb5e83d82b0dc4293ec59b3faedc883da7cfa63",
+   "size": 7041
+  },
+  {
+   "path": "yt_dlp/extractor/sina.py",
+   "sha256": "8b82302ff4d749d31dd9022fb720ec46ce987f46abb5e0887160dd151a7d5f25",
+   "size": 4187
+  },
+  {
+   "path": "yt_dlp/extractor/skeb.py",
+   "sha256": "b7e275400675854de2143f81f110c5cd105350d0a12092803ff09af850257087",
+   "size": 5023
+  },
+  {
+   "path": "yt_dlp/extractor/sky.py",
+   "sha256": "dadee041de4ca477dd9838808ff8cb211187556db8508c9bc2abe0b980e27077",
+   "size": 5399
+  },
+  {
+   "path": "yt_dlp/extractor/skyit.py",
+   "sha256": "92da0655f1efb952c07bd833aa16e8d6223b17447756bf862e9e64955b885e8c",
+   "size": 12644
+  },
+  {
+   "path": "yt_dlp/extractor/skylinewebcams.py",
+   "sha256": "e6838364e2cba75cbcd91cb431d271f74d0652edcafbc6e6735873a3144b06ce",
+   "size": 1399
+  },
+  {
+   "path": "yt_dlp/extractor/skynewsarabia.py",
+   "sha256": "05a40cad0275d5ea01a44731cd3624780a1a7064b963a6d70a8993bbbd0a6376",
+   "size": 5332
+  },
+  {
+   "path": "yt_dlp/extractor/skynewsau.py",
+   "sha256": "d6e0268142bbf8507eba70643ac4c02bf1272beb540aaf9655d210fc92fae342",
+   "size": 1809
+  },
+  {
+   "path": "yt_dlp/extractor/slideshare.py",
+   "sha256": "f8df1b59ae8ba6d8d352a98f2b9560121c6784fcc2e734042f7135c5af5dfc21",
+   "size": 2054
+  },
+  {
+   "path": "yt_dlp/extractor/slideslive.py",
+   "sha256": "eaa67234b6ada97a224c1fcfac0daa4c0eb937e8dedd84ce9e4b6617db857210",
+   "size": 21042
+  },
+  {
+   "path": "yt_dlp/extractor/slutload.py",
+   "sha256": "e0921370f427e9f98e0c1beee35930224fb8f98a092b6624986bffea591e3062",
+   "size": 2303
+  },
+  {
+   "path": "yt_dlp/extractor/smotrim.py",
+   "sha256": "9561742b3f15d34c6e287ce58571b1149cd082bc7fced0e29e30d0e0bdf5512a",
+   "size": 15203
+  },
+  {
+   "path": "yt_dlp/extractor/snapchat.py",
+   "sha256": "17f4af71a0ffc94b94c6c673e241f0bad649543d2b793da9f16ec29e89393422",
+   "size": 3639
+  },
+  {
+   "path": "yt_dlp/extractor/softwhiteunderbelly.py",
+   "sha256": "b413fe3086fe311c0cf422f9d56c2333cbe4039a5df0f17fd31578d27a605c08",
+   "size": 4023
+  },
+  {
+   "path": "yt_dlp/extractor/sohu.py",
+   "sha256": "70a5340cc0e405265b60b7a9b50e8828bd177a2841208a38152c642f3691dfe4",
+   "size": 11127
+  },
+  {
+   "path": "yt_dlp/extractor/sonyliv.py",
+   "sha256": "f7f5fa81de17b42edbf64c3f9e82530616c18030b86bed7490b85260ce61b9c2",
+   "size": 10690
+  },
+  {
+   "path": "yt_dlp/extractor/soundcloud.py",
+   "sha256": "ff75485dfd51efe965fbefe78c4b532cd9f13abe17fab2aa746919ccf6fdfce2",
+   "size": 59020
+  },
+  {
+   "path": "yt_dlp/extractor/soundgasm.py",
+   "sha256": "46b81e5a8edf2da240d1eb2b421b5eac43763ca40124d63bc9f007c4813adbaf",
+   "size": 2352
+  },
+  {
+   "path": "yt_dlp/extractor/southpark.py",
+   "sha256": "2c00f5d4eaf7cc730af1635d6d73c1757be91901460bafd0b23731782fe1e0f4",
+   "size": 15149
+  },
+  {
+   "path": "yt_dlp/extractor/sovietscloset.py",
+   "sha256": "c6e0fb0dfc5e235f3dab3688e2aef398c8477162f82e221faf98796bf4e28d91",
+   "size": 7814
+  },
+  {
+   "path": "yt_dlp/extractor/spankbang.py",
+   "sha256": "6e48d1324f6a2ab4085eae3567fe8d0f3d0bbc73cefce2bc2f580f02d473ddeb",
+   "size": 7521
+  },
+  {
+   "path": "yt_dlp/extractor/spiegel.py",
+   "sha256": "b2fbc245d1d68555bc18d4cc5f2b930b1e593e80edfd0862c6bebe9658323c4c",
+   "size": 2323
+  },
+  {
+   "path": "yt_dlp/extractor/sport5.py",
+   "sha256": "e910f678d2d66a724655f7e3c2200201ee6a6648621d4e5c45cf1a274aa538e0",
+   "size": 3150
+  },
+  {
+   "path": "yt_dlp/extractor/sportbox.py",
+   "sha256": "f5efa3ac065e71a6d6e35e4603592a5fb6723ce720cb4dd44829b5979b4f3eea",
+   "size": 3579
+  },
+  {
+   "path": "yt_dlp/extractor/sportdeutschland.py",
+   "sha256": "faedb841d0b71357f2fecc862da03c761ff796abb804d139cbb51843b38a1a27",
+   "size": 7331
+  },
+  {
+   "path": "yt_dlp/extractor/spreaker.py",
+   "sha256": "fcabce3659ac746b1aff723a5e1f9493bff97d1d16a21c99b7200ce03c7c0d71",
+   "size": 6479
+  },
+  {
+   "path": "yt_dlp/extractor/sproutvideo.py",
+   "sha256": "ef44b479ea455664fd6b51ea74ac9453ac36bd606edbd4e00c19adb415c9152c",
+   "size": 8650
+  },
+  {
+   "path": "yt_dlp/extractor/srgssr.py",
+   "sha256": "574d8bff7268e15bd40c79ae235617221c93fe8a3f27fecb938e4816aca3fe53",
+   "size": 9901
+  },
+  {
+   "path": "yt_dlp/extractor/srmediathek.py",
+   "sha256": "9bc67ce21a99dcbf34b1240605bb8f9fcf29e4ea3cf7de77bc03271858eb8ff0",
+   "size": 4048
+  },
+  {
+   "path": "yt_dlp/extractor/stacommu.py",
+   "sha256": "e8defd529946c9dc13804cec33b42e58f52feaf8b33c9cf2f0662fddf2706a5b",
+   "size": 9678
+  },
+  {
+   "path": "yt_dlp/extractor/stageplus.py",
+   "sha256": "81f4b567d08aa4bb055a5ec963b131bb793d7ad3f8cea5572d405825b9b898f7",
+   "size": 10878
+  },
+  {
+   "path": "yt_dlp/extractor/startrek.py",
+   "sha256": "d7315a43c833ab9edb2d5d024eb4af0c31df428f342a574729fae246dfcf3543",
+   "size": 3393
+  },
+  {
+   "path": "yt_dlp/extractor/startv.py",
+   "sha256": "736662bb8464620691c9435c58c3899bcb3906c8a1ee4b2bfea57b522708ea12",
+   "size": 3493
+  },
+  {
+   "path": "yt_dlp/extractor/steam.py",
+   "sha256": "5e1c4c7ed70dccc00c1b92275233d1ae895906449c9b09b02fd996202fab6e91",
+   "size": 8208
+  },
+  {
+   "path": "yt_dlp/extractor/storyfire.py",
+   "sha256": "a480fd9779434a2774074ed115b7e769072d89a63f9ab0ca6d2aa56af83e31fc",
+   "size": 4707
+  },
+  {
+   "path": "yt_dlp/extractor/streaks.py",
+   "sha256": "15bfe0fc5f79f00042bc6f6768f229760dbe052a570a512c25b0b70c4596d67c",
+   "size": 11457
+  },
+  {
+   "path": "yt_dlp/extractor/streamable.py",
+   "sha256": "fa8ab850a5e49f44500606576497aba89526f0f9f4cc36673570a23d4020bc1d",
+   "size": 3919
+  },
+  {
+   "path": "yt_dlp/extractor/streamcz.py",
+   "sha256": "ad7455f871e07c89b990afdd41b4bd764dfc93a27fd10b4b7d8184b8b21835c9",
+   "size": 5010
+  },
+  {
+   "path": "yt_dlp/extractor/streetvoice.py",
+   "sha256": "f706eba752901e5d21ea3a72cafd203dcfeeffdc2d5adf10f5529192fb8321eb",
+   "size": 3562
+  },
+  {
+   "path": "yt_dlp/extractor/stripchat.py",
+   "sha256": "e0366ce46b936b66d75ef28a349b4c737f0b1747901b679d67b65c80c1d44507",
+   "size": 2503
+  },
+  {
+   "path": "yt_dlp/extractor/stv.py",
+   "sha256": "7b2340db82760ba83b061ddb13a6cf19e9aed03d3e25c170b80b5216b4f7a4af",
+   "size": 3267
+  },
+  {
+   "path": "yt_dlp/extractor/subsplash.py",
+   "sha256": "3e942231036b49997bcef2e3d2fa3f0b79ab943190a18c09d596e45989195339",
+   "size": 8349
+  },
+  {
+   "path": "yt_dlp/extractor/substack.py",
+   "sha256": "d66fe499aa472126e3e9cc1b703eea697138450788fd215e8e2b6ec11e071326",
+   "size": 6600
+  },
+  {
+   "path": "yt_dlp/extractor/sunporno.py",
+   "sha256": "1365e05eb6a86ac178ae7124533fa655276fd9f9fae7aa60f906de1a459c4b24",
+   "size": 2527
+  },
+  {
+   "path": "yt_dlp/extractor/sverigesradio.py",
+   "sha256": "95c2f63233e80529cb98985b9b6e7120a4f5ab69834f480a629754cd2acf80b8",
+   "size": 5493
+  },
+  {
+   "path": "yt_dlp/extractor/svt.py",
+   "sha256": "fbb259536e18edfc6061935a79d4792b1e2e3aa9694d6f1e2c604f4880b66ba4",
+   "size": 16952
+  },
+  {
+   "path": "yt_dlp/extractor/sztvhu.py",
+   "sha256": "d837b8998f95d84e02650c7c1f3c679272f47f8fd1222e424ca75cbebe0b57bf",
+   "size": 1616
+  },
+  {
+   "path": "yt_dlp/extractor/tagesschau.py",
+   "sha256": "0fa6d708e61eb97bba056e613fc62ae52cd65713221977137a79ecb338bbb198",
+   "size": 6189
+  },
+  {
+   "path": "yt_dlp/extractor/taptap.py",
+   "sha256": "708f58d5d49bfe094e26523a4bfb6d7171ec8f0002ed738fad29f3c46c6e973f",
+   "size": 10513
+  },
+  {
+   "path": "yt_dlp/extractor/tarangplus.py",
+   "sha256": "1b1e17439e4327bac5975ebc6aa134f5a6c196af617a649928a02e1b3a1cca08",
+   "size": 9018
+  },
+  {
+   "path": "yt_dlp/extractor/tass.py",
+   "sha256": "6b9fb51d1ff1a2e851f0c12137132dce7b3f6d1d8b78ffbaa38bcea219b1226f",
+   "size": 1944
+  },
+  {
+   "path": "yt_dlp/extractor/tbs.py",
+   "sha256": "4008e7a3576cde5ce3bfc453ac2286816ab10ac3abc5f43823a59396730259b7",
+   "size": 7851
+  },
+  {
+   "path": "yt_dlp/extractor/tbsjp.py",
+   "sha256": "1524a90edbbb4242bc7384f04b3e6b6155810ff2f848a663411b4df33b382d9c",
+   "size": 7536
+  },
+  {
+   "path": "yt_dlp/extractor/teachable.py",
+   "sha256": "f6289b6d9d7bace1fc26ae22061abba52500cdd6473584b6d998e64aea1b3a60",
+   "size": 10426
+  },
+  {
+   "path": "yt_dlp/extractor/teachertube.py",
+   "sha256": "124f73c31726497caea5f6ecba6165691774ffb3f052f137489ef9e90b8281c8",
+   "size": 4343
+  },
+  {
+   "path": "yt_dlp/extractor/teachingchannel.py",
+   "sha256": "088d8ba7ca5d4f950a96a1d9bf5a7ecc30fd8270b13139796614e4e057b55401",
+   "size": 1042
+  },
+  {
+   "path": "yt_dlp/extractor/teamcoco.py",
+   "sha256": "daf7b396e930901dba708ec48db1b70feb3909faa4eb7a743b5465b2ce8f3893",
+   "size": 10067
+  },
+  {
+   "path": "yt_dlp/extractor/teamtreehouse.py",
+   "sha256": "e62f0ae2927d5c2ebd3673f550d2ae667c01bdded346916fe4fed884d799a92b",
+   "size": 5374
+  },
+  {
+   "path": "yt_dlp/extractor/ted.py",
+   "sha256": "35c4d74a5946c8abe06946587094a01b8bbc77b62ef72e609d69ca6ccc6eaa80",
+   "size": 10441
+  },
+  {
+   "path": "yt_dlp/extractor/tele13.py",
+   "sha256": "aad4ca954131a15b5f7ad6836e24fd83943b9251acd2a5e0516e1180652f3e9e",
+   "size": 3249
+  },
+  {
+   "path": "yt_dlp/extractor/tele5.py",
+   "sha256": "fed73139e67782fb365c877e8f7622983fe266d4cab9d448a05a2d25414f779a",
+   "size": 3184
+  },
+  {
+   "path": "yt_dlp/extractor/telebruxelles.py",
+   "sha256": "ce2a37178b6071160915d0b79d70da882175571c9230e59fd572538e01b0bb20",
+   "size": 2816
+  },
+  {
+   "path": "yt_dlp/extractor/telecaribe.py",
+   "sha256": "78565d0c75dd8367282aa23a8780c1a5bbbaf358519b005afc78e5b6600da6d6",
+   "size": 3118
+  },
+  {
+   "path": "yt_dlp/extractor/telecinco.py",
+   "sha256": "648e7dfe88534662dbdaa2ff9e23580f26f5b194a36d95d57ad5727668565c89",
+   "size": 7822
+  },
+  {
+   "path": "yt_dlp/extractor/telegraaf.py",
+   "sha256": "e730c1028b36d56b5134ec41d9519c59b181366876d4a67f3c7c32b83cddddf7",
+   "size": 3001
+  },
+  {
+   "path": "yt_dlp/extractor/telegram.py",
+   "sha256": "fb94af4380b65116e96b6e15bdd4d033d39cc512d17a79afde2212a78275da18",
+   "size": 5086
+  },
+  {
+   "path": "yt_dlp/extractor/telemb.py",
+   "sha256": "77cb2ecfbd8e2290226ae970332d77e7772d2177e6388ea64a36daeddd6b9b8b",
+   "size": 2894
+  },
+  {
+   "path": "yt_dlp/extractor/telemundo.py",
+   "sha256": "78e29568c6d8cd78aec9917008d0c6d1726777cd966385703f954193f1f5af37",
+   "size": 2396
+  },
+  {
+   "path": "yt_dlp/extractor/telequebec.py",
+   "sha256": "0df1c76add91c2ad4e5980ab1e15a29cdb742a3ae276ecc8f4dc68382bff7c12",
+   "size": 8945
+  },
+  {
+   "path": "yt_dlp/extractor/teletask.py",
+   "sha256": "5629cf3f7e1e6ea03565a5ed0270a736df09519e0c01ba7fc364dd9431d29e6c",
+   "size": 1716
+  },
+  {
+   "path": "yt_dlp/extractor/telewebion.py",
+   "sha256": "77ca29a9826f42f1a19e6b26a865097b8e5208a8f5b41c52c02144b6cfd4dae0",
+   "size": 5409
+  },
+  {
+   "path": "yt_dlp/extractor/tencent.py",
+   "sha256": "d1c77612a6db8e99ace0ec638733013ed8e790cff7c14f4a9392a9ac942b50ac",
+   "size": 19887
+  },
+  {
+   "path": "yt_dlp/extractor/tennistv.py",
+   "sha256": "cf2b171a828078f9683cb728ecdea99a407aac859ea2d184b02e8ae36b1efe7c",
+   "size": 7262
+  },
+  {
+   "path": "yt_dlp/extractor/tenplay.py",
+   "sha256": "2ad2b21ee1794246a3e1dd5de18567573211fe119d0be786734fd482c328047f",
+   "size": 13673
+  },
+  {
+   "path": "yt_dlp/extractor/testurl.py",
+   "sha256": "d7431e371ed0802603b3220049672115b55b9e5c4c6091139823dbeef4fe4207",
+   "size": 2093
+  },
+  {
+   "path": "yt_dlp/extractor/tf1.py",
+   "sha256": "62c49fd1a2e6eb80bbdb7809ab7c0e44868e1a4060d07ec811bf1089e56648a2",
+   "size": 3857
+  },
+  {
+   "path": "yt_dlp/extractor/tfo.py",
+   "sha256": "b1674956aa75d3235f2b83edcbf65bca76ecbc47cdf8a7de3c1fc17ee632bdd2",
+   "size": 2010
+  },
+  {
+   "path": "yt_dlp/extractor/thechosen.py",
+   "sha256": "5d4a83d11d452f97c1e9267b2ccd026ecaa3a14f44c61eee6fa6e14537bab4f0",
+   "size": 4468
+  },
+  {
+   "path": "yt_dlp/extractor/theguardian.py",
+   "sha256": "c5b72d82ab1b00838969237de8297f6a04883360fe6fac4c9c8124d2c4f7df88",
+   "size": 6097
+  },
+  {
+   "path": "yt_dlp/extractor/thehighwire.py",
+   "sha256": "4f8808b816b94e2ed97e546732b12703f0c55a19ac5d2cbddfd7f40b6729013a",
+   "size": 1524
+  },
+  {
+   "path": "yt_dlp/extractor/theintercept.py",
+   "sha256": "fd5e2eac46a4883b79d9fd29a9e29bc8ad24f366ae36f5297755f496b09c6d10",
+   "size": 1712
+  },
+  {
+   "path": "yt_dlp/extractor/theplatform.py",
+   "sha256": "c9e14754f942b5c2a9074858532a43aa884e1a54fd9ffb1c3033c264a39410bb",
+   "size": 18339
+  },
+  {
+   "path": "yt_dlp/extractor/thestar.py",
+   "sha256": "2ec331f56d8fdd0b1ff0dc40f4db61e0c0a1e1130cb1a72069f266ebb39e0fd4",
+   "size": 1348
+  },
+  {
+   "path": "yt_dlp/extractor/thesun.py",
+   "sha256": "46b67024eef910686a3192d3025c437d23ba951b373aa97fba4564a456513812",
+   "size": 1656
+  },
+  {
+   "path": "yt_dlp/extractor/theweatherchannel.py",
+   "sha256": "31540eb6535c3d7f180745fc945fab3491c8302610ec38d2bae4ad7da03b6aaf",
+   "size": 4110
+  },
+  {
+   "path": "yt_dlp/extractor/thisamericanlife.py",
+   "sha256": "ff68a39d9dda5d8617a2c6bf19c0b2b31e6a1349689c7258655c290fdddd9905",
+   "size": 1505
+  },
+  {
+   "path": "yt_dlp/extractor/thisoldhouse.py",
+   "sha256": "5b801d50d0bc5f42977d9b2c87043759c1c1f9ccb58988ede592ef183270793c",
+   "size": 6768
+  },
+  {
+   "path": "yt_dlp/extractor/thisvid.py",
+   "sha256": "77137e239e9489e5adf76892d954972bb21c9286d5350e8160f82f389f6f5892",
+   "size": 8628
+  },
+  {
+   "path": "yt_dlp/extractor/threeqsdn.py",
+   "sha256": "ccd1ea17610baae958a68502a756183e57f4b723d2da4aecac45244b40b0f184",
+   "size": 6219
+  },
+  {
+   "path": "yt_dlp/extractor/threespeak.py",
+   "sha256": "6a01b751ed21d7d740927247c2b2bd6b7441401e1a8dafb9731d5cae43822147",
+   "size": 4025
+  },
+  {
+   "path": "yt_dlp/extractor/tiktok.py",
+   "sha256": "3257fdea744811ea2e1bfee665a97d6ab85517339ee672f2e43e238e6b997c9e",
+   "size": 78054
+  },
+  {
+   "path": "yt_dlp/extractor/tmz.py",
+   "sha256": "36edf145e01cedd2b265cc531b05d88cea438de31d7cb29222024ca634a86cd2",
+   "size": 9626
+  },
+  {
+   "path": "yt_dlp/extractor/tnaflix.py",
+   "sha256": "3c05b377b2ed17decc17e68749d50ea56a4098b52a0650213f4147d13deda64d",
+   "size": 13561
+  },
+  {
+   "path": "yt_dlp/extractor/toggle.py",
+   "sha256": "ba76e777d21c24938a729a184b248849e84145b61ea8786bd71f9f1e678b6dae",
+   "size": 7892
+  },
+  {
+   "path": "yt_dlp/extractor/toggo.py",
+   "sha256": "d42a152cda9a85fb8458284292964ba27a741023a56dad0598b68964bec94e70",
+   "size": 3404
+  },
+  {
+   "path": "yt_dlp/extractor/tonline.py",
+   "sha256": "49c6f64859d192105c8bea2723a586a66f45f7fb63fd119a5834eb05f43ea1d7",
+   "size": 1942
+  },
+  {
+   "path": "yt_dlp/extractor/toongoggles.py",
+   "sha256": "e0aaaab1bc9a4e492a38b03a8498365e053f002ff09aac6b0510cc4ab67368e6",
+   "size": 2973
+  },
+  {
+   "path": "yt_dlp/extractor/toutiao.py",
+   "sha256": "d7a148993222cbbc870f5f0d61f860bd5b660cd015f7b613d7b582224df32801",
+   "size": 4714
+  },
+  {
+   "path": "yt_dlp/extractor/toutv.py",
+   "sha256": "52224a544f4c2165c39b28730240aa257d91c52bd0a684719878eba9ef9c5776",
+   "size": 3528
+  },
+  {
+   "path": "yt_dlp/extractor/toypics.py",
+   "sha256": "a294d6d16fba8fcfb07241b69c7bbc3cc634f47bbfc0ec29f3aa1e1142f1ab9d",
+   "size": 2726
+  },
+  {
+   "path": "yt_dlp/extractor/trtcocuk.py",
+   "sha256": "01b10162bde4210b8086ef4bb608cf40c9db64d39ad30fc80fefabf4bb4490bc",
+   "size": 1941
+  },
+  {
+   "path": "yt_dlp/extractor/trtworld.py",
+   "sha256": "af41cf03f7df8c94440d197dfc31f4e23036241595503c02f85d8a5d1cb84deb",
+   "size": 4717
+  },
+  {
+   "path": "yt_dlp/extractor/trueid.py",
+   "sha256": "cc61be0ae88a98e47dd71852c468a11ac559b49ed1d24723d2e72df3159fc7ab",
+   "size": 6362
+  },
+  {
+   "path": "yt_dlp/extractor/trunews.py",
+   "sha256": "4fff68bef3b0aad3c78c26fa911e590f1bc45d14774fbb5c1af3ec73d97ee1e1",
+   "size": 1444
+  },
+  {
+   "path": "yt_dlp/extractor/truth.py",
+   "sha256": "2fbf3f14cb3a0cc04147835a5e71e2c6a3ef922c2b241722b3732bea7c6592ee",
+   "size": 2990
+  },
+  {
+   "path": "yt_dlp/extractor/tube8.py",
+   "sha256": "d0212c814027c6a6fbd1390ce2d0521f94e9208deb2de9bf1d15104b5769b4f2",
+   "size": 6248
+  },
+  {
+   "path": "yt_dlp/extractor/tubetugraz.py",
+   "sha256": "ac458d040e3af434beafc8575e6b64fa975196f0ff66067266195982f81d4df2",
+   "size": 11143
+  },
+  {
+   "path": "yt_dlp/extractor/tubitv.py",
+   "sha256": "0a7a23ad52be739a1361203fcf8cf44308391e57cc4fd707e4bca7881440cf8e",
+   "size": 8547
+  },
+  {
+   "path": "yt_dlp/extractor/tumblr.py",
+   "sha256": "0b4b5530aeb7cf5f246fb1ce9356e5e4ce460c13399ead955118d22b1b159674",
+   "size": 24756
+  },
+  {
+   "path": "yt_dlp/extractor/tunein.py",
+   "sha256": "0dbee669e23905a2e93dbb4095744b2890a438a9f083e1c5cb83285b57f40eba",
+   "size": 12542
+  },
+  {
+   "path": "yt_dlp/extractor/turner.py",
+   "sha256": "0c7f25ebf537349f9ebb6b664c6b8742de3e8e8341709d884fd1f5588a608615",
+   "size": 11459
+  },
+  {
+   "path": "yt_dlp/extractor/tv2.py",
+   "sha256": "3a98a2889efcf4f38327c5ae66d792efd526a914df7f8ce6546e152050918c54",
+   "size": 13722
+  },
+  {
+   "path": "yt_dlp/extractor/tv24ua.py",
+   "sha256": "56415ecc0d5ad68744a83aabfccdc266c69f9c0dfb28e9f651c978a268b64351",
+   "size": 3648
+  },
+  {
+   "path": "yt_dlp/extractor/tv2dk.py",
+   "sha256": "d4f646dff99cde9b59e84c9a8e68af2edd27d79f91b33828377520c67ddfacad",
+   "size": 6210
+  },
+  {
+   "path": "yt_dlp/extractor/tv2hu.py",
+   "sha256": "9d8529d0f7dae7cca70d249fee503984f3bb3ea5ca263480d616528a105282be",
+   "size": 3964
+  },
+  {
+   "path": "yt_dlp/extractor/tv4.py",
+   "sha256": "ed51728002d0d389a11b6842de25167496050f553c05cb9a94b32cbf80164aa2",
+   "size": 5480
+  },
+  {
+   "path": "yt_dlp/extractor/tv5mondeplus.py",
+   "sha256": "361526c65b57f9826966802d2c10cd2f33f5fc818d5772280cfe35fccc9a2e40",
+   "size": 7774
+  },
+  {
+   "path": "yt_dlp/extractor/tv5unis.py",
+   "sha256": "469bcc898cede20c7de38cb93600166d63c7e22169f0b3cf39deeecbaf3fa29b",
+   "size": 5334
+  },
+  {
+   "path": "yt_dlp/extractor/tva.py",
+   "sha256": "e61a77a3feec9b983d20e7a78330989bacce8f96df3a8802dd7ba1f4efde71b4",
+   "size": 3141
+  },
+  {
+   "path": "yt_dlp/extractor/tvanouvelles.py",
+   "sha256": "9911ecce3ed16024aa82b6278d4d3897840d3401bddbc2fe083a3221126e70ff",
+   "size": 2324
+  },
+  {
+   "path": "yt_dlp/extractor/tvc.py",
+   "sha256": "ffd26f401556984dce212f191d5c6115833b0296aeb5f907b2a2a6eea14d9032",
+   "size": 4099
+  },
+  {
+   "path": "yt_dlp/extractor/tver.py",
+   "sha256": "1a44a772a755dc37de4a1abc99c330e4b4c3e9c27198456730881f0a13ffae36",
+   "size": 16597
+  },
+  {
+   "path": "yt_dlp/extractor/tvigle.py",
+   "sha256": "a8b4e0791b7fe9dd220d861a8c269bdf1c8ede1b5f469f3b2414db6b5b2fa613",
+   "size": 5030
+  },
+  {
+   "path": "yt_dlp/extractor/tviplayer.py",
+   "sha256": "b5a10a34cbaa57c0fae27b96f3f37749b89dce5a6c71a030f8aea84cc5b0d76b",
+   "size": 3002
+  },
+  {
+   "path": "yt_dlp/extractor/tvn24.py",
+   "sha256": "ead28ba07bdcc33ebf75990a41e023797e66ac2739d68b73fa95ad814b2ae579",
+   "size": 3842
+  },
+  {
+   "path": "yt_dlp/extractor/tvnoe.py",
+   "sha256": "14369f3e7d75a4e4ca8588d40dbf2ec8c627e6ac4d93cc96d15f4adfc72f85f4",
+   "size": 3235
+  },
+  {
+   "path": "yt_dlp/extractor/tvo.py",
+   "sha256": "39f04ae368478c4e76c40541b543a8a6658fc66848505cdd591e42f749a46efa",
+   "size": 5705
+  },
+  {
+   "path": "yt_dlp/extractor/tvopengr.py",
+   "sha256": "c3698eacb96b14eb8c5c86d188a705a24b441314ff26df960cb5cdd4acee5a0f",
+   "size": 6009
+  },
+  {
+   "path": "yt_dlp/extractor/tvp.py",
+   "sha256": "8585bcdd8c65db1d3b295d695837880d824350a6f78c821e42f3ad36b8e6cfa6",
+   "size": 25696
+  },
+  {
+   "path": "yt_dlp/extractor/tvplay.py",
+   "sha256": "5342004b642e989caaeea12b73c15eb1bf662928f48d91d005890ceac86b6018",
+   "size": 11828
+  },
+  {
+   "path": "yt_dlp/extractor/tvw.py",
+   "sha256": "a9a8fa83a298867a21625ff7769b4570aa8504ea4e768000a4b4c706a346896d",
+   "size": 8980
+  },
+  {
+   "path": "yt_dlp/extractor/tweakers.py",
+   "sha256": "dc1f2cb024063cb69a88f05bdf8d1a57afb7884229c4e2ea263a281b9fc0bb79",
+   "size": 2087
+  },
+  {
+   "path": "yt_dlp/extractor/twentymin.py",
+   "sha256": "737bc8b2d7b11d49ad8503fa4771e5d0357223bd0b7c2e0c5886f8fd5c5886c6",
+   "size": 3036
+  },
+  {
+   "path": "yt_dlp/extractor/twentythreevideo.py",
+   "sha256": "6e79c60853be5959d74c3ae980e2a5f23a2df67c667a53f0477be7a96c886944",
+   "size": 3241
+  },
+  {
+   "path": "yt_dlp/extractor/twitcasting.py",
+   "sha256": "d4bd21e648abe3f1f10a8303d7c37ec79c2f38908ab97f568faa78eee0333c10",
+   "size": 12990
+  },
+  {
+   "path": "yt_dlp/extractor/twitch.py",
+   "sha256": "e4561902e6958d9feb6a4166b5c6d6cb2f7be0b453bc4c5958a2c656cf697d77",
+   "size": 47544
+  },
+  {
+   "path": "yt_dlp/extractor/twitter.py",
+   "sha256": "1a11f1b902faa077ad673a853b4c29a76d43df91513380b967d605be1b18ddc3",
+   "size": 78255
+  },
+  {
+   "path": "yt_dlp/extractor/txxx.py",
+   "sha256": "96761915f4a866e47d03c8267c251ec59ae27cb53b26819d666893b34a342eec",
+   "size": 17085
+  },
+  {
+   "path": "yt_dlp/extractor/udemy.py",
+   "sha256": "85c4a1b770b537f7e75c7605688333bfce3759ec93a23ef23227a90cadf5b2a2",
+   "size": 19341
+  },
+  {
+   "path": "yt_dlp/extractor/udn.py",
+   "sha256": "0e06c80f8778850af3a941bd979521b2498444ae11431bb9c1cbcf830f669715",
+   "size": 3879
+  },
+  {
+   "path": "yt_dlp/extractor/ufctv.py",
+   "sha256": "ba9cbf3d618aab9fc1217498c2a267356c47f2c2ed2e6ebe6c98ee747bb21bb3",
+   "size": 266
+  },
+  {
+   "path": "yt_dlp/extractor/ukcolumn.py",
+   "sha256": "ee4643612279ce355c2f83200145c9434e429842871f8856ba72311cdadc030e",
+   "size": 2459
+  },
+  {
+   "path": "yt_dlp/extractor/uliza.py",
+   "sha256": "1626f4acf9aeee31ee4c96a8c64cdd997a8a667492a5343bb67ea4ab73fe9e29",
+   "size": 4993
+  },
+  {
+   "path": "yt_dlp/extractor/umg.py",
+   "sha256": "145d96cf56b2fdfea1c4f22afbc8da14a1aa02d2d434f9414cb03ec749a4c08d",
+   "size": 2240
+  },
+  {
+   "path": "yt_dlp/extractor/unistra.py",
+   "sha256": "cf5ce4a2ee601d8c9ff4d42200b09c82d4908a06ca89c365a3e5e2abb1bfa4ed",
+   "size": 2078
+  },
+  {
+   "path": "yt_dlp/extractor/unitednations.py",
+   "sha256": "a8507fbd196cd52c39a496d0d7a5bac8a1b2fc8c1bbe02f0bdc1ac5e6f83ec11",
+   "size": 1289
+  },
+  {
+   "path": "yt_dlp/extractor/unity.py",
+   "sha256": "86eab26f4daf6f206a885479d9b3edc55e5bfd84caf8f070bca63c0d1f3c247a",
+   "size": 1209
+  },
+  {
+   "path": "yt_dlp/extractor/unsupported.py",
+   "sha256": "880f0a7b8df927ebc89a612cd97a71d0ba101c23a1ddc867d37aa7150bdf0170",
+   "size": 12574
+  },
+  {
+   "path": "yt_dlp/extractor/uol.py",
+   "sha256": "91615d8bd5cb7a50e97366e9a282985080dc8677466384899a48cf8725c4b7ac",
+   "size": 5307
+  },
+  {
+   "path": "yt_dlp/extractor/uplynk.py",
+   "sha256": "7092c59660b89c3f33bfb81804eeb58fae4ce27b6fb3c34ce0ccb8c319684550",
+   "size": 3352
+  },
+  {
+   "path": "yt_dlp/extractor/urort.py",
+   "sha256": "2d293e449b131f4df1fbbc2191dbcd451006a1f0119786ca5dec88cf34aa9c14",
+   "size": 2136
+  },
+  {
+   "path": "yt_dlp/extractor/urplay.py",
+   "sha256": "f0016cacd0f3987fb5d76d50335b648e9d6e20aa06a13abf7fc81b45ae6f7ad0",
+   "size": 7733
+  },
+  {
+   "path": "yt_dlp/extractor/usanetwork.py",
+   "sha256": "a258cda301d7982d244415de92b427088926cb70b44926983c4221ab9fa24eb6",
+   "size": 798
+  },
+  {
+   "path": "yt_dlp/extractor/usatoday.py",
+   "sha256": "99c7c2f6017b258b07d10773bad8917b38c19b1e19755b3cb13349d9c30474fc",
+   "size": 2609
+  },
+  {
+   "path": "yt_dlp/extractor/ustream.py",
+   "sha256": "31af108a017b25f7996f91ae946d637f4d5f5ca8a90d555d395cdd28cc9a06b8",
+   "size": 10463
+  },
+  {
+   "path": "yt_dlp/extractor/ustudio.py",
+   "sha256": "d57a7872c1d11cde21ff310de16ed5badcf0c5a4d0fdada1e70120917c685247",
+   "size": 4246
+  },
+  {
+   "path": "yt_dlp/extractor/varzesh3.py",
+   "sha256": "61f5d78e59e6ad31e6c5b950b167b64dbe9132a2ebc9bfc2d978ffcf1c367ced",
+   "size": 3045
+  },
+  {
+   "path": "yt_dlp/extractor/vbox7.py",
+   "sha256": "0cc500eb8cad251c12e9d03ba37c41b547cf6a4e5935be2025c98f1c6202784d",
+   "size": 4898
+  },
+  {
+   "path": "yt_dlp/extractor/veo.py",
+   "sha256": "3805026c7e7819c347ed0d37ee7112a3265a04204500ba9d0b01ffa690502197",
+   "size": 2732
+  },
+  {
+   "path": "yt_dlp/extractor/vevo.py",
+   "sha256": "51eb0aae5cda0ceeaed0f28d0fb9d435906b4c90f7f127ad2fe496e2c78fd47e",
+   "size": 13432
+  },
+  {
+   "path": "yt_dlp/extractor/vgtv.py",
+   "sha256": "73de8ffd12fcf1447620247922663640b3ed535a7512e5009b84650c94a42b80",
+   "size": 10787
+  },
+  {
+   "path": "yt_dlp/extractor/vh1.py",
+   "sha256": "516059ba2b1a250bbbe1b9b257747dc0b94ee59431268c30acc3baaed5cb3786",
+   "size": 2011
+  },
+  {
+   "path": "yt_dlp/extractor/vice.py",
+   "sha256": "d43235315b016e81161ba1a4132c3d84358c905482307c325837c6ec9ec58246",
+   "size": 12387
+  },
+  {
+   "path": "yt_dlp/extractor/viddler.py",
+   "sha256": "68379be8964ab31aa7c7e7db4d1e4ff8c573fe18e16271e9b6e61193825300cf",
+   "size": 5337
+  },
+  {
+   "path": "yt_dlp/extractor/videa.py",
+   "sha256": "dff89f83fa2ba49fa627d2f0154f9625059df876d0f7484396362a0a1f6585ec",
+   "size": 7230
+  },
+  {
+   "path": "yt_dlp/extractor/videocampus_sachsen.py",
+   "sha256": "ed6a7884631f08d2b8892238158b536708596d1cc4499b61e5c3cc218ddc921e",
+   "size": 12548
+  },
+  {
+   "path": "yt_dlp/extractor/videoken.py",
+   "sha256": "67489869ac2a65c5f6319d4cd3366ea343df4efc0da3527d8266ea5c92e0c34b",
+   "size": 1567
+  },
+  {
+   "path": "yt_dlp/extractor/videopress.py",
+   "sha256": "0162e9ce1361339e523694f9361e50f0d90b7bcf75d93ec9e814c80887abc143",
+   "size": 3655
+  },
+  {
+   "path": "yt_dlp/extractor/vidflex.py",
+   "sha256": "baf03b279bb591a857474da804aba80cb43374f1a106b95525a566dfd89fd1c4",
+   "size": 6057
+  },
+  {
+   "path": "yt_dlp/extractor/vidio.py",
+   "sha256": "d59a0bcfba097483a9bf9d8f4f86d298af87ce37857f037b6f1dd5342d9c8ad0",
+   "size": 13732
+  },
+  {
+   "path": "yt_dlp/extractor/vidlii.py",
+   "sha256": "5380fbc370281803517908174b0f8f3249ddbfe87db95229b397b0fd507c58f0",
+   "size": 5796
+  },
+  {
+   "path": "yt_dlp/extractor/vidly.py",
+   "sha256": "aea8c9d4d8899939d6383d48c7e14f2dc29b12dd2afab810d428cc2ade909b96",
+   "size": 3062
+  },
+  {
+   "path": "yt_dlp/extractor/vidyard.py",
+   "sha256": "229e3601037cc992ae056050f2e0757f0d9f9a293ca6e45300ea0480e8a9be97",
+   "size": 19785
+  },
+  {
+   "path": "yt_dlp/extractor/viewlift.py",
+   "sha256": "0de51f0bc7d23870de69fb11e37580f859d55b6ee6f56ad3629702589ad60846",
+   "size": 15349
+  },
+  {
+   "path": "yt_dlp/extractor/viidea.py",
+   "sha256": "a7068494f73aea51b24ab0dfc20d4361eea54bd8bede03d852dd9a4ab65f08ea",
+   "size": 7284
+  },
+  {
+   "path": "yt_dlp/extractor/vimeo.py",
+   "sha256": "c68af1fe2381b639baea819142a581b2fb011f72747083e405c08272c110148a",
+   "size": 100305
+  },
+  {
+   "path": "yt_dlp/extractor/viously.py",
+   "sha256": "857e1106da77cd04997f50b25a87281b8ad88bbcbb34775212946098cdfca9a8",
+   "size": 2573
+  },
+  {
+   "path": "yt_dlp/extractor/viqeo.py",
+   "sha256": "c7397ec2307cf2da0c9b2684131d8e38dcad61bc048caee1ca92388525926f2f",
+   "size": 3498
+  },
+  {
+   "path": "yt_dlp/extractor/visir.py",
+   "sha256": "e691cdf36c1b7986a5dfad87155efdba878d58ba017d4ae37959838758d7bb14",
+   "size": 4912
+  },
+  {
+   "path": "yt_dlp/extractor/viu.py",
+   "sha256": "3d5bdde10db83b65492e1c4e05e2facb4afe0be72a618bcec4f7c67febad6eee",
+   "size": 21188
+  },
+  {
+   "path": "yt_dlp/extractor/vk.py",
+   "sha256": "ad5d64868af02fec9077d86d4225ebf1dccacc560766e2e55d3ee6e63386be81",
+   "size": 39149
+  },
+  {
+   "path": "yt_dlp/extractor/vocaroo.py",
+   "sha256": "6afc59950f27d941c241921120bdc44a732d02bc887e8fe74976fdb7ad4e019b",
+   "size": 2147
+  },
+  {
+   "path": "yt_dlp/extractor/vodplatform.py",
+   "sha256": "0c7de7fc5a3d63db7bec8a310579959f4c288146ebb2dbe81f614c1d1a8718a0",
+   "size": 1617
+  },
+  {
+   "path": "yt_dlp/extractor/voicy.py",
+   "sha256": "83f3e7adce98c706b03d53361f201326deb8f508253fc0fe4680b36182006190",
+   "size": 5325
+  },
+  {
+   "path": "yt_dlp/extractor/volejtv.py",
+   "sha256": "2b5e3de375721e6703b050d66bad82e28a086df222ac82740eb00d12ee24b9d1",
+   "size": 5854
+  },
+  {
+   "path": "yt_dlp/extractor/voxmedia.py",
+   "sha256": "259725382713d298d5b17bedd935f33b7bcd3424396c690b66e5eec6c3e59077",
+   "size": 9248
+  },
+  {
+   "path": "yt_dlp/extractor/vrsquare.py",
+   "sha256": "ece8ebbab611a72937994b8f95b8f510e3d4de4fb12f422269c91d83d792f542",
+   "size": 6619
+  },
+  {
+   "path": "yt_dlp/extractor/vrt.py",
+   "sha256": "530af18bef8c214c7945dda3d22cc2d36cc989a01f2daa8f296976ecee723b81",
+   "size": 25324
+  },
+  {
+   "path": "yt_dlp/extractor/vtm.py",
+   "sha256": "a767dfc7e37ee257931f8a0d3bb47c1b05abc6acbb1ab6abbf8176e84fd681e4",
+   "size": 1692
+  },
+  {
+   "path": "yt_dlp/extractor/vtv.py",
+   "sha256": "ad3570960a24c39a4c8bc38ed4a68c9de7ea99a5cfa73632e6d4eeabb171efd5",
+   "size": 5310
+  },
+  {
+   "path": "yt_dlp/extractor/walla.py",
+   "sha256": "650030111dcb8a81a508127817f4115d13fe217342201480f8924dd84f5c1b52",
+   "size": 2740
+  },
+  {
+   "path": "yt_dlp/extractor/washingtonpost.py",
+   "sha256": "4466fc6d2b9d5ae64ca28420994f7a129d9ea38235b12c347fc0c6f3d1719ec2",
+   "size": 5786
+  },
+  {
+   "path": "yt_dlp/extractor/wat.py",
+   "sha256": "6c9800395fbf55fb908338e693fce4934e10463d46691f60df2f66e6fa98ed6f",
+   "size": 5084
+  },
+  {
+   "path": "yt_dlp/extractor/wdr.py",
+   "sha256": "d800b71ecaaf354dd6ca204ffb53da25f60acaa4badb02fea6d4a7405a21062b",
+   "size": 14106
+  },
+  {
+   "path": "yt_dlp/extractor/webcamerapl.py",
+   "sha256": "4b2ba459e14d8110261da2d81964c8d0be449b20731869940851c79ec15ea999",
+   "size": 1586
+  },
+  {
+   "path": "yt_dlp/extractor/webcaster.py",
+   "sha256": "1ed2ec23ebba3f117d05366f4e9982b071605ddbfa20707d919ebb0f56403a1b",
+   "size": 3658
+  },
+  {
+   "path": "yt_dlp/extractor/webofstories.py",
+   "sha256": "1b9846be1c7cf13fb0c154959370bc8c84ff1ee96aa7f4575c2994e6f09c6b2c",
+   "size": 5314
+  },
+  {
+   "path": "yt_dlp/extractor/weibo.py",
+   "sha256": "18062464bd018ab0ffc3a1c95f2737ec53be673130ea51c5a0229f98d99ca9be",
+   "size": 17227
+  },
+  {
+   "path": "yt_dlp/extractor/weiqitv.py",
+   "sha256": "0e8a43d287eb6d04e33af76aeaefc783ef859845dcbe7e68f2efb327fae2f892",
+   "size": 1645
+  },
+  {
+   "path": "yt_dlp/extractor/weverse.py",
+   "sha256": "cc516aecf254ddae8d59205b3077185ddaa8a740b6c828f47cf824ea251ea82f",
+   "size": 32614
+  },
+  {
+   "path": "yt_dlp/extractor/wevidi.py",
+   "sha256": "ca5a4a7c9d5a1060d1605d31f4ed8a81a78678dfc1c58376a6146f19aa369c5f",
+   "size": 4159
+  },
+  {
+   "path": "yt_dlp/extractor/whowatch.py",
+   "sha256": "5cb767eda4cb918f9df495e30c84a816a950330994ac71c605a103fdf0fe6cdf",
+   "size": 3881
+  },
+  {
+   "path": "yt_dlp/extractor/whyp.py",
+   "sha256": "06d40cdc457f0357eb0c2a014717d765710630435e16e57977e4b6628abd3b7a",
+   "size": 3246
+  },
+  {
+   "path": "yt_dlp/extractor/wikimedia.py",
+   "sha256": "bf5932ec6cbdb2f33f5bbd0fe510f9569d97abf252f2931f55d586c5411ce22d",
+   "size": 5565
+  },
+  {
+   "path": "yt_dlp/extractor/wimbledon.py",
+   "sha256": "709fd5279084bf13802043534044c92655ddc90a9da3381161654982d6ef66a9",
+   "size": 2285
+  },
+  {
+   "path": "yt_dlp/extractor/wimtv.py",
+   "sha256": "2bc1d632f074b86729a6790ca731fd006be5fb006786e47c2338eed2b06cee5a",
+   "size": 5777
+  },
+  {
+   "path": "yt_dlp/extractor/wistia.py",
+   "sha256": "94cd6880a7ebb8ed0e2f1ec777286c3cabdfdfabdbd11f4011f0af03ed8e96cc",
+   "size": 17066
+  },
+  {
+   "path": "yt_dlp/extractor/wordpress.py",
+   "sha256": "88d638b9aac794a92e74822b61d0dbe9d5e58ee1406410f712600e9524d14a0a",
+   "size": 7205
+  },
+  {
+   "path": "yt_dlp/extractor/worldstarhiphop.py",
+   "sha256": "4bc51f6499a90d9de6c430b49449b12ab6151ec0f34cc1df868a9f1a25982b70",
+   "size": 1305
+  },
+  {
+   "path": "yt_dlp/extractor/wppilot.py",
+   "sha256": "0c246503a46ff9c9941093b935f8d7181e484c54c78a81792f7b8d9b7f334e67",
+   "size": 6087
+  },
+  {
+   "path": "yt_dlp/extractor/wrestleuniverse.py",
+   "sha256": "1b1377fa93c211f4a9a32871a0047827ca6fb787e20fd63f06043e72a1e26f8c",
+   "size": 14005
+  },
+  {
+   "path": "yt_dlp/extractor/wsj.py",
+   "sha256": "a00cef844ef9e27c6d586eef353bb67ce8b7de748ae5f5944f833836231f81e5",
+   "size": 5096
+  },
+  {
+   "path": "yt_dlp/extractor/wwe.py",
+   "sha256": "668d645ef860e148aee7c1fd10f5e881ea3115532ae7718b083238ac6fefb16e",
+   "size": 4435
+  },
+  {
+   "path": "yt_dlp/extractor/wykop.py",
+   "sha256": "8871a52e802c01ae540a47365870d12d6293b6d15e48c147e729fcde50ac958b",
+   "size": 10729
+  },
+  {
+   "path": "yt_dlp/extractor/xboxclips.py",
+   "sha256": "6817f6b10f78e9598bb8754b48b13ad3af0d817c569987eaa67470bb87b549aa",
+   "size": 2320
+  },
+  {
+   "path": "yt_dlp/extractor/xhamster.py",
+   "sha256": "9372665f22f42f82814bd0777d4908830aef871392bf437d0f8b16a5d3a28145",
+   "size": 27130
+  },
+  {
+   "path": "yt_dlp/extractor/xiaohongshu.py",
+   "sha256": "2370a78e330a0f3a0674ce7f1ea67a88660a6034a021fd39b9dcf73777aeb4ed",
+   "size": 5018
+  },
+  {
+   "path": "yt_dlp/extractor/ximalaya.py",
+   "sha256": "a7185de750b891d5666846a9c5dec7f7b62671280731864e3ff1617d50212b45",
+   "size": 9575
+  },
+  {
+   "path": "yt_dlp/extractor/xinpianchang.py",
+   "sha256": "2ae94df2c3045c1d7c136b5efea0beea9f176d8b200f5deba120170e68052c46",
+   "size": 3882
+  },
+  {
+   "path": "yt_dlp/extractor/xminus.py",
+   "sha256": "6e877a721eccc21f50557af909a5e8c10017ef8cfb9140ae1ad34e9be4effaf1",
+   "size": 2902
+  },
+  {
+   "path": "yt_dlp/extractor/xnxx.py",
+   "sha256": "42fb114f14c9de639435429c1316a9dc74538ce612d63beab7aa8a5f34b20af8",
+   "size": 2887
+  },
+  {
+   "path": "yt_dlp/extractor/xvideos.py",
+   "sha256": "f713b5edec21057f5caf6a807d228265e7aef88663e0b1e05826ea83e088a351",
+   "size": 8598
+  },
+  {
+   "path": "yt_dlp/extractor/xxxymovies.py",
+   "sha256": "6946cd8ff75aec7e94f6c2d8d1f27e176d849d8507bd030bc9c457d9ad620687",
+   "size": 2613
+  },
+  {
+   "path": "yt_dlp/extractor/yahoo.py",
+   "sha256": "705e74937cf0be55ad3d7553981f18ad2b65ac02f55605321b41e6f6be52651d",
+   "size": 15642
+  },
+  {
+   "path": "yt_dlp/extractor/yandexdisk.py",
+   "sha256": "f18dee3d59b9cfc9042e3b2649921ab1c679f6de72122584df9b22b798448e70",
+   "size": 5117
+  },
+  {
+   "path": "yt_dlp/extractor/yandexmusic.py",
+   "sha256": "d74c5debc1d1b540a83199e0e08e193295b2165bb79c64bb68ad9276d4fa97fd",
+   "size": 17422
+  },
+  {
+   "path": "yt_dlp/extractor/yandexvideo.py",
+   "sha256": "53f6cb506ed7c7377b75d4a371784fedde166c3890080a2a7d7ee86686a914a6",
+   "size": 17989
+  },
+  {
+   "path": "yt_dlp/extractor/yapfiles.py",
+   "sha256": "c00d53ef6236784c49a2a0b851bc38c051d253361f80ac0df4d8562835bb0cb3",
+   "size": 3253
+  },
+  {
+   "path": "yt_dlp/extractor/yappy.py",
+   "sha256": "499f9bd46b7b485c12e7faf7a67825113e45fb94774f8cb9b67e98ba83211c2b",
+   "size": 5653
+  },
+  {
+   "path": "yt_dlp/extractor/yfanefa.py",
+   "sha256": "f0cfd3b190228fb6b672a10d3eb500916244cbd944bc67fafc4094d54d3f7bf1",
+   "size": 2320
+  },
+  {
+   "path": "yt_dlp/extractor/yle_areena.py",
+   "sha256": "59844ac4d3f61b0740317b273cfb603e6ed1a09f8acb182ab8f68934fd4049a9",
+   "size": 8036
+  },
+  {
+   "path": "yt_dlp/extractor/youjizz.py",
+   "sha256": "433897037f510dd6e7c95b4f3c2a246bad38fc75dfdc7450c653bab4ed9dff4a",
+   "size": 3025
+  },
+  {
+   "path": "yt_dlp/extractor/youku.py",
+   "sha256": "013f5752805e9a9a88f54867d8e6360294bcdfb29e18c14199e3e233cf0c9a3f",
+   "size": 10927
+  },
+  {
+   "path": "yt_dlp/extractor/younow.py",
+   "sha256": "bc986ed438f33788fb76168e4220acf4100d6323327d21104ec2c019da2d8561",
+   "size": 6852
+  },
+  {
+   "path": "yt_dlp/extractor/youporn.py",
+   "sha256": "223af5211f41db1f6d81201c8abe558082e27a04e3a0e6ea81b83fe074a16c54",
+   "size": 22521
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/__init__.py",
+   "sha256": "8ff51433d3983db05b0f627cea1a8db14bb8610bb5d9e459a429aab8c8f01ff0",
+   "size": 1408
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_base.py",
+   "sha256": "8461458c34377c3fe3af4fa9a5c457bbcce9b7295c42931d079741fce9aa8ff3",
+   "size": 57894
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_clip.py",
+   "sha256": "fff10952b6fa894088511ba9b1a6be8b19f9d6ae1eb1fa24d3dce7ae9bdd0fcf",
+   "size": 3073
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_mistakes.py",
+   "sha256": "0e2654868f799a114ebe34e0f8cf330c9220d99d8837515c98961706b53a2900",
+   "size": 2142
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_notifications.py",
+   "sha256": "d6785abf35b47b641614058791f6d3538b125cda78bd46c617281835281bc411",
+   "size": 4585
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_redirect.py",
+   "sha256": "5965a718491f486057a59162fdb598e1770767c3c378aed4b277436936188508",
+   "size": 9005
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_search.py",
+   "sha256": "976758786759565c27878ec3c68103cad9073ddc9a5ffef5bfbbb1926f63a2f9",
+   "size": 6044
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_tab.py",
+   "sha256": "736ac305841cf6f070cb44a2d7060771e9743f30b6ef38fe0304fc419877b970",
+   "size": 123044
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/_video.py",
+   "sha256": "0ceec167cd8b62caec2ce3f183915aa61b2d5faa9706e89d4b7870707fe8a226",
+   "size": 217966
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/__init__.py",
+   "sha256": "1da5453fc8a4acb684f82940877f7e4b6f16085e12d8a4d1692bbb42f036f04f",
+   "size": 289
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "size": 0
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/bun.py",
+   "sha256": "6dfd7ca7c49fa69e4f96e2a4fec28f70f34ec4e541b5b0b188efde7d432cb92a",
+   "size": 6965
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/deno.py",
+   "sha256": "7776ce639b77f85e946db6acd25a6894139694becec4b061c498b4df911e410c",
+   "size": 5549
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/ejs.py",
+   "sha256": "3db3ca7ee7619ee9ba770261e68a3643ebbce5d2f5e7496134d8fd83f9fd4d88",
+   "size": 13907
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/node.py",
+   "sha256": "d83ee6344796455c36843e2ba727635861ec3b371cc43330189bf1d1e58dab74",
+   "size": 2300
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/quickjs.py",
+   "sha256": "71a63c0e31ebf867382fc6120de1c00ae02762c6270c80e5d5ed2a85395fb479",
+   "size": 2475
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/vendor/__init__.py",
+   "sha256": "68b184705487b7eb9bd47db58c7a79dab2530ca66659757e3c977fd21542722a",
+   "size": 518
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/vendor/_info.py",
+   "sha256": "5c7fe85b7a5f7c6478c358763ff754be6e0cbedcd02145f3adfc2e9ca839b57b",
+   "size": 1039
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.bun.lib.js",
+   "sha256": "65f2f349d4044c17cf5a7890b20b5c7b7cf279878122bf79b3b33f7f4bf62cd4",
+   "size": 237
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.core.js",
+   "sha256": "ca259e4e3cdd37d92fc266d9af08d4fd66da8479e240f4d984f29da402c22ead",
+   "size": 12607
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_builtin/vendor/yt.solver.deno.lib.js",
+   "sha256": "e8314c3415d59d8df57fd192cac5ee40ace256337ea9f5199f4c7002fe4ececf",
+   "size": 245
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_director.py",
+   "sha256": "b78b80770c1ea40cf97a1469cfee7a0a93cabf2fd91250f934256b790036a1f1",
+   "size": 13173
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/_registry.py",
+   "sha256": "560f4690728728a3de45f510f974b0d3599fc7fd97ca8761d12269c236b06020",
+   "size": 102
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/jsc/provider.py",
+   "sha256": "d67d144345afbef2db3ff3918e8e353d55fa859a659ee7be3025ad88de2e920d",
+   "size": 5002
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/__init__.py",
+   "sha256": "6cf5f788948a0681bbdb44dddd77d0c5b2e06fc4846b8e4dbf8fa313cef57a25",
+   "size": 194
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/_builtin/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "size": 0
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/_builtin/memory_cache.py",
+   "sha256": "0806513bf3cb2b6233a96975fae1d6cf8b9ed30356ad8725c47e30fff497458a",
+   "size": 2478
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/_builtin/webpo_cachespec.py",
+   "sha256": "3c0451d2379c01e9f5557ec0f96ffaf89a23a41fa22feee33c18bce0169f8d0a",
+   "size": 1811
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/_director.py",
+   "sha256": "e176943487fa79bd939b2bfa1c8da6bef723afe3a71c6e65515a697083dfeff4",
+   "size": 20708
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/_provider.py",
+   "sha256": "7139916eeda48e44efb166a35156ce809afa2032f57406bbb2cc43ca15d83065",
+   "size": 5370
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/_registry.py",
+   "sha256": "4b8c2d04639eecf2f615293d1c43c5d803c45684bbb5251a13f48cf9a3cd3c56",
+   "size": 255
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/cache.py",
+   "sha256": "0c528630a58c88b4de8ff551d11e194dd58f90e3656dc419691bffaf35cfd5cd",
+   "size": 2686
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/provider.py",
+   "sha256": "764dd8f152fc31e11904db637970de8c79947853542453c17932b87a3998b388",
+   "size": 10428
+  },
+  {
+   "path": "yt_dlp/extractor/youtube/pot/utils.py",
+   "sha256": "765e7b81668d26090c51a61d4d0dd67c398145d455fe2be2d533724a2111c88e",
+   "size": 2329
+  },
+  {
+   "path": "yt_dlp/extractor/zaiko.py",
+   "sha256": "ee6e09eb402933b6f10c20abd7f0f4bddf472869e672f4fa58e470845d1ba7bf",
+   "size": 6302
+  },
+  {
+   "path": "yt_dlp/extractor/zan.py",
+   "sha256": "9ae96037893c8090a2e519da9f2463d47927f70061fd2ae5fd6db3a2f07d4212",
+   "size": 9440
+  },
+  {
+   "path": "yt_dlp/extractor/zapiks.py",
+   "sha256": "e449035e63b85b66635cdabe92889eaf5255cdd3d3786d0468326313b20520ff",
+   "size": 8489
+  },
+  {
+   "path": "yt_dlp/extractor/zattoo.py",
+   "sha256": "6a9a4bc31f353fcece383dae71a870dde638b3be55ccf721a3a4ebb1443f994c",
+   "size": 29267
+  },
+  {
+   "path": "yt_dlp/extractor/zdf.py",
+   "sha256": "708421850949171f685f98b5dc35424f6960c5f2da7ef58755cbfe9f65891ef5",
+   "size": 37286
+  },
+  {
+   "path": "yt_dlp/extractor/zeenews.py",
+   "sha256": "af11f978dac23015e49b41ccd991b9cc5e4df073c5507159e3927bdbd1058d9c",
+   "size": 3219
+  },
+  {
+   "path": "yt_dlp/extractor/zenporn.py",
+   "sha256": "5a790dfdc49fe428312c68264ef1547b2c0d4d3349b8b6e507091d6588b678d7",
+   "size": 4807
+  },
+  {
+   "path": "yt_dlp/extractor/zetland.py",
+   "sha256": "28654d02aca32f5c3a8c67af86a78a4c7496662c495815e1dd8349255eb9eee7",
+   "size": 3918
+  },
+  {
+   "path": "yt_dlp/extractor/zhihu.py",
+   "sha256": "da992f9c839c1ef423fc3c4f291df0ecc629db6f47ae200977e4a1262cbf1f14",
+   "size": 2546
+  },
+  {
+   "path": "yt_dlp/extractor/zingmp3.py",
+   "sha256": "2870fe7fed6f50fcb5f1793efc5fc7fcb7c547d37bf9b38d15859e351bc9d59e",
+   "size": 23549
+  },
+  {
+   "path": "yt_dlp/extractor/zoom.py",
+   "sha256": "351efb6cafe2210f0194026481be81869d2e44f2d15955c82d9e585df3d58c08",
+   "size": 8905
+  },
+  {
+   "path": "yt_dlp/extractor/zype.py",
+   "sha256": "7b7ff4eda325eb9c7ece223919efcf87f942578abaec39ea791ab63e320a663e",
+   "size": 5507
+  },
+  {
+   "path": "yt_dlp/globals.py",
+   "sha256": "cd5afd8a68685dc5c7a02b55d1502b4f9fbe1069a33b571f3b120abb8c42cd23",
+   "size": 1259
+  },
+  {
+   "path": "yt_dlp/jsinterp.py",
+   "sha256": "d864d296b0b76ae383baafc1dd03eba93a5a068f8a199d88e06227af2ae98eca",
+   "size": 39200
+  },
+  {
+   "path": "yt_dlp/minicurses.py",
+   "sha256": "7c3abbbdd127db9aa965e10e74393662412c72414c1806eb41a65c18db78354a",
+   "size": 5328
+  },
+  {
+   "path": "yt_dlp/networking/__init__.py",
+   "sha256": "b3ca5d8084aeda1349af610f532d492225b3990245eb4db88d084eca2667cb4f",
+   "size": 862
+  },
+  {
+   "path": "yt_dlp/networking/_curlcffi.py",
+   "sha256": "ac07e03cc51d9d25f66414bf0507e08d375934ae17d4ce30728cf4dd4ef304c5",
+   "size": 15056
+  },
+  {
+   "path": "yt_dlp/networking/_helper.py",
+   "sha256": "1a699c40d65e04d770f1ffbe6d47f498801154eff5a354f0c10affd2b5f7f4ac",
+   "size": 9850
+  },
+  {
+   "path": "yt_dlp/networking/_requests.py",
+   "sha256": "c8f64b80f55330da83ac8dc4885420b8da92fed2607df23267164fc6fa727eef",
+   "size": 15670
+  },
+  {
+   "path": "yt_dlp/networking/_urllib.py",
+   "sha256": "6828f5feb0d16caad726aa1d81c5d168ad9efb7ec8943b00fb547cf7f54b2376",
+   "size": 16165
+  },
+  {
+   "path": "yt_dlp/networking/_websockets.py",
+   "sha256": "16385da9ac3ab564e3cba27bc0c39769685c9f6d49c8b5f3cce33343e992d7f1",
+   "size": 7957
+  },
+  {
+   "path": "yt_dlp/networking/common.py",
+   "sha256": "2647275c8a8c49dc61e36b371be1d1794d639c015ca73bd9837d710045ff7bf9",
+   "size": 22886
+  },
+  {
+   "path": "yt_dlp/networking/exceptions.py",
+   "sha256": "bda42fb16364b32836920b26963adb2ecf4548ead0a61c416046505121339409",
+   "size": 2846
+  },
+  {
+   "path": "yt_dlp/networking/impersonate.py",
+   "sha256": "8eba71800c614b1a9ef7315a761ab65fa6807de67f25eb4141da01fe6429158c",
+   "size": 6242
+  },
+  {
+   "path": "yt_dlp/networking/websocket.py",
+   "sha256": "d95bdf366d73cb880727e26452fbe8f366de34300afff74385fe9f96da940f82",
+   "size": 510
+  },
+  {
+   "path": "yt_dlp/options.py",
+   "sha256": "3c4f75696a3c7a2528c5bcec38bed4919469f00a6e4e401026ca8b60bb6971f5",
+   "size": 100884
+  },
+  {
+   "path": "yt_dlp/plugins.py",
+   "sha256": "106991d3275a6a136ca46ae0b334cd5f8f988c77bddd638e85cc3581fe8f652b",
+   "size": 8215
+  },
+  {
+   "path": "yt_dlp/postprocessor/__init__.py",
+   "sha256": "3960a70bcbe4e01b5e08020156b9f0316af5d98eb3cb53e20479849c067db505",
+   "size": 1921
+  },
+  {
+   "path": "yt_dlp/postprocessor/common.py",
+   "sha256": "4c6bf888fed859ffff3e649215686bbec873670dfeca5f14af3a21d1da12cbeb",
+   "size": 8424
+  },
+  {
+   "path": "yt_dlp/postprocessor/embedthumbnail.py",
+   "sha256": "5b290bbf5d8972df4e5f84813de3d3ec723cca448ccda0f8a7293ca46658a4c6",
+   "size": 10530
+  },
+  {
+   "path": "yt_dlp/postprocessor/exec.py",
+   "sha256": "18fded0b436ae6672253a8359acd5d95ac98c6e018b384836505242170147510",
+   "size": 2023
+  },
+  {
+   "path": "yt_dlp/postprocessor/ffmpeg.py",
+   "sha256": "3fb12e0fda8271d33ec3284f42d87a0141a1c3415b9b78b2790b12d536a670f5",
+   "size": 48792
+  },
+  {
+   "path": "yt_dlp/postprocessor/metadataparser.py",
+   "sha256": "361a9ff6d5e6bf4404a2ee2fa6da7b68e80ce8590aafdb864577396e5dc71318",
+   "size": 4551
+  },
+  {
+   "path": "yt_dlp/postprocessor/modify_chapters.py",
+   "sha256": "7a13750fe486a86b58d45f6f696786396b8150b9df3cbbd0d501ed3b9f0ede55",
+   "size": 17827
+  },
+  {
+   "path": "yt_dlp/postprocessor/movefilesafterdownload.py",
+   "sha256": "fc7f8516c7ac6407624c5aad753a647df32339d4d71be7755e5b4d014e843e5c",
+   "size": 1972
+  },
+  {
+   "path": "yt_dlp/postprocessor/sponsorblock.py",
+   "sha256": "31c0dfc4e4f0026b549c3f53c6646a9bd1b27fa0d15b85ba6c1a39b2a9c21bac",
+   "size": 4289
+  },
+  {
+   "path": "yt_dlp/postprocessor/xattrpp.py",
+   "sha256": "3d5299a515ef5a3de51d653c1a7cb364a9c42e3b4eeef358a9991ba4972a6410",
+   "size": 3305
+  },
+  {
+   "path": "yt_dlp/socks.py",
+   "sha256": "a00b807d633a8f123c0398470cb10aab6536fa4f4dc8c07fcfa9eb2b3344f5f8",
+   "size": 8936
+  },
+  {
+   "path": "yt_dlp/update.py",
+   "sha256": "0dbbcff7ea6521c87a16a570faff14580e49f4d3cb192eb3026645a5894f05dc",
+   "size": 25571
+  },
+  {
+   "path": "yt_dlp/utils/__init__.py",
+   "sha256": "7e4b736ee9a2c7c6ddf578b6f3c25e6d3624c42b8d846db5aa47129e8fb783fb",
+   "size": 283
+  },
+  {
+   "path": "yt_dlp/utils/_deprecated.py",
+   "sha256": "4969b9bb26964ccc99ce16a025bf453924a38692e6968e22b84e5701cc7a73dd",
+   "size": 1698
+  },
+  {
+   "path": "yt_dlp/utils/_jsruntime.py",
+   "sha256": "67c79893951937cd61926b31148423c670d6342120829c5fb48b1efd4b505529",
+   "size": 4623
+  },
+  {
+   "path": "yt_dlp/utils/_legacy.py",
+   "sha256": "866733764c394842f3b05701d8051b94063d6f0f202010ee3c54c1958bd77bfe",
+   "size": 7858
+  },
+  {
+   "path": "yt_dlp/utils/_utils.py",
+   "sha256": "e76f605a879d2e477b080e04d61c8f7d16c2e7f6a6174f3a47d3820b0929c181",
+   "size": 191943
+  },
+  {
+   "path": "yt_dlp/utils/jslib/__init__.py",
+   "sha256": "09b74989103b121e4f9e31765789434dc8342745e304c69aab41f8a427eaf539",
+   "size": 87
+  },
+  {
+   "path": "yt_dlp/utils/jslib/devalue.py",
+   "sha256": "19264ac714709b484503fd9882eb82b53251ddef975af41d4393bef927b5801e",
+   "size": 9712
+  },
+  {
+   "path": "yt_dlp/utils/networking.py",
+   "sha256": "dbec87d317bfdd59e838ce8d41f8cb8803754d5a3a843e15e37f85f808d5f0a8",
+   "size": 8651
+  },
+  {
+   "path": "yt_dlp/utils/progress.py",
+   "sha256": "b7d915bc9d285ae12a473a3d7dd15b2211d406d3bff26837e3c4306757daa8ba",
+   "size": 3261
+  },
+  {
+   "path": "yt_dlp/utils/traversal.py",
+   "sha256": "9db3cdd07c4457bbf66a9c0f99cd573cd957b3b423925772d7aa4eeef1d7e165",
+   "size": 18294
+  },
+  {
+   "path": "yt_dlp/version.py",
+   "sha256": "dcd4d07068922f57a5aff64448dc4ae401e798cef28603819f276f61765952d9",
+   "size": 327
+  },
+  {
+   "path": "yt_dlp/webvtt.py",
+   "sha256": "38d91769a34265c5fca508499f78b020ac9a437e01b550eb304746eb044d6703",
+   "size": 11451
+  }
+ ],
+ "license": "Unlicense",
+ "requires_manual_client_integration": true,
+ "requires_python": ">=3.11",
+ "schema": 1,
+ "upstream": {
+  "asset": "yt_dlp-2026.10.26-py3-none-any.whl",
+  "checksum_method": "PyPI sha256 digest + wheel RECORD (every file)",
+  "sha256": "a05c5b5d8562f7e8a62f5334348b406af4930d56d3a65f8021d14af0e22339ae",
+  "source": "https://github.com/yt-dlp/yt-dlp/tree/2026.10.26",
+  "url": "https://files.pythonhosted.org/packages/7f/3d/16ea7d5638cf585991f2c5705e8083688dde633d32d0871f2404e0f4d827/yt_dlp-2026.10.26-py3-none-any.whl",
+  "version": "2026.10.26"
+ },
+ "version": "2026.10.26"
+}

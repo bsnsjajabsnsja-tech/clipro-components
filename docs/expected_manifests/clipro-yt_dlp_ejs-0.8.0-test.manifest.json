@@ -1,0 +1,75 @@
+{
+ "archive_name": "clipro-yt_dlp_ejs-0.8.0-py3.zip",
+ "archive_sha256": "eb050d6363aee52c91891aba51e8f2b5375e1599c1c5c28fbfc4fd9bff6fb46c",
+ "archive_size": 53443,
+ "channel": "test",
+ "component_id": "yt_dlp_ejs",
+ "files": [
+  {
+   "path": "yt_dlp_ejs-0.8.0.dist-info/METADATA",
+   "sha256": "2d6df8d1b8d23d7c0b8499207e183e3a34a7dfa4c8cd5525a8cbb782ce80b2c7",
+   "size": 3471
+  },
+  {
+   "path": "yt_dlp_ejs-0.8.0.dist-info/RECORD",
+   "sha256": "3db1aa1eac43c66c269c12c359682d149a8a0387f0178af22a3394bf16e440f9",
+   "size": 816
+  },
+  {
+   "path": "yt_dlp_ejs-0.8.0.dist-info/WHEEL",
+   "sha256": "41c708c5adba6e097513ab8ccb9f1d7865a2fb469e22491a9e01dcc64da459fc",
+   "size": 87
+  },
+  {
+   "path": "yt_dlp_ejs-0.8.0.dist-info/licenses/LICENSE",
+   "sha256": "b5065838cbac452dfc855ba6e6e031481ad2c68406f70d21ead9321374653e6c",
+   "size": 1212
+  },
+  {
+   "path": "yt_dlp_ejs/__init__.py",
+   "sha256": "fe502eb717291a121cb756cc4849dd67267d5ccec13695573e6b93094296f1dd",
+   "size": 63
+  },
+  {
+   "path": "yt_dlp_ejs/_version.py",
+   "sha256": "46db65f810da76d716d50cc69cd7df09603f59cf6650a0cc3813d9a7ef8c9ec7",
+   "size": 704
+  },
+  {
+   "path": "yt_dlp_ejs/yt/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "size": 0
+  },
+  {
+   "path": "yt_dlp_ejs/yt/solver/__init__.py",
+   "sha256": "8341c613acde41befdf033f817d90b02c50735207e379427d8c510ed80997a73",
+   "size": 509
+  },
+  {
+   "path": "yt_dlp_ejs/yt/solver/core.min.js",
+   "sha256": "18da6ce0758b416e7ae645084f4f8801f9f9d59d6c477c05eaa0ff94ebd8cc00",
+   "size": 6945
+  },
+  {
+   "path": "yt_dlp_ejs/yt/solver/lib.min.js",
+   "sha256": "c55987fe697e5b9ee18830163f7af85327e9bb5c3e674b969d38c8d205eaa577",
+   "size": 151561
+  }
+ ],
+ "license": "Unlicense AND MIT AND ISC",
+ "pinned_by": {
+  "yt_dlp": "2026.10.26"
+ },
+ "requires_manual_client_integration": true,
+ "requires_python": ">=3.10",
+ "schema": 1,
+ "upstream": {
+  "asset": "yt_dlp_ejs-0.8.0-py3-none-any.whl",
+  "checksum_method": "PyPI sha256 digest + wheel RECORD (every file)",
+  "sha256": "79300e5fca7f937a1eeede11f0456862c1b41107ce1d726871e0207424f4bdb4",
+  "source": "https://github.com/yt-dlp/ejs/tree/0.8.0",
+  "url": "https://files.pythonhosted.org/packages/e3/bd/520769863744b669440a924271a6159ddd82ad5ae26b4ac4d4b69e9f8d44/yt_dlp_ejs-0.8.0-py3-none-any.whl",
+  "version": "0.8.0"
+ },
+ "version": "0.8.0"
+}

@@ -1,0 +1,31 @@
+{
+ "archive_name": "clipro-deno-2.9.8-win64.zip",
+ "archive_sha256": "7c80fcd2fdb90b933f6a733a94b41f90424a14238d04df9297e46d58fbc56abe",
+ "archive_size": 41820675,
+ "channel": "test",
+ "component_id": "deno",
+ "files": [
+  {
+   "path": "LICENSES/deno/LICENSE.md",
+   "sha256": "f62497fffecc0852960c8d3e6934b9db86d16396e9b604072e923892cae3a588",
+   "size": 1074
+  },
+  {
+   "path": "deno.exe",
+   "sha256": "924397800533d3eb0ed0c889b20ad70e18b970d93acd8135bc043f425e528266",
+   "size": 98081568
+  }
+ ],
+ "license": "MIT (see LICENSES/deno/LICENSE.md)",
+ "requires_manual_client_integration": true,
+ "schema": 1,
+ "upstream": {
+  "asset": "deno-x86_64-pc-windows-msvc.zip",
+  "checksum_method": ".sha256sum of denoland/deno release == GitHub asset digest",
+  "sha256": "cba84b26e0df5ae7f74fc66b86a95b866872a86292ebd84fa1e959927edd93bf",
+  "source": "https://github.com/denoland/deno/tree/v2.9.8",
+  "url": "https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-pc-windows-msvc.zip",
+  "version": "2.9.8"
+ },
+ "version": "2.9.8"
+}
